@@ -26,6 +26,7 @@ async function fetchWithTimeout(url: string, ms: number): Promise<Response> {
       signal: controller.signal,
       headers: {
         Accept: "application/json",
+        "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
       },
     });
     clearTimeout(timeoutId);
@@ -65,7 +66,12 @@ async function fetchFromCommonCrawl(url: string): Promise<string[]> {
 }
 
 function hasWordPressFootprint(url: string): boolean {
-  return WP_FOOTPRINTS.some((footprint) => url.includes(footprint));
+  if (WP_FOOTPRINTS.some((footprint) => url.includes(footprint))) {
+    return true;
+  }
+  const isWpDomain = WP_DOMAINS.some((domain) => url.includes(domain));
+  const isUtility = url.endsWith("robots.txt") || url.endsWith("sitemap.xml") || url.endsWith("favicon.ico") || url.includes("/sitemap");
+  return isWpDomain && !isUtility;
 }
 
 function deduplicateUrls(urls: string[]): string[] {
@@ -88,13 +94,10 @@ export async function GET() {
     }
   };
 
-  const results = await Promise.allSettled(WP_DOMAINS.map(fetchDomain));
-
-  for (const result of results) {
+  for (const domain of WP_DOMAINS) {
     if (allUrls.length >= 20) break;
-    if (result.status === "fulfilled") {
-      allUrls.push(...result.value);
-    }
+    const urls = await fetchDomain(domain);
+    allUrls.push(...urls);
   }
 
   const uniqueUrls = deduplicateUrls(allUrls).slice(0, 20);

@@ -1,0 +1,23 @@
+{
+  "name": "wp-finder-worker",
+  "version": "1.0.0",
+  "description": "WARC stream worker that extracts WordPress URLs from Common Crawl data",
+  "private": true,
+  "type": "commonjs",
+  "scripts": {
+    "start": "ts-node src/index.ts",
+    "build": "prisma generate && tsc",
+    "run:compiled": "node dist/index.js",
+    "prisma:generate": "prisma generate",
+    "prisma:migrate": "prisma migrate dev"
+  },
+  "dependencies": {
+    "@prisma/client": "^6.19.3"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "prisma": "^6.19.3",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.0.0"
+  }
+}
