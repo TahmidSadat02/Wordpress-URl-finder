@@ -37,19 +37,19 @@ export async function GET() {
      *     avoiding a second SELECT.
      */
     const sql = `
-      UPDATE discovered_domains
-      SET served    = true,
-          served_at = NOW()
-      WHERE id IN (
-          SELECT id
-          FROM   discovered_domains
-          WHERE  served = false
-          ORDER  BY discovered_at ASC
-          LIMIT  50
-          FOR    UPDATE SKIP LOCKED
-      )
-      RETURNING domain;
-    `;
+UPDATE "discovered_domains"
+SET "served" = TRUE,
+    "servedAt" = NOW()
+WHERE "id" IN (
+    SELECT "id"
+    FROM "discovered_domains"
+    WHERE "served" = FALSE
+    ORDER BY "discoveredAt" ASC
+    LIMIT 50
+    FOR UPDATE SKIP LOCKED
+)
+RETURNING "domain";
+`;
 
     const result = await client.query<{ domain: string }>(sql);
 
