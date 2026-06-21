@@ -1,106 +1,88 @@
+import { NextResponse } from "next/server";
+import pool from "@/lib/db";
+
 /**
- * app/api/domains/route.ts
- *
  * GET /api/domains
  *
- * Fetches up to 50 unserved WordPress domains from PostgreSQL,
- * atomically marks them as served, and returns them as JSON.
+ * Opens a database transaction, atomically claims up to 50 unserved domains
+ * using FOR UPDATE SKIP LOCKED (so concurrent workers never collide), marks
+ * them as served, and returns their domain names.
  *
- * ─── Concurrency Safety ────────────────────────────────────────────────────
- *
- * The naive two-step approach (SELECT then UPDATE) creates a race condition:
- * two simultaneous requests can both read the same unserved rows before
- * either has marked them served — resulting in the same domain being
- * served twice.
- *
- * This route uses a SINGLE atomic SQL statement:
- *
- *   UPDATE discovered_domains
- *   SET served = true, served_at = NOW()
- *   WHERE id IN (
- *     SELECT id FROM discovered_domains
- *     WHERE served = false
- *     ORDER BY discovered_at ASC
- *     LIMIT 50
- *     FOR UPDATE SKIP LOCKED   ← key clause
- *   )
- *   RETURNING domain;
- *
- * FOR UPDATE: acquires a row-level exclusive lock on the selected rows.
- * SKIP LOCKED: any row already locked by a concurrent transaction is
- *   skipped entirely rather than waited on. This means:
- *   - Request A locks rows 1–50, Request B automatically skips them
- *     and picks rows 51–100 instead.
- *   - No waiting, no deadlocks, no duplicate serving.
- *   - This is the standard PostgreSQL pattern for concurrent job queues.
- *
- * ─── Why 50? ───────────────────────────────────────────────────────────────
- *
- * 50 domains per batch is a deliberate trade-off:
- *   - Small enough to keep HTTP payloads under ~2 KB and transactions short.
- *   - Short transactions mean row locks are held for milliseconds, not
- *     seconds — minimising lock contention under high concurrency.
- *   - Large enough to be useful for any consumer that needs a feed of
- *     fresh domains without hammering the endpoint repeatedly.
- *
- * ─── Response Format ───────────────────────────────────────────────────────
- *
- * Success (200):  { "domains": ["example.com", "blog.site.net", ...] }
- * Empty pool:     { "domains": [] }          (still 200 — pool empty is normal)
- * DB error:       { "error": "..." }         (500)
+ * Responses:
+ *   200  { domains: string[] }          — one or more domains claimed
+ *   404  { error: "No domains available" } — queue is empty / all locked
+ *   500  { error: string }              — unexpected database error
  */
+export async function GET() {
+  // Acquire a dedicated client so we can manage the transaction manually.
+  const client = await pool.connect();
 
-import { NextResponse } from "next/server";
-import prisma from "@/lib/prisma";
-import { Prisma } from "@prisma/client";
-
-/** Maximum domains to serve in a single request. */
-const BATCH_SIZE = 50;
-
-/**
- * Shape of a row returned by the RETURNING clause.
- * Prisma $queryRaw returns unknown[], so we type-narrow manually.
- */
-interface ServedRow {
-  domain: string;
-}
-
-export async function GET(): Promise<NextResponse> {
   try {
-    /**
-     * Single atomic statement:
-     *   1. Sub-select picks up to BATCH_SIZE unserved rows, oldest first.
-     *   2. FOR UPDATE SKIP LOCKED locks those rows and skips any already
-     *      locked by a concurrent request — guaranteeing disjoint batches.
-     *   3. The outer UPDATE marks them served in the same statement.
-     *   4. RETURNING domain gives us the domains without a second query.
-     *
-     * Because SELECT and UPDATE are one operation, there is no window
-     * between reading and writing — race conditions are structurally
-     * impossible at the SQL level.
-     */
-    const rows = await prisma.$queryRaw<ServedRow[]>(
-      Prisma.sql`
-        UPDATE discovered_domains
-        SET served = true, served_at = NOW()
-        WHERE id IN (
-          SELECT id
-          FROM discovered_domains
-          WHERE served = false
-          ORDER BY discovered_at ASC
-          LIMIT ${BATCH_SIZE}
-          FOR UPDATE SKIP LOCKED
-        )
-        RETURNING domain
-      `
-    );
+    // ── BEGIN ────────────────────────────────────────────────────────────
+    await client.query("BEGIN");
 
-    const domains = rows.map((r) => r.domain);
+    /**
+     * Atomic UPDATE … RETURNING pattern:
+     *
+     *  1. The inner SELECT finds up to 50 rows where served = false,
+     *     ordered by discovered_at ASC (oldest first), and locks them
+     *     with FOR UPDATE SKIP LOCKED — any rows already locked by another
+     *     concurrent transaction are silently skipped, guaranteeing each
+     *     domain is delivered to exactly one caller.
+     *
+     *  2. The outer UPDATE flips served = true and stamps served_at = NOW()
+     *     on those exact rows in a single round-trip.
+     *
+     *  3. RETURNING domain gives us the claimed domain strings directly,
+     *     avoiding a second SELECT.
+     */
+    const sql = `
+      UPDATE discovered_domains
+      SET served    = true,
+          served_at = NOW()
+      WHERE id IN (
+          SELECT id
+          FROM   discovered_domains
+          WHERE  served = false
+          ORDER  BY discovered_at ASC
+          LIMIT  50
+          FOR    UPDATE SKIP LOCKED
+      )
+      RETURNING domain;
+    `;
+
+    const result = await client.query<{ domain: string }>(sql);
+
+    // ── COMMIT ───────────────────────────────────────────────────────────
+    await client.query("COMMIT");
+
+    const domains = result.rows.map((row) => row.domain);
+
+    if (domains.length === 0) {
+      return NextResponse.json(
+        { error: "No domains available" },
+        { status: 404 }
+      );
+    }
 
     return NextResponse.json({ domains });
-  } catch (err: unknown) {
-    const message = err instanceof Error ? err.message : "Internal server error";
+  } catch (err) {
+    // ── ROLLBACK ─────────────────────────────────────────────────────────
+    // Best-effort rollback; log but do not re-throw if it itself fails.
+    try {
+      await client.query("ROLLBACK");
+    } catch (rollbackErr) {
+      console.error("[GET /api/domains] ROLLBACK failed:", rollbackErr);
+    }
+
+    const message =
+      err instanceof Error ? err.message : "Internal server error";
     console.error("[GET /api/domains] Database error:", message);
+
     return NextResponse.json({ error: message }, { status: 500 });
+  } finally {
+    // ── RELEASE ──────────────────────────────────────────────────────────
+    // Always return the client to the pool, even if COMMIT or ROLLBACK threw.
+    client.release();
   }
 }
