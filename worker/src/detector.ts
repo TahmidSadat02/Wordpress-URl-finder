@@ -60,3 +60,22 @@ export function extractOrigin(url: string): string | null {
     return null;
   }
 }
+
+/**
+ * Extract just the hostname from a full URL string.
+ * Returns null if parsing fails.
+ *
+ * Used by the verifier, which works with bare hostnames
+ * rather than full origin URLs.
+ *
+ * @example
+ *   extractHostname("https://blog.example.com/wp-content/themes/x.css")
+ *   // → "blog.example.com"
+ */
+export function extractHostname(url: string): string | null {
+  try {
+    return new URL(url).hostname;
+  } catch {
+    return null;
+  }
+}

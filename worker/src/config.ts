@@ -1,44 +1,128 @@
 /**
  * config.ts
  *
- * Central configuration for the WARC worker.
+ * Central configuration for the verified-domain collector.
  *
  * All tuneable constants live here so you never need to dig into
- * business logic just to change a limit or target URL.
+ * business logic to change a limit, timeout, or target URL.
  *
- * Resumable-friendly note:
- *   CHECKPOINT_EVERY is wired up here for future use. The runner can
- *   read it and call saveCheckpoint() every N records without changes
- *   to this file.
+ * Environment variable overrides are supported for every setting
+ * so the worker can be configured at deploy-time without recompilation.
+ *
+ * The spec-required names (QUEUE_SIZE, VERIFY_CONCURRENCY, TARGET, etc.)
+ * are the canonical exports.  Legacy names (QUEUE_CAPACITY, CONCURRENCY,
+ * VERIFIED_TARGET, etc.) are re-exported as aliases for backward compat.
  */
 
-/** The Common Crawl WARC file to process (streamed, never fully downloaded). */
-export const WARC_URL =
-  "https://data.commoncrawl.org/crawl-data/CC-MAIN-2026-21/segments/1778213376806.31/warc/CC-MAIN-20260508104411-20260508134411-00274.warc.gz";
+/* ── Helper ─────────────────────────────────────────────────────────── */
+
+function envInt(key: string, fallback: number): number {
+  const v = process.env[key];
+  if (v === undefined) return fallback;
+  const n = parseInt(v, 10);
+  return Number.isFinite(n) ? n : fallback;
+}
+
+function envStr(key: string, fallback: string): string {
+  return process.env[key] ?? fallback;
+}
+
+/* ── Targets ────────────────────────────────────────────────────────── */
+
+/** Stop after this many *verified + inserted* domains (not just candidates). */
+export const TARGET = envInt("TARGET", 500);
+/** @deprecated Use TARGET */
+export const VERIFIED_TARGET = TARGET;
+
+/* ── Concurrency & Queue ────────────────────────────────────────────── */
+
+/** Number of parallel verification workers. */
+export const VERIFY_CONCURRENCY = envInt("VERIFY_CONCURRENCY", 20);
+/** @deprecated Use VERIFY_CONCURRENCY */
+export const CONCURRENCY = VERIFY_CONCURRENCY;
+
+/** Max items in the candidate queue before the WARC producer blocks. */
+export const QUEUE_SIZE = envInt("QUEUE_SIZE", 100);
+/** @deprecated Use QUEUE_SIZE */
+export const QUEUE_CAPACITY = QUEUE_SIZE;
+
+/* ── Timeouts ───────────────────────────────────────────────────────── */
+
+/** Per-request HTTP timeout in milliseconds. */
+export const HTTP_TIMEOUT = envInt("HTTP_TIMEOUT", 8_000);
+/** @deprecated Use HTTP_TIMEOUT */
+export const HTTP_TIMEOUT_MS = HTTP_TIMEOUT;
+
+/** DNS resolution timeout in milliseconds. */
+export const DNS_TIMEOUT = envInt("DNS_TIMEOUT", 5_000);
+/** @deprecated Use DNS_TIMEOUT */
+export const DNS_TIMEOUT_MS = DNS_TIMEOUT;
+
+/* ── Retries ────────────────────────────────────────────────────────── */
+
+/** Max retries for transient network failures per domain per probe. */
+export const RETRY_COUNT = envInt("RETRY_COUNT", 2);
+/** @deprecated Use RETRY_COUNT */
+export const MAX_RETRIES = RETRY_COUNT;
+
+/** Base delay (ms) for exponential back-off between retries. */
+export const RETRY_BASE_MS = 500;
+
+/** Error codes that are considered transient and worth retrying. */
+export const TRANSIENT_ERRORS: ReadonlySet<string> = new Set([
+  "ECONNRESET",
+  "ECONNREFUSED",
+  "ETIMEDOUT",
+  "UND_ERR_CONNECT_TIMEOUT",
+  "UND_ERR_SOCKET",
+  "EPIPE",
+  "EAI_AGAIN",
+  "ENETUNREACH",
+  "EHOSTUNREACH",
+]);
+
+/* ── Common Crawl ───────────────────────────────────────────────────── */
+
+/** The CC crawl whose WARC index we iterate. */
+export const CC_CRAWL_ID = envStr("CC_CRAWL_ID", "CC-MAIN-2026-21");
 
 /**
- * URL sub-strings that confirm a page was served by WordPress.
- * These appear in HTML responses as asset paths, login pages, etc.
+ * Max WARC segments to process.  0 = unlimited (stream until target).
+ * Useful for development / testing with a small number of files.
  */
-export const WP_FOOTPRINTS: string[] = [
+export const CC_SEGMENT_LIMIT = envInt("CC_SEGMENT_LIMIT", 0);
+
+/* ── WordPress detection (WARC pre-filter) ──────────────────────────── */
+
+/**
+ * Sub-strings in HTML bodies or URLs that hint "this page is WordPress".
+ * Used by the WARC pre-filter (detector.ts) to extract *candidates*.
+ */
+export const WP_FOOTPRINTS: readonly string[] = [
   "/wp-content/",
   "/wp-login.php",
   "/wp-admin/",
   "/wp-includes/",
 ];
 
-/** Stop collecting new URLs once we have this many distinct matches. */
-export const MAX_URLS = 20;
+/* ── WordPress verification (live HTTP probes) ──────────────────────── */
 
 /**
- * Log a progress summary every N records processed.
- * Keeping this low gives visibility into large WARC files.
+ * Paths probed on the live domain to confirm WordPress.
+ * The verifier tries each in order and stops at the first success.
  */
-export const LOG_EVERY_N_RECORDS = 1_000;
+export const WP_VERIFY_PATHS: readonly string[] = [
+  "/wp-json/",
+  "/wp-login.php",
+  "/wp-content/",
+];
 
-/**
- * (Future) Save a checkpoint file every N records so the worker can
- * resume from where it left off after a crash.
- * Not yet implemented — set to 0 to disable.
- */
-export const CHECKPOINT_EVERY = 0;
+/* ── Logging ────────────────────────────────────────────────────────── */
+
+/** Log a [PROGRESS] block every N WARC records processed. */
+export const PROGRESS_INTERVAL = envInt("PROGRESS_INTERVAL", 1_000);
+/** @deprecated Use PROGRESS_INTERVAL */
+export const LOG_EVERY_N_RECORDS = PROGRESS_INTERVAL;
+
+/** Log memory usage every N WARC records (0 = disable). */
+export const LOG_MEMORY_EVERY = envInt("LOG_MEMORY_EVERY", 5_000);

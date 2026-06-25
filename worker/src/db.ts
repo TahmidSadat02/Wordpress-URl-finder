@@ -5,8 +5,10 @@
  *
  * Responsibilities:
  *  - Provide a singleton PrismaClient instance.
- *  - Bulk-insert discovered WordPress domains into PostgreSQL.
- *  - Handle duplicate domains gracefully via skipDuplicates.
+ *  - Insert individual verified domains (streaming inserts).
+ *  - Bulk-insert discovered WordPress domains (legacy, kept for compat).
+ *  - Handle duplicate domains gracefully.
+ *  - Count existing domains (for resume-from-existing).
  *  - Provide a clean disconnect method for shutdown.
  *
  * The rest of the worker never touches Prisma directly — all DB
@@ -16,6 +18,8 @@
 import { PrismaClient } from "@prisma/client";
 
 const prisma = new PrismaClient();
+
+/* ── Types ──────────────────────────────────────────────────────────── */
 
 /** Result of a bulk insert operation. */
 export interface InsertResult {
@@ -27,21 +31,69 @@ export interface InsertResult {
   skipped: number;
 }
 
+/* ── Helpers ────────────────────────────────────────────────────────── */
+
 /**
  * Extracts the hostname from a full origin URL.
  *
  * @example
  *   extractDomain("https://blog.example.com") // → "blog.example.com"
- *   extractDomain("https://example.com:8080") // → "example.com:8080"
  */
 function extractDomain(originUrl: string): string | null {
   try {
-    const parsed = new URL(originUrl);
-    return parsed.hostname;
+    return new URL(originUrl).hostname;
   } catch {
     return null;
   }
 }
+
+/* ── Single-domain insert (used by verification workers) ────────────── */
+
+/**
+ * Insert a single verified domain into the database.
+ *
+ * Uses Prisma's `upsert` to atomically handle duplicates:
+ *  - If the domain doesn't exist → INSERT → returns "inserted"
+ *  - If the domain already exists → no-op → returns "duplicate"
+ *
+ * @param domain    - The bare hostname (e.g. "example.com")
+ * @param sourceWarc - The WARC file URL this domain was discovered in
+ * @returns "inserted" | "duplicate"
+ */
+export async function insertDomain(
+  domain: string,
+  sourceWarc: string
+): Promise<"inserted" | "duplicate"> {
+  try {
+    await prisma.discoveredDomain.create({
+      data: { domain, sourceWarc },
+    });
+    return "inserted";
+  } catch (err: unknown) {
+    // Prisma P2002 = unique constraint violation (duplicate domain).
+    if (
+      typeof err === "object" &&
+      err !== null &&
+      "code" in err &&
+      (err as { code: string }).code === "P2002"
+    ) {
+      return "duplicate";
+    }
+    throw err;
+  }
+}
+
+/* ── Count existing domains (for resume) ────────────────────────────── */
+
+/**
+ * Returns the total number of domains currently in the database.
+ * Used at startup to resume from existing progress.
+ */
+export async function countDomains(): Promise<number> {
+  return prisma.discoveredDomain.count();
+}
+
+/* ── Bulk insert (kept for backwards compatibility) ─────────────────── */
 
 /**
  * Inserts an array of WordPress origin URLs into the
@@ -89,6 +141,8 @@ export async function insertDomains(
 
   return { total, inserted, skipped };
 }
+
+/* ── Cleanup ────────────────────────────────────────────────────────── */
 
 /**
  * Cleanly disconnects the Prisma Client.

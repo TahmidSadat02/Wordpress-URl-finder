@@ -1,26 +1,118 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
+/* ── Base theme tokens ──────────────────────────────────────────────── */
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
+  --color-surface: var(--surface);
+  --color-surface-hover: var(--surface-hover);
+  --color-surface-border: var(--surface-border);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-hover: var(--accent-hover);
+  --color-accent-muted: var(--accent-muted);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-danger: var(--danger);
+  --color-danger-bg: var(--danger-bg);
+  --color-danger-border: var(--danger-border);
+  --color-success: var(--success);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
+
+  --animate-fade-in: fade-in 0.5s ease-out both;
+  --animate-slide-up: slide-up 0.4s ease-out both;
+  --animate-pulse-glow: pulse-glow 2s ease-in-out infinite;
 }
 
+/* ── Light mode (default) ───────────────────────────────────────────── */
+:root {
+  --background: #f8fafc;
+  --foreground: #0f172a;
+  --surface: #ffffff;
+  --surface-hover: #f1f5f9;
+  --surface-border: #e2e8f0;
+  --muted: #64748b;
+  --muted-foreground: #94a3b8;
+  --accent: #6366f1;
+  --accent-hover: #4f46e5;
+  --accent-muted: rgba(99, 102, 241, 0.1);
+  --accent-foreground: #eef2ff;
+  --danger: #ef4444;
+  --danger-bg: rgba(239, 68, 68, 0.08);
+  --danger-border: rgba(239, 68, 68, 0.2);
+  --success: #22c55e;
+}
+
+/* ── Dark mode ──────────────────────────────────────────────────────── */
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+    --background: #050510;
+    --foreground: #e2e8f0;
+    --surface: rgba(15, 15, 35, 0.8);
+    --surface-hover: rgba(30, 30, 60, 0.9);
+    --surface-border: rgba(99, 102, 241, 0.12);
+    --muted: #94a3b8;
+    --muted-foreground: #475569;
+    --accent: #818cf8;
+    --accent-hover: #6366f1;
+    --accent-muted: rgba(129, 140, 248, 0.12);
+    --accent-foreground: #eef2ff;
+    --danger: #f87171;
+    --danger-bg: rgba(248, 113, 113, 0.08);
+    --danger-border: rgba(248, 113, 113, 0.15);
+    --success: #4ade80;
   }
 }
 
+/* ── Keyframes ──────────────────────────────────────────────────────── */
+@keyframes fade-in {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+@keyframes slide-up {
+  from { opacity: 0; transform: translateY(12px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes pulse-glow {
+  0%, 100% { box-shadow: 0 0 20px rgba(99, 102, 241, 0.15); }
+  50%      { box-shadow: 0 0 40px rgba(99, 102, 241, 0.3); }
+}
+
+/* ── Base styles ────────────────────────────────────────────────────── */
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-geist-sans), system-ui, -apple-system, sans-serif;
+}
+
+/* Subtle mesh gradient background (dark mode only) */
+@media (prefers-color-scheme: dark) {
+  body::before {
+    content: "";
+    position: fixed;
+    inset: 0;
+    z-index: -1;
+    background:
+      radial-gradient(ellipse 80% 50% at 20% 40%, rgba(99, 102, 241, 0.06), transparent),
+      radial-gradient(ellipse 60% 40% at 80% 20%, rgba(139, 92, 246, 0.04), transparent),
+      radial-gradient(ellipse 50% 30% at 50% 80%, rgba(59, 130, 246, 0.04), transparent);
+  }
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: var(--muted-foreground);
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--muted);
 }
