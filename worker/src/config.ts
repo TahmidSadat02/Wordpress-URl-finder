@@ -126,3 +126,8 @@ export const LOG_EVERY_N_RECORDS = PROGRESS_INTERVAL;
 
 /** Log memory usage every N WARC records (0 = disable). */
 export const LOG_MEMORY_EVERY = envInt("LOG_MEMORY_EVERY", 5_000);
+
+/* ── Checkpointing ─────────────────────────────────────────────────── */
+
+/** Path to save crawler state checkpoint file. */
+export const CHECKPOINT_FILE = envStr("CHECKPOINT_FILE", "checkpoint.json");
