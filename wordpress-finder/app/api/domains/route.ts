@@ -1,5 +1,36 @@
 import { NextResponse } from "next/server";
 import pool from "@/lib/db";
+import { shouldRefill } from "@/lib/inventory.service";
+import { workerManager } from "@/lib/worker.manager";
+
+/* ── Auto-refill ───────────────────────────────────────────────────── */
+
+/**
+ * Non-blocking inventory check.
+ *
+ * Called after each successful domain serve.  If the remaining pool
+ * has dropped below LOW_WATER_MARK and no worker is currently running,
+ * the worker is spawned in the background.
+ *
+ * Errors are caught and logged — they must never affect the domain
+ * response that has already been committed and is about to be sent.
+ */
+async function checkAndRefill(): Promise<void> {
+  try {
+    if (workerManager.isRunning()) return;
+
+    const needsRefill: boolean = await shouldRefill();
+    if (needsRefill) {
+      console.log(
+        "[GET /api/domains] Inventory below LOW_WATER_MARK — starting worker.",
+      );
+      workerManager.startWorker();
+    }
+  } catch (err: unknown) {
+    const msg: string = err instanceof Error ? err.message : String(err);
+    console.error("[GET /api/domains] Refill check failed:", msg);
+  }
+}
 
 /**
  * GET /api/domains
@@ -64,6 +95,9 @@ RETURNING "domain";
         { status: 404 }
       );
     }
+
+    // Fire-and-forget: trigger a refill check without blocking the response.
+    void checkAndRefill();
 
     return NextResponse.json({ domains });
   } catch (err) {
