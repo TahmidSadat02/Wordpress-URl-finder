@@ -24,7 +24,7 @@ async function checkAndRefill(): Promise<void> {
       console.log(
         "[GET /api/domains] Inventory below LOW_WATER_MARK — starting worker.",
       );
-      workerManager.startWorker();
+      workerManager.startRefill();
     }
   } catch (err: unknown) {
     const msg: string = err instanceof Error ? err.message : String(err);

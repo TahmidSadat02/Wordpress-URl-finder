@@ -46,10 +46,10 @@ class WorkerManager {
    *   `node <workerDir>/dist/index.js`
    *
    * It inherits the current environment plus:
-   *   - TARGET = REFILL_TARGET (how many domains to collect)
+   *   - TARGET = target ?? REFILL_TARGET (how many domains to collect)
    *   - DATABASE_URL from the Next.js env
    */
-  startWorker(): void {
+  startRefill(target?: number): void {
     if (this._isRunning) {
       console.log("[WorkerManager] Worker is already running — skipping.");
       return;
@@ -57,16 +57,17 @@ class WorkerManager {
 
     const workerDir: string = path.resolve(process.cwd(), "..", "worker");
     const entryPoint: string = path.join(workerDir, "dist", "index.js");
+    const actualTarget = target ?? REFILL_TARGET;
 
     console.log(
-      `[WorkerManager] Spawning worker: node ${entryPoint} (TARGET=${REFILL_TARGET})`,
+      `[WorkerManager] Spawning worker: node ${entryPoint} (TARGET=${actualTarget})`,
     );
 
     const child: ChildProcess = spawn("node", [entryPoint], {
       cwd: workerDir,
       env: {
         ...process.env,
-        TARGET: String(REFILL_TARGET),
+        TARGET: String(actualTarget),
       },
       stdio: ["ignore", "pipe", "pipe"],
       detached: false,
@@ -116,7 +117,7 @@ class WorkerManager {
    * Sends SIGTERM first; the worker's graceful-shutdown handler in
    * runner.ts will save a checkpoint and exit cleanly.
    */
-  stopWorker(): void {
+  stopRefill(): void {
     if (!this._isRunning || !this.childProcess) {
       console.log("[WorkerManager] No worker is running — nothing to stop.");
       return;
