@@ -66,3 +66,28 @@ export interface StatusResponse {
   /** Fraction of total domains that have been served (0–1). */
   verificationRate: number;
 }
+
+/* ── Dashboard API Response ────────────────────────────────────────── */
+
+/** Shape of the JSON payload returned by GET /api/dashboard. */
+export interface DashboardResponse {
+  stats: {
+    totalDomains: number;
+    remaining: number;
+    served: number;
+    verificationRate: number;
+  };
+  worker: WorkerManagerStatus;
+  inventory: {
+    remaining: number;
+    target: number;
+    percentage: number;
+  };
+  checkpoint: CheckpointData | null;
+  configuration: {
+    lowWaterMark: number;
+    refillTarget: number;
+  };
+  timestamp: string;
+}
+
