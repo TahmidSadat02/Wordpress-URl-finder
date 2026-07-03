@@ -151,6 +151,12 @@ export async function run(): Promise<void> {
     // Clear the checkpoint timer immediately
     clearInterval(checkpointTimer);
 
+    // Force exit if graceful shutdown takes too long (e.g., blocked workers or db queries)
+    setTimeout(() => {
+      log.info("Force exiting after graceful shutdown timeout...");
+      process.exit(0);
+    }, 5000).unref();
+
     // Save final checkpoint if we haven't reached target yet
     if (!cancellation.isCancelled && currentWarcPath) {
       const offsetToSave = (currentWarcPath === resumeWarcPath)

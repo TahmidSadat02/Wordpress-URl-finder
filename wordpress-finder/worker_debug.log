@@ -1,0 +1,1725 @@
+[STDERR] [2026-07-03T21:16:31.239Z] node:internal/modules/cjs/loader:1408
+  throw err;
+  ^
+
+Error: Cannot find module '/Users/laptopparadise/Documents/Wordpress URL Finder/worker/dist/in.dex.js'
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1405:15)
+    at defaultResolveImpl (node:internal/modules/cjs/loader:1061:19)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1066:22)
+    at Function._load (node:internal/modules/cjs/loader:1215:37)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:151:5)
+    at node:internal/main/run_main_module:33:47 {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: []
+}
+
+Node.js v23.11.0
+[STDERR] [2026-07-03T21:16:46.311Z] node:internal/modules/cjs/loader:1408
+  throw err;
+  ^
+
+Error: Cannot find module '/Users/laptopparadise/Documents/Wordpress URL Finder/worker/dist/in.dex.js'
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1405:15)
+    at defaultResolveImpl (node:internal/modules/cjs/loader:1061:19)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1066:22)
+    at Function._load (node:internal/modules/cjs/loader:1215:37)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:151:5)
+    at node:internal/main/run_main_module:33:47 {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: []
+}
+
+Node.js v23.11.0
+[STDERR] [2026-07-03T21:16:49.835Z] node:internal/modules/cjs/loader:1408
+  throw err;
+  ^
+
+Error: Cannot find module '/Users/laptopparadise/Documents/Wordpress URL Finder/worker/dist/in.dex.js'
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1405:15)
+    at defaultResolveImpl (node:internal/modules/cjs/loader:1061:19)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1066:22)
+    at Function._load (node:internal/modules/cjs/loader:1215:37)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:151:5)
+    at node:internal/main/run_main_module:33:47 {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: []
+}
+
+Node.js v23.11.0
+[STDERR] [2026-07-03T21:16:55.238Z] node:internal/modules/cjs/loader:1408
+  throw err;
+  ^
+
+Error: Cannot find module '/Users/laptopparadise/Documents/Wordpress URL Finder/worker/dist/in.dex.js'
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1405:15)
+    at defaultResolveImpl (node:internal/modules/cjs/loader:1061:19)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1066:22)
+    at Function._load (node:internal/modules/cjs/loader:1215:37)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:151:5)
+    at node:internal/main/run_main_module:33:47 {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: []
+}
+
+Node.js v23.11.0
+[STDERR] [2026-07-03T21:17:04.837Z] node:internal/modules/cjs/loader:1408
+  throw err;
+  ^
+
+Error: Cannot find module '/Users/laptopparadise/Documents/Wordpress URL Finder/worker/dist/in.dex.js'
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1405:15)
+    at defaultResolveImpl (node:internal/modules/cjs/loader:1061:19)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1066:22)
+    at Function._load (node:internal/modules/cjs/loader:1215:37)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:151:5)
+    at node:internal/main/run_main_module:33:47 {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: []
+}
+
+Node.js v23.11.0
+[STDERR] [2026-07-03T21:17:19.835Z] node:internal/modules/cjs/loader:1408
+  throw err;
+  ^
+
+Error: Cannot find module '/Users/laptopparadise/Documents/Wordpress URL Finder/worker/dist/in.dex.js'
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1405:15)
+    at defaultResolveImpl (node:internal/modules/cjs/loader:1061:19)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1066:22)
+    at Function._load (node:internal/modules/cjs/loader:1215:37)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:151:5)
+    at node:internal/main/run_main_module:33:47 {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: []
+}
+
+Node.js v23.11.0
+[STDERR] [2026-07-03T21:17:34.871Z] node:internal/modules/cjs/loader:1408
+  throw err;
+  ^
+
+Error: Cannot find module '/Users/laptopparadise/Documents/Wordpress URL Finder/worker/dist/in.dex.js'
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1405:15)
+    at defaultResolveImpl (node:internal/modules/cjs/loader:1061:19)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1066:22)
+    at Function._load (node:internal/modules/cjs/loader:1215:37)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:151:5)
+    at node:internal/main/run_main_module:33:47 {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: []
+}
+
+Node.js v23.11.0
+[STDERR] [2026-07-03T21:17:49.840Z] node:internal/modules/cjs/loader:1408
+  throw err;
+  ^
+
+Error: Cannot find module '/Users/laptopparadise/Documents/Wordpress URL Finder/worker/dist/in.dex.js'
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1405:15)
+    at defaultResolveImpl (node:internal/modules/cjs/loader:1061:19)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1066:22)
+    at Function._load (node:internal/modules/cjs/loader:1215:37)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:151:5)
+    at node:internal/main/run_main_module:33:47 {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: []
+}
+
+Node.js v23.11.0
+[STDERR] [2026-07-03T21:18:04.839Z] node:internal/modules/cjs/loader:1408
+  throw err;
+  ^
+
+Error: Cannot find module '/Users/laptopparadise/Documents/Wordpress URL Finder/worker/dist/in.dex.js'
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1405:15)
+    at defaultResolveImpl (node:internal/modules/cjs/loader:1061:19)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1066:22)
+    at Function._load (node:internal/modules/cjs/loader:1215:37)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:151:5)
+    at node:internal/main/run_main_module:33:47 {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: []
+}
+
+Node.js v23.11.0
+[STDERR] [2026-07-03T21:18:19.841Z] node:internal/modules/cjs/loader:1408
+  throw err;
+  ^
+
+Error: Cannot find module '/Users/laptopparadise/Documents/Wordpress URL Finder/worker/dist/in.dex.js'
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1405:15)
+    at defaultResolveImpl (node:internal/modules/cjs/loader:1061:19)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1066:22)
+    at Function._load (node:internal/modules/cjs/loader:1215:37)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:151:5)
+    at node:internal/main/run_main_module:33:47 {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: []
+}
+
+Node.js v23.11.0
+[STDERR] [2026-07-03T21:18:34.840Z] node:internal/modules/cjs/loader:1408
+  throw err;
+  ^
+
+Error: Cannot find module '/Users/laptopparadise/Documents/Wordpress URL Finder/worker/dist/in.dex.js'
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1405:15)
+    at defaultResolveImpl (node:internal/modules/cjs/loader:1061:19)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1066:22)
+    at Function._load (node:internal/modules/cjs/loader:1215:37)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:151:5)
+    at node:internal/main/run_main_module:33:47 {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: []
+}
+
+Node.js v23.11.0
+[STDERR] [2026-07-03T21:18:49.841Z] node:internal/modules/cjs/loader:1408
+  throw err;
+  ^
+
+Error: Cannot find module '/Users/laptopparadise/Documents/Wordpress URL Finder/worker/dist/in.dex.js'
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1405:15)
+    at defaultResolveImpl (node:internal/modules/cjs/loader:1061:19)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1066:22)
+    at Function._load (node:internal/modules/cjs/loader:1215:37)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:151:5)
+    at node:internal/main/run_main_module:33:47 {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: []
+}
+
+Node.js v23.11.0
+[STDERR] [2026-07-03T21:19:04.842Z] node:internal/modules/cjs/loader:1408
+  throw err;
+  ^
+
+Error: Cannot find module '/Users/laptopparadise/Documents/Wordpress URL Finder/worker/dist/in.dex.js'
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1405:15)
+    at defaultResolveImpl (node:internal/modules/cjs/loader:1061:19)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1066:22)
+    at Function._load (node:internal/modules/cjs/loader:1215:37)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:151:5)
+    at node:internal/main/run_main_module:33:47 {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: []
+}
+
+Node.js v23.11.0
+[STDERR] [2026-07-03T21:19:19.836Z] node:internal/modules/cjs/loader:1408
+  throw err;
+  ^
+
+Error: Cannot find module '/Users/laptopparadise/Documents/Wordpress URL Finder/worker/dist/in.dex.js'
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1405:15)
+    at defaultResolveImpl (node:internal/modules/cjs/loader:1061:19)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1066:22)
+    at Function._load (node:internal/modules/cjs/loader:1215:37)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:151:5)
+    at node:internal/main/run_main_module:33:47 {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: []
+}
+
+Node.js v23.11.0
+[STDERR] [2026-07-03T21:19:31.047Z] node:internal/modules/cjs/loader:1408
+  throw err;
+  ^
+
+Error: Cannot find module '/Users/laptopparadise/Documents/Wordpress URL Finder/worker/dist/in.dex.js'
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1405:15)
+    at defaultResolveImpl (node:internal/modules/cjs/loader:1061:19)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1066:22)
+    at Function._load (node:internal/modules/cjs/loader:1215:37)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:151:5)
+    at node:internal/main/run_main_module:33:47 {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: []
+}
+
+Node.js v23.11.0
+[STDERR] [2026-07-03T21:19:34.843Z] node:internal/modules/cjs/loader:1408
+  throw err;
+  ^
+
+Error: Cannot find module '/Users/laptopparadise/Documents/Wordpress URL Finder/worker/dist/in.dex.js'
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1405:15)
+    at defaultResolveImpl (node:internal/modules/cjs/loader:1061:19)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1066:22)
+    at Function._load (node:internal/modules/cjs/loader:1215:37)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:151:5)
+    at node:internal/main/run_main_module:33:47 {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: []
+}
+
+Node.js v23.11.0
+[STDERR] [2026-07-03T21:19:49.843Z] node:internal/modules/cjs/loader:1408
+  throw err;
+  ^
+
+Error: Cannot find module '/Users/laptopparadise/Documents/Wordpress URL Finder/worker/dist/in.dex.js'
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1405:15)
+    at defaultResolveImpl (node:internal/modules/cjs/loader:1061:19)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1066:22)
+    at Function._load (node:internal/modules/cjs/loader:1215:37)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:151:5)
+    at node:internal/main/run_main_module:33:47 {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: []
+}
+
+Node.js v23.11.0
+[STDERR] [2026-07-03T21:20:04.844Z] node:internal/modules/cjs/loader:1408
+  throw err;
+  ^
+
+Error: Cannot find module '/Users/laptopparadise/Documents/Wordpress URL Finder/worker/dist/in.dex.js'
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1405:15)
+    at defaultResolveImpl (node:internal/modules/cjs/loader:1061:19)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1066:22)
+    at Function._load (node:internal/modules/cjs/loader:1215:37)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:151:5)
+    at node:internal/main/run_main_module:33:47 {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: []
+}
+
+Node.js v23.11.0
+[STDERR] [2026-07-03T21:20:19.849Z] node:internal/modules/cjs/loader:1408
+  throw err;
+  ^
+
+Error: Cannot find module '/Users/laptopparadise/Documents/Wordpress URL Finder/worker/dist/in.dex.js'
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1405:15)
+    at defaultResolveImpl (node:internal/modules/cjs/loader:1061:19)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1066:22)
+    at Function._load (node:internal/modules/cjs/loader:1215:37)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:151:5)
+    at node:internal/main/run_main_module:33:47 {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: []
+}
+
+Node.js v23.11.0
+[STDOUT] [2026-07-03T21:20:41.389Z] [2026-07-03T21:20:41.387Z] [INFO]   Starting verified-domain collector
+[STDOUT] [2026-07-03T21:20:41.389Z] [2026-07-03T21:20:41.388Z] [INFO]   Refill target: 500 unserved domains
+[2026-07-03T21:20:41.389Z] [INFO]   Concurrency: 20 workers
+[2026-07-03T21:20:41.389Z] [INFO]   Queue capacity: 100
+[STDOUT] [2026-07-03T21:20:41.492Z] [2026-07-03T21:20:41.492Z] [INFO]   Database: 1180 total domains, 147 unserved
+[STDOUT] [2026-07-03T21:20:41.492Z] [2026-07-03T21:20:41.492Z] [INFO]   Need to refill: 147 unserved → target 500
+[2026-07-03T21:20:41.492Z] [INFO]   Checkpoint detected: resuming from WARC CC-MAIN-20260508074046-20260508104046-00000.warc.gz at record offset 1408 (already verified: 110)
+[STDOUT] [2026-07-03T21:20:41.492Z] [2026-07-03T21:20:41.492Z] [INFO]   Fetching WARC index: https://data.commoncrawl.org/crawl-data/CC-MAIN-2026-21/warc.paths.gz
+[STDOUT] [2026-07-03T21:20:42.084Z] [2026-07-03T21:20:42.083Z] [INFO]   Found checkpoint WARC segment #1. Resuming…
+[STDOUT] [2026-07-03T21:20:42.085Z] [2026-07-03T21:20:42.084Z] [WARC]   Starting segment #1: CC-MAIN-20260508074046-20260508104046-00000.warc.gz
+[STDOUT] [2026-07-03T21:20:56.707Z] [2026-07-03T21:20:56.705Z] [CAND]   (1) www.sjxjjt.com
+[STDOUT] [2026-07-03T21:20:56.755Z] [2026-07-03T21:20:56.755Z] [CAND]   (2) www.songjiangjietou.com
+[STDOUT] [2026-07-03T21:20:56.853Z] [2026-07-03T21:20:56.852Z] [CAND]   (3) www.srpskadijaspora.info
+[STDOUT] [2026-07-03T21:20:56.871Z] [2026-07-03T21:20:56.870Z] [CAND]   (4) www.studyinamerica.com
+[STDOUT] [2026-07-03T21:20:56.988Z] [2026-07-03T21:20:56.988Z] [CAND]   (5) www.tavio.io
+[STDOUT] [2026-07-03T21:20:57.034Z] [2026-07-03T21:20:57.034Z] [CAND]   (6) www.teknolojisitesi.net
+[STDOUT] [2026-07-03T21:20:57.171Z] [2026-07-03T21:20:57.170Z] [REJECT] ✗ www.teknolojisitesi.net (HTTP_FAIL:fetch failed)
+[STDOUT] [2026-07-03T21:20:57.404Z] [2026-07-03T21:20:57.378Z] [RETRY]  www.sjxjjt.com attempt 1/3: HTTP: fetch failed
+[STDOUT] [2026-07-03T21:20:57.424Z] [2026-07-03T21:20:57.415Z] [RETRY]  www.songjiangjietou.com attempt 1/3: HTTP: fetch failed
+[STDOUT] [2026-07-03T21:20:57.786Z] [2026-07-03T21:20:57.786Z] [CAND]   (7) www.thebestbollywoodescort.com
+[STDOUT] [2026-07-03T21:20:57.823Z] [2026-07-03T21:20:57.823Z] [CAND]   (8) www.themevik.com
+[STDOUT] [2026-07-03T21:20:57.825Z] [2026-07-03T21:20:57.825Z] [CAND]   (9) www.ting75.com
+[STDOUT] [2026-07-03T21:20:57.825Z] [2026-07-03T21:20:57.825Z] [CAND]   (10) www.tlzxjc.com
+[STDOUT] [2026-07-03T21:20:57.828Z] [2026-07-03T21:20:57.827Z] [CAND]   (11) www.tokyobanhbao.com
+[STDOUT] [2026-07-03T21:20:57.829Z] [2026-07-03T21:20:57.829Z] [CAND]   (12) www.towinglosangeles.us
+[STDOUT] [2026-07-03T21:20:57.831Z] [2026-07-03T21:20:57.831Z] [CAND]   (13) www.trabi-team-thueringen.de
+[STDOUT] [2026-07-03T21:20:57.919Z] [2026-07-03T21:20:57.918Z] [VERIFY] ✓ www.tavio.io (wp-json)
+[STDOUT] [2026-07-03T21:20:57.959Z] [2026-07-03T21:20:57.958Z] [CAND]   (14) www.trafficace.net
+[STDOUT] [2026-07-03T21:20:57.960Z] [2026-07-03T21:20:57.959Z] [CAND]   (15) www.travelingmamas.com
+[STDOUT] [2026-07-03T21:20:57.961Z] [2026-07-03T21:20:57.961Z] [CAND]   (16) www.tretterfotografie.com
+[STDOUT] [2026-07-03T21:20:57.967Z] [2026-07-03T21:20:57.966Z] [INFO]   [Worker 5] Recycled #1: www.tavio.io
+[STDOUT] [2026-07-03T21:20:58.046Z] [2026-07-03T21:20:58.046Z] [CAND]   (17) www.tusciaelecta.it
+[STDOUT] [2026-07-03T21:20:58.071Z] [2026-07-03T21:20:58.070Z] [CAND]   (18) www.underthemeso.com
+[STDOUT] [2026-07-03T21:20:58.094Z] [2026-07-03T21:20:58.093Z] [CAND]   (19) www.us-vo.org
+[STDOUT] [2026-07-03T21:20:58.094Z] [2026-07-03T21:20:58.094Z] [CAND]   (20) www.vagsbygd.com
+[STDOUT] [2026-07-03T21:20:58.096Z] [2026-07-03T21:20:58.095Z] [CAND]   (21) www.voiceofwidows.com
+[STDOUT] [2026-07-03T21:20:58.097Z] [2026-07-03T21:20:58.097Z] [CAND]   (22) www.voosshanemann.com
+[STDOUT] [2026-07-03T21:20:58.097Z] [2026-07-03T21:20:58.097Z] [CAND]   (23) www.walemark.se
+[STDOUT] [2026-07-03T21:20:58.132Z] [2026-07-03T21:20:58.132Z] [REJECT] ✗ www.ting75.com (DNS_FAIL:ESERVFAIL)
+[STDOUT] [2026-07-03T21:20:58.194Z] [2026-07-03T21:20:58.194Z] [CAND]   (24) www.willowbooks.co.uk
+[STDOUT] [2026-07-03T21:20:58.196Z] [2026-07-03T21:20:58.196Z] [RETRY]  www.songjiangjietou.com attempt 2/3: HTTP: fetch failed
+[STDOUT] [2026-07-03T21:20:58.278Z] [2026-07-03T21:20:58.278Z] [CAND]   (25) www.xie-jue-tui-xiao.com
+[STDOUT] [2026-07-03T21:20:58.373Z] [2026-07-03T21:20:58.373Z] [CAND]   (26) www.zenme.com.vn
+[STDOUT] [2026-07-03T21:20:58.376Z] [2026-07-03T21:20:58.376Z] [CAND]   (27) www.zuhmi.org
+[STDOUT] [2026-07-03T21:20:58.586Z] [2026-07-03T21:20:58.586Z] [CAND]   (28) xn--e1afhrfip2a.xn--p1ai
+[STDOUT] [2026-07-03T21:20:58.591Z] [2026-07-03T21:20:58.591Z] [CAND]   (29) yolandaridge.com
+[STDOUT] [2026-07-03T21:20:58.622Z] [2026-07-03T21:20:58.622Z] [CAND]   (30) zambetsisanatate.ro
+[STDOUT] [2026-07-03T21:20:58.639Z] [2026-07-03T21:20:58.639Z] [CAND]   (31) zelitelniza.ru
+[STDOUT] [2026-07-03T21:20:58.868Z] [2026-07-03T21:20:58.867Z] [CAND]   (32) 011-wari.com
+[STDOUT] [2026-07-03T21:20:58.902Z] [2026-07-03T21:20:58.902Z] [VERIFY] ✓ www.trafficace.net (meta-generator)
+[STDOUT] [2026-07-03T21:20:58.907Z] [2026-07-03T21:20:58.907Z] [INFO]   [Worker 14] Recycled #2: www.trafficace.net
+[STDOUT] [2026-07-03T21:20:58.920Z] [2026-07-03T21:20:58.920Z] [CAND]   (33) 100bofora.net
+[STDOUT] [2026-07-03T21:20:58.922Z] [2026-07-03T21:20:58.922Z] [CAND]   (34) 101theeagle.com
+[STDOUT] [2026-07-03T21:20:58.988Z] [2026-07-03T21:20:58.988Z] [CAND]   (35) 1063thebuzz.com
+[STDOUT] [2026-07-03T21:20:58.989Z] [2026-07-03T21:20:58.989Z] [CAND]   (36) 110min.de
+[STDOUT] [2026-07-03T21:20:58.994Z] [2026-07-03T21:20:58.994Z] [CAND]   (37) 123immages.com
+[STDOUT] [2026-07-03T21:20:58.996Z] [2026-07-03T21:20:58.996Z] [CAND]   (38) 12tomates.com
+[STDOUT] [2026-07-03T21:20:58.999Z] [2026-07-03T21:20:58.999Z] [CAND]   (39) 15a.ro
+[STDOUT] [2026-07-03T21:20:58.999Z] [2026-07-03T21:20:58.999Z] [CAND]   (40) 160organisation.com
+[STDOUT] [2026-07-03T21:20:59.002Z] [2026-07-03T21:20:59.002Z] [REJECT] ✗ www.voosshanemann.com (HTTP_FAIL:fetch failed)
+[STDOUT] [2026-07-03T21:20:59.005Z] [2026-07-03T21:20:59.004Z] [CAND]   (41) 1688gd.com
+[STDOUT] [2026-07-03T21:20:59.031Z] [2026-07-03T21:20:59.031Z] [RETRY]  www.sjxjjt.com attempt 2/3: HTTP: fetch failed
+[STDOUT] [2026-07-03T21:20:59.444Z] [2026-07-03T21:20:59.444Z] [REJECT] ✗ www.songjiangjietou.com (HTTP_FAIL:fetch failed)
+[STDOUT] [2026-07-03T21:20:59.495Z] [2026-07-03T21:20:59.495Z] [VERIFY] ✓ www.towinglosangeles.us (meta-generator)
+[STDOUT] [2026-07-03T21:20:59.503Z] [2026-07-03T21:20:59.503Z] [INFO]   [Worker 12] Recycled #3: www.towinglosangeles.us
+[STDOUT] [2026-07-03T21:20:59.726Z] [2026-07-03T21:20:59.725Z] [VERIFY] ✓ www.us-vo.org (meta-generator)
+[STDOUT] [2026-07-03T21:20:59.731Z] [2026-07-03T21:20:59.730Z] [INFO]   [Worker 19] Recycled #4: www.us-vo.org
+[STDOUT] [2026-07-03T21:20:59.874Z] [2026-07-03T21:20:59.874Z] [REJECT] ✗ www.trabi-team-thueringen.de (HTTP_FAIL:fetch failed)
+[STDOUT] [2026-07-03T21:21:00.165Z] [2026-07-03T21:21:00.164Z] [CAND]   (42) 1markam.ru
+[STDOUT] [2026-07-03T21:21:00.166Z] [2026-07-03T21:21:00.165Z] [CAND]   (43) 1millionideas.com
+[STDOUT] [2026-07-03T21:21:00.176Z] [2026-07-03T21:21:00.176Z] [CAND]   (44) 1news.correiobraziliense.com.br
+[STDOUT] [2026-07-03T21:21:00.195Z] [2026-07-03T21:21:00.195Z] [REJECT] ✗ www.sjxjjt.com (HTTP_FAIL:fetch failed)
+[STDOUT] [2026-07-03T21:21:00.196Z] [2026-07-03T21:21:00.196Z] [CAND]   (45) 1recambios.com
+[STDOUT] [2026-07-03T21:21:00.203Z] [2026-07-03T21:21:00.203Z] [CAND]   (46) 1riot1ranger.com
+[STDOUT] [2026-07-03T21:21:00.255Z] [2026-07-03T21:21:00.254Z] [CAND]   (47) 1stsmarttech.co.uk
+[STDOUT] [2026-07-03T21:21:00.277Z] [2026-07-03T21:21:00.277Z] [CAND]   (48) 20-wek.ru
+[STDOUT] [2026-07-03T21:21:00.368Z] [2026-07-03T21:21:00.367Z] [CAND]   (49) 242movietv.com
+[STDOUT] [2026-07-03T21:21:00.419Z] [2026-07-03T21:21:00.418Z] [CAND]   (50) 247politics.net
+[STDOUT] [2026-07-03T21:21:00.422Z] [2026-07-03T21:21:00.421Z] [CAND]   (51) 24h.com.cy
+[STDOUT] [2026-07-03T21:21:00.519Z] [2026-07-03T21:21:00.518Z] [REJECT] ✗ www.zuhmi.org (HTTP_FAIL:fetch failed)
+[STDOUT] [2026-07-03T21:21:00.520Z] [2026-07-03T21:21:00.519Z] [CAND]   (52) 27kamimen.com
+[STDOUT] [2026-07-03T21:21:00.527Z] [2026-07-03T21:21:00.525Z] [CAND]   (53) 27sexn.net
+[STDOUT] [2026-07-03T21:21:00.531Z] [2026-07-03T21:21:00.530Z] [CAND]   (54) 2atalk.org
+[STDOUT] [2026-07-03T21:21:00.576Z] [2026-07-03T21:21:00.576Z] [CAND]   (55) 2wheels.pl
+[STDOUT] [2026-07-03T21:21:00.640Z] [2026-07-03T21:21:00.640Z] [CAND]   (56) 30-minutes-pour-jouer-du-piano.com
+[STDOUT] [2026-07-03T21:21:00.674Z] [2026-07-03T21:21:00.674Z] [CAND]   (57) 30northauto.com
+[STDOUT] [2026-07-03T21:21:00.677Z] [2026-07-03T21:21:00.677Z] [CAND]   (58) 360mag.bg
+[STDOUT] [2026-07-03T21:21:00.739Z] [2026-07-03T21:21:00.739Z] [CAND]   (59) 365.mk
+[STDOUT] [2026-07-03T21:21:00.744Z] [2026-07-03T21:21:00.744Z] [CAND]   (60) 3bl.me
+[STDOUT] [2026-07-03T21:21:00.822Z] [2026-07-03T21:21:00.821Z] [VERIFY] ✓ www.srpskadijaspora.info (meta-generator)
+[STDOUT] [2026-07-03T21:21:00.827Z] [2026-07-03T21:21:00.826Z] [CAND]   (61) 3ds-max.org
+[STDOUT] [2026-07-03T21:21:00.827Z] [2026-07-03T21:21:00.827Z] [INFO]   [Worker 3] Recycled #5: www.srpskadijaspora.info
+[STDOUT] [2026-07-03T21:21:00.845Z] [2026-07-03T21:21:00.845Z] [CAND]   (62) 3eparengenharia.com
+[STDOUT] [2026-07-03T21:21:00.846Z] [2026-07-03T21:21:00.846Z] [CAND]   (63) 3minutosinforma.com
+[STDOUT] [2026-07-03T21:21:00.874Z] [2026-07-03T21:21:00.873Z] [CAND]   (64) 3secondrule.co.uk
+[STDOUT] [2026-07-03T21:21:00.882Z] [2026-07-03T21:21:00.882Z] [CAND]   (65) 404.g-net.pl
+[STDOUT] [2026-07-03T21:21:00.885Z] [2026-07-03T21:21:00.885Z] [CAND]   (66) 420shop.com
+[STDOUT] [2026-07-03T21:21:00.922Z] [2026-07-03T21:21:00.921Z] [CAND]   (67) 483betapp.com
+[STDOUT] [2026-07-03T21:21:00.948Z] [2026-07-03T21:21:00.947Z] [CAND]   (68) 4cf.pl
+[STDOUT] [2026-07-03T21:21:00.948Z] [2026-07-03T21:21:00.948Z] [CAND]   (69) 4dadvertiser.com
+[STDOUT] [2026-07-03T21:21:00.949Z] [2026-07-03T21:21:00.949Z] [CAND]   (70) 4dekor.ru
+[STDOUT] [2026-07-03T21:21:00.953Z] [2026-07-03T21:21:00.953Z] [CAND]   (71) 4revisionengines.com
+[STDOUT] [2026-07-03T21:21:01.097Z] [2026-07-03T21:21:01.096Z] [VERIFY] ✓ www.vagsbygd.com (meta-generator)
+[STDOUT] [2026-07-03T21:21:01.100Z] [2026-07-03T21:21:01.100Z] [INFO]   [Worker 20] Recycled #6: www.vagsbygd.com
+[STDOUT] [2026-07-03T21:21:01.115Z] [2026-07-03T21:21:01.114Z] [VERIFY] ✓ www.voiceofwidows.com (meta-generator)
+[STDOUT] [2026-07-03T21:21:01.119Z] [2026-07-03T21:21:01.119Z] [INFO]   [Worker 6] Recycled #7: www.voiceofwidows.com
+[STDOUT] [2026-07-03T21:21:01.215Z] [2026-07-03T21:21:01.215Z] [CAND]   (72) 4spire.com
+[STDOUT] [2026-07-03T21:21:01.217Z] [2026-07-03T21:21:01.216Z] [CAND]   (73) 4stogistic.com
+[STDOUT] [2026-07-03T21:21:01.238Z] [2026-07-03T21:21:01.238Z] [REJECT] ✗ www.underthemeso.com (NO_WP_EVIDENCE)
+[STDOUT] [2026-07-03T21:21:01.241Z] [2026-07-03T21:21:01.241Z] [CAND]   (74) 4uarab.com
+[STDOUT] [2026-07-03T21:21:01.243Z] [2026-07-03T21:21:01.243Z] [CAND]   (75) 4x4extras.com.au
+[STDOUT] [2026-07-03T21:21:01.246Z] [2026-07-03T21:21:01.246Z] [CAND]   (76) 555stepup.net
+[STDOUT] [2026-07-03T21:21:01.249Z] [2026-07-03T21:21:01.249Z] [CAND]   (77) 69th-auto.com
+[STDOUT] [2026-07-03T21:21:01.255Z] [2026-07-03T21:21:01.255Z] [CAND]   (78) 720rip.ru
+[STDOUT] [2026-07-03T21:21:01.256Z] [2026-07-03T21:21:01.256Z] [CAND]   (79) 75dwest.com
+[STDOUT] [2026-07-03T21:21:01.257Z] [2026-07-03T21:21:01.256Z] [CAND]   (80) 76qbetk.com
+[STDOUT] [2026-07-03T21:21:01.260Z] [2026-07-03T21:21:01.260Z] [CAND]   (81) 7blog.lifecloud.tw
+[STDOUT] [2026-07-03T21:21:01.303Z] [2026-07-03T21:21:01.303Z] [CAND]   (82) 888spiritualscience.blogspot.com
+[STDOUT] [2026-07-03T21:21:01.317Z] [2026-07-03T21:21:01.317Z] [CAND]   (83) 8plus1.ru
+[STDOUT] [2026-07-03T21:21:01.321Z] [2026-07-03T21:21:01.321Z] [CAND]   (84) 967theeagle.net
+[STDOUT] [2026-07-03T21:21:01.384Z] [2026-07-03T21:21:01.384Z] [CAND]   (85) 999thepoint.com
+[STDOUT] [2026-07-03T21:21:01.398Z] [2026-07-03T21:21:01.398Z] [CAND]   (86) a-rconst.com
+[STDOUT] [2026-07-03T21:21:01.435Z] [2026-07-03T21:21:01.435Z] [CAND]   (87) a-servis.com.tr
+[STDOUT] [2026-07-03T21:21:01.449Z] [2026-07-03T21:21:01.448Z] [CAND]   (88) a-yane.net
+[STDOUT] [2026-07-03T21:21:01.449Z] [2026-07-03T21:21:01.449Z] [CAND]   (89) a1feldkirch.net
+[STDOUT] [2026-07-03T21:21:01.451Z] [2026-07-03T21:21:01.451Z] [CAND]   (90) a5erp.solutions
+[STDOUT] [2026-07-03T21:21:01.503Z] [2026-07-03T21:21:01.502Z] [CAND]   (91) aa-textiles.com
+[STDOUT] [2026-07-03T21:21:01.504Z] [2026-07-03T21:21:01.503Z] [VERIFY] ✓ www.walemark.se (meta-generator)
+[STDOUT] [2026-07-03T21:21:01.505Z] [2026-07-03T21:21:01.504Z] [CAND]   (92) aa-westerncolorado.com
+[STDOUT] [2026-07-03T21:21:01.506Z] [2026-07-03T21:21:01.506Z] [INFO]   [Worker 9] Recycled #8: www.walemark.se
+[STDOUT] [2026-07-03T21:21:01.513Z] [2026-07-03T21:21:01.513Z] [VERIFY] ✓ www.themevik.com (meta-generator)
+[STDOUT] [2026-07-03T21:21:01.515Z] [2026-07-03T21:21:01.515Z] [INFO]   [Worker 8] Recycled #9: www.themevik.com
+[STDOUT] [2026-07-03T21:21:01.710Z] [2026-07-03T21:21:01.709Z] [VERIFY] ✓ www.tusciaelecta.it (meta-generator)
+[STDOUT] [2026-07-03T21:21:01.714Z] [2026-07-03T21:21:01.713Z] [INFO]   [Worker 17] Recycled #10: www.tusciaelecta.it
+[STDOUT] [2026-07-03T21:21:01.755Z] [2026-07-03T21:21:01.755Z] [CAND]   (93) aapdujunagadh.com
+[STDOUT] [2026-07-03T21:21:01.756Z] [2026-07-03T21:21:01.755Z] [CAND]   (94) aarambhathemes.com
+[STDOUT] [2026-07-03T21:21:01.770Z] [2026-07-03T21:21:01.770Z] [CAND]   (95) aarthikvoice.com
+[STDOUT] [2026-07-03T21:21:01.799Z] [2026-07-03T21:21:01.798Z] [CAND]   (96) abalar.pt
+[STDOUT] [2026-07-03T21:21:01.801Z] [2026-07-03T21:21:01.801Z] [CAND]   (97) abalonegraphics.com
+[STDOUT] [2026-07-03T21:21:01.802Z] [2026-07-03T21:21:01.802Z] [CAND]   (98) abeclinic.info
+[STDOUT] [2026-07-03T21:21:01.805Z] [2026-07-03T21:21:01.804Z] [CAND]   (99) abix-virtual.pl
+[STDOUT] [2026-07-03T21:21:01.806Z] [2026-07-03T21:21:01.806Z] [CAND]   (100) ablemove.co.uk
+[STDOUT] [2026-07-03T21:21:01.807Z] [2026-07-03T21:21:01.807Z] [CAND]   (101) abogadosdetusdeudas.com
+[STDOUT] [2026-07-03T21:21:01.812Z] [2026-07-03T21:21:01.811Z] [CAND]   (102) aboutcolor.net
+[STDOUT] [2026-07-03T21:21:01.813Z] [2026-07-03T21:21:01.812Z] [CAND]   (103) abracadabar.fr
+[STDOUT] [2026-07-03T21:21:01.822Z] [2026-07-03T21:21:01.822Z] [CAND]   (104) abramsonfoundation.org
+[STDOUT] [2026-07-03T21:21:01.832Z] [2026-07-03T21:21:01.832Z] [CAND]   (105) abrasce.com.br
+[STDOUT] [2026-07-03T21:21:01.838Z] [2026-07-03T21:21:01.838Z] [CAND]   (106) abraves.com.br
+[STDOUT] [2026-07-03T21:21:01.860Z] [2026-07-03T21:21:01.859Z] [CAND]   (107) absal.org
+[STDOUT] [2026-07-03T21:21:01.880Z] [2026-07-03T21:21:01.880Z] [CAND]   (108) abujaba.com
+[STDOUT] [2026-07-03T21:21:02.130Z] [2026-07-03T21:21:02.129Z] [CAND]   (109) ac-times.com
+[STDOUT] [2026-07-03T21:21:02.131Z] [2026-07-03T21:21:02.131Z] [CAND]   (110) academiadeadoracion.es
+[STDOUT] [2026-07-03T21:21:02.153Z] [2026-07-03T21:21:02.152Z] [VERIFY] ✓ www.willowbooks.co.uk (meta-generator)
+[STDOUT] [2026-07-03T21:21:02.155Z] [2026-07-03T21:21:02.155Z] [INFO]   [Worker 14] Recycled #11: www.willowbooks.co.uk
+[STDOUT] [2026-07-03T21:21:02.162Z] [2026-07-03T21:21:02.161Z] [CAND]   (111) acaesclub.com
+[STDOUT] [2026-07-03T21:21:02.196Z] [2026-07-03T21:21:02.195Z] [CAND]   (112) acapps.org
+[STDOUT] [2026-07-03T21:21:02.197Z] [2026-07-03T21:21:02.197Z] [CAND]   (113) acasino.sk
+[STDOUT] [2026-07-03T21:21:02.227Z] [2026-07-03T21:21:02.227Z] [CAND]   (114) acbass.ru
+[STDOUT] [2026-07-03T21:21:02.227Z] [2026-07-03T21:21:02.227Z] [CAND]   (115) accademiadellaliberta.blogspot.com
+[STDOUT] [2026-07-03T21:21:02.228Z] [2026-07-03T21:21:02.228Z] [CAND]   (116) accommodationworld.in
+[STDOUT] [2026-07-03T21:21:02.277Z] [2026-07-03T21:21:02.277Z] [VERIFY] ✓ yolandaridge.com (meta-generator)
+[STDOUT] [2026-07-03T21:21:02.278Z] [2026-07-03T21:21:02.278Z] [CAND]   (117) accountantsnearme.ca
+[STDOUT] [2026-07-03T21:21:02.281Z] [2026-07-03T21:21:02.281Z] [INFO]   [Worker 13] Recycled #12: yolandaridge.com
+[STDOUT] [2026-07-03T21:21:02.332Z] [2026-07-03T21:21:02.331Z] [CAND]   (118) accountingservicesofyork.com
+[STDOUT] [2026-07-03T21:21:02.372Z] [2026-07-03T21:21:02.372Z] [CAND]   (119) accuratemedbilling.com
+[STDOUT] [2026-07-03T21:21:02.372Z] [2026-07-03T21:21:02.372Z] [CAND]   (120) acecheap.com
+[STDOUT] [2026-07-03T21:21:02.373Z] [2026-07-03T21:21:02.373Z] [CAND]   (121) acegu.com.co
+[STDOUT] [2026-07-03T21:21:02.449Z] [2026-07-03T21:21:02.448Z] [CAND]   (122) acepartyrental.com
+[STDOUT] [2026-07-03T21:21:02.450Z] [2026-07-03T21:21:02.450Z] [CAND]   (123) acesaudi.org
+[STDOUT] [2026-07-03T21:21:02.455Z] [2026-07-03T21:21:02.454Z] [CAND]   (124) acf.sa
+[STDOUT] [2026-07-03T21:21:02.457Z] [2026-07-03T21:21:02.457Z] [CAND]   (125) achiva.com.vn
+[STDOUT] [2026-07-03T21:21:02.458Z] [2026-07-03T21:21:02.458Z] [CAND]   (126) acia-ap.org.br
+[STDOUT] [2026-07-03T21:21:02.459Z] [2026-07-03T21:21:02.459Z] [CAND]   (127) aclass-seishin.jp
+[STDOUT] [2026-07-03T21:21:02.459Z] [2026-07-03T21:21:02.459Z] [CAND]   (128) acmq.qc.ca
+[STDOUT] [2026-07-03T21:21:02.459Z] [2026-07-03T21:21:02.459Z] [CAND]   (129) acoo.jp
+[STDOUT] [2026-07-03T21:21:02.460Z] [2026-07-03T21:21:02.460Z] [CAND]   (130) acplushvac.com
+[STDOUT] [2026-07-03T21:21:02.625Z] [2026-07-03T21:21:02.624Z] [CAND]   (131) actagroup.com.au
+[STDOUT] [2026-07-03T21:21:02.628Z] [2026-07-03T21:21:02.627Z] [CAND]   (132) actassociates.co.uk
+[STDOUT] [2026-07-03T21:21:02.665Z] [2026-07-03T21:21:02.665Z] [VERIFY] ✓ www.studyinamerica.com (meta-generator)
+[STDOUT] [2026-07-03T21:21:02.670Z] [2026-07-03T21:21:02.670Z] [INFO]   [Worker 4] Recycled #13: www.studyinamerica.com
+[STDOUT] [2026-07-03T21:21:02.678Z] [2026-07-03T21:21:02.678Z] [CAND]   (133) activity-reports.ru
+[STDOUT] [2026-07-03T21:21:02.679Z] [2026-07-03T21:21:02.678Z] [CAND]   (134) activsolar.com
+[STDOUT] [2026-07-03T21:21:02.679Z] [2026-07-03T21:21:02.679Z] [CAND]   (135) actlocallywaco.org
+[STDOUT] [2026-07-03T21:21:02.680Z] [2026-07-03T21:21:02.680Z] [CAND]   (136) actualidadenfoco.com
+[STDOUT] [2026-07-03T21:21:02.805Z] [2026-07-03T21:21:02.804Z] [CAND]   (137) adamsprintablemap.net
+[STDOUT] [2026-07-03T21:21:02.806Z] [2026-07-03T21:21:02.806Z] [CAND]   (138) adapas.com
+[STDOUT] [2026-07-03T21:21:02.807Z] [2026-07-03T21:21:02.806Z] [CAND]   (139) adchti.uz
+[STDOUT] [2026-07-03T21:21:02.809Z] [2026-07-03T21:21:02.808Z] [CAND]   (140) addav.fr
+[STDOUT] [2026-07-03T21:21:02.859Z] [2026-07-03T21:21:02.859Z] [CAND]   (141) adegean.com.br
+[STDOUT] [2026-07-03T21:21:02.861Z] [2026-07-03T21:21:02.860Z] [CAND]   (142) adilec.es
+[STDOUT] [2026-07-03T21:21:02.962Z] [2026-07-03T21:21:02.961Z] [REJECT] ✗ www.tretterfotografie.com (DNS_FAIL:DNS_TIMEOUT)
+[STDOUT] [2026-07-03T21:21:02.965Z] [2026-07-03T21:21:02.964Z] [CAND]   (143) adonistechs.com
+[STDOUT] [2026-07-03T21:21:03.631Z] [2026-07-03T21:21:03.630Z] [VERIFY] ✓ www.xie-jue-tui-xiao.com (meta-generator)
+[STDOUT] [2026-07-03T21:21:03.641Z] [2026-07-03T21:21:03.641Z] [INFO]   [Worker 5] Recycled #14: www.xie-jue-tui-xiao.com
+[STDOUT] [2026-07-03T21:21:03.644Z] [2026-07-03T21:21:03.644Z] [CAND]   (144) adox.com.ar
+[STDOUT] [2026-07-03T21:21:03.699Z] [2026-07-03T21:21:03.699Z] [VERIFY] ✓ www.travelingmamas.com (meta-generator)
+[STDOUT] [2026-07-03T21:21:03.706Z] [2026-07-03T21:21:03.706Z] [INFO]   [Worker 15] Recycled #15: www.travelingmamas.com
+[STDOUT] [2026-07-03T21:21:03.711Z] [2026-07-03T21:21:03.711Z] [CAND]   (145) adrasanbalik.com
+[STDOUT] [2026-07-03T21:21:03.975Z] [2026-07-03T21:21:03.975Z] [REJECT] ✗ xn--e1afhrfip2a.xn--p1ai (HTTP_FAIL:fetch failed)
+[STDOUT] [2026-07-03T21:21:03.979Z] [2026-07-03T21:21:03.979Z] [CAND]   (146) adrianaconsulin.com.br
+[STDOUT] [2026-07-03T21:21:04.646Z] [2026-07-03T21:21:04.645Z] [REJECT] ✗ zelitelniza.ru (HTTP_FAIL:fetch failed)
+[STDOUT] [2026-07-03T21:21:04.652Z] [2026-07-03T21:21:04.652Z] [CAND]   (147) adsknews.autodesk.com
+[STDOUT] [2026-07-03T21:21:04.982Z] [2026-07-03T21:21:04.982Z] [REJECT] ✗ 1688gd.com (HTTP_FAIL:HTTP_500)
+[STDOUT] [2026-07-03T21:21:04.988Z] [2026-07-03T21:21:04.988Z] [CAND]   (148) adult-tv-channels.com
+[STDOUT] [2026-07-03T21:21:04.994Z] [2026-07-03T21:21:04.994Z] [VERIFY] ✓ 011-wari.com (wp-content)
+[STDOUT] [2026-07-03T21:21:04.997Z] [2026-07-03T21:21:04.997Z] [INFO]   [Worker 3] Recycled #16: 011-wari.com
+[STDOUT] [2026-07-03T21:21:05.003Z] [2026-07-03T21:21:05.003Z] [CAND]   (149) adult6game.com
+[STDOUT] [2026-07-03T21:21:05.013Z] [2026-07-03T21:21:05.013Z] [VERIFY] ✓ www.thebestbollywoodescort.com (wp-json)
+[STDOUT] [2026-07-03T21:21:05.014Z] [2026-07-03T21:21:05.014Z] [INFO]   [Worker 7] Inserted #17: www.thebestbollywoodescort.com
+[STDOUT] [2026-07-03T21:21:05.018Z] [2026-07-03T21:21:05.018Z] [CAND]   (150) adultcamlover.com
+[STDOUT] [2026-07-03T21:21:05.078Z] [2026-07-03T21:21:05.078Z] [VERIFY] ✓ 123immages.com (meta-generator)
+[STDOUT] [2026-07-03T21:21:05.081Z] [2026-07-03T21:21:05.080Z] [INFO]   [Worker 8] Recycled #18: 123immages.com
+[STDOUT] [2026-07-03T21:21:05.086Z] [2026-07-03T21:21:05.085Z] [CAND]   (151) advancedhosting.com
+[STDOUT] [2026-07-03T21:21:05.131Z] [2026-07-03T21:21:05.130Z] [VERIFY] ✓ 1recambios.com (meta-generator)
+[STDOUT] [2026-07-03T21:21:05.134Z] [2026-07-03T21:21:05.133Z] [INFO]   [Worker 19] Recycled #19: 1recambios.com
+[STDOUT] [2026-07-03T21:21:05.140Z] [2026-07-03T21:21:05.139Z] [CAND]   (152) advantainteractive.com
+[STDOUT] [2026-07-03T21:21:05.267Z] [2026-07-03T21:21:05.266Z] [VERIFY] ✓ 1stsmarttech.co.uk (meta-generator)
+[STDOUT] [2026-07-03T21:21:05.271Z] [2026-07-03T21:21:05.271Z] [INFO]   [Worker 4] Recycled #20: 1stsmarttech.co.uk
+[STDOUT] [2026-07-03T21:21:05.277Z] [2026-07-03T21:21:05.277Z] [CAND]   (153) adventure-sunday.com
+[STDOUT] [2026-07-03T21:21:05.593Z] [2026-07-03T21:21:05.593Z] [VERIFY] ✓ 15a.ro (meta-generator)
+[STDOUT] [2026-07-03T21:21:05.597Z] [2026-07-03T21:21:05.596Z] [INFO]   [Worker 14] Recycled #21: 15a.ro
+[STDOUT] [2026-07-03T21:21:05.604Z] [2026-07-03T21:21:05.604Z] [CAND]   (154) adventurecountrytracks.com
+[STDOUT] [2026-07-03T21:21:05.651Z] [2026-07-03T21:21:05.650Z] [VERIFY] ✓ 110min.de (wp-json)
+[STDOUT] [2026-07-03T21:21:05.655Z] [2026-07-03T21:21:05.654Z] [INFO]   [Worker 9] Recycled #22: 110min.de
+[STDOUT] [2026-07-03T21:21:05.662Z] [2026-07-03T21:21:05.662Z] [CAND]   (155) adverbaeditions.com
+[STDOUT] [2026-07-03T21:21:05.750Z] [2026-07-03T21:21:05.749Z] [VERIFY] ✓ zambetsisanatate.ro (meta-generator)
+[STDOUT] [2026-07-03T21:21:05.753Z] [2026-07-03T21:21:05.753Z] [INFO]   [Worker 1] Recycled #23: zambetsisanatate.ro
+[STDOUT] [2026-07-03T21:21:05.762Z] [2026-07-03T21:21:05.762Z] [CAND]   (156) advising.work
+[STDOUT] [2026-07-03T21:21:05.785Z] [2026-07-03T21:21:05.784Z] [VERIFY] ✓ 242movietv.com (meta-generator)
+[STDOUT] [2026-07-03T21:21:05.787Z] [2026-07-03T21:21:05.787Z] [INFO]   [Worker 7] Recycled #24: 242movietv.com
+[STDOUT] [2026-07-03T21:21:05.796Z] [2026-07-03T21:21:05.796Z] [CAND]   (157) advogadosemvalinhos.com.br
+[STDOUT] [2026-07-03T21:21:05.853Z] [2026-07-03T21:21:05.853Z] [VERIFY] ✓ 160organisation.com (wp-json)
+[STDOUT] [2026-07-03T21:21:05.855Z] [2026-07-03T21:21:05.855Z] [INFO]   [Worker 13] Recycled #25: 160organisation.com
+[STDOUT] [2026-07-03T21:21:05.865Z] [2026-07-03T21:21:05.865Z] [CAND]   (158) advox.globalvoices.org
+[STDOUT] [2026-07-03T21:21:06.103Z] [2026-07-03T21:21:06.102Z] [REJECT] ✗ 100bofora.net (DNS_FAIL:DNS_TIMEOUT)
+[STDOUT] [2026-07-03T21:21:06.128Z] [2026-07-03T21:21:06.128Z] [CAND]   (159) aekart.in
+[STDOUT] [2026-07-03T21:21:06.202Z] [2026-07-03T21:21:06.201Z] [VERIFY] ✓ 2wheels.pl (meta-generator)
+[STDOUT] [2026-07-03T21:21:06.204Z] [2026-07-03T21:21:06.204Z] [INFO]   [Worker 1] Recycled #26: 2wheels.pl
+[STDOUT] [2026-07-03T21:21:06.205Z] [2026-07-03T21:21:06.205Z] [CAND]   (160) aepi.org
+[STDOUT] [2026-07-03T21:21:06.562Z] [2026-07-03T21:21:06.561Z] [VERIFY] ✓ 24h.com.cy (meta-generator)
+[STDOUT] [2026-07-03T21:21:06.567Z] [2026-07-03T21:21:06.566Z] [INFO]   [Worker 19] Recycled #27: 24h.com.cy
+[STDOUT] [2026-07-03T21:21:06.583Z] [2026-07-03T21:21:06.582Z] [CAND]   (161) aeronewsglobal.com
+[STDOUT] [2026-07-03T21:21:06.880Z] [2026-07-03T21:21:06.880Z] [VERIFY] ✓ 27sexn.net (meta-generator)
+[STDOUT] [2026-07-03T21:21:06.884Z] [2026-07-03T21:21:06.884Z] [INFO]   [Worker 14] Recycled #28: 27sexn.net
+[STDOUT] [2026-07-03T21:21:06.893Z] [2026-07-03T21:21:06.892Z] [CAND]   (162) aesgermany.org
+[STDOUT] [2026-07-03T21:21:07.331Z] [2026-07-03T21:21:07.327Z] [REJECT] ✗ 360mag.bg (HTTP_FAIL:HTTP_403)
+[STDOUT] [2026-07-03T21:21:07.336Z] [2026-07-03T21:21:07.334Z] [CAND]   (163) aesir4.com
+[STDOUT] [2026-07-03T21:21:07.698Z] [2026-07-03T21:21:07.697Z] [VERIFY] ✓ 1millionideas.com (meta-generator)
+[STDOUT] [2026-07-03T21:21:07.703Z] [2026-07-03T21:21:07.703Z] [INFO]   [Worker 5] Recycled #29: 1millionideas.com
+[STDOUT] [2026-07-03T21:21:07.743Z] [2026-07-03T21:21:07.742Z] [CAND]   (164) aesthetik-theater.de
+[STDOUT] [2026-07-03T21:21:07.791Z] [2026-07-03T21:21:07.791Z] [VERIFY] ✓ 1riot1ranger.com (meta-generator)
+[STDOUT] [2026-07-03T21:21:07.794Z] [2026-07-03T21:21:07.794Z] [INFO]   [Worker 12] Recycled #30: 1riot1ranger.com
+[STDOUT] [2026-07-03T21:21:07.796Z] [2026-07-03T21:21:07.795Z] [CAND]   (165) af.wordpress.org
+[STDOUT] [2026-07-03T21:21:07.872Z] [2026-07-03T21:21:07.872Z] [VERIFY] ✓ 1news.correiobraziliense.com.br (meta-generator)
+[STDOUT] [2026-07-03T21:21:07.875Z] [2026-07-03T21:21:07.875Z] [INFO]   [Worker 15] Recycled #31: 1news.correiobraziliense.com.br
+[STDOUT] [2026-07-03T21:21:07.889Z] [2026-07-03T21:21:07.889Z] [CAND]   (166) afariet.com
+[STDOUT] [2026-07-03T21:21:08.497Z] [2026-07-03T21:21:08.496Z] [VERIFY] ✓ 3minutosinforma.com (meta-generator)
+[STDOUT] [2026-07-03T21:21:08.501Z] [2026-07-03T21:21:08.500Z] [INFO]   [Worker 5] Recycled #32: 3minutosinforma.com
+[STDOUT] [2026-07-03T21:21:08.521Z] [2026-07-03T21:21:08.521Z] [CAND]   (167) affiliatehf.com
+[STDOUT] [2026-07-03T21:21:08.694Z] [2026-07-03T21:21:08.694Z] [VERIFY] ✓ 2atalk.org (meta-generator)
+[STDOUT] [2026-07-03T21:21:08.696Z] [2026-07-03T21:21:08.696Z] [INFO]   [Worker 9] Recycled #33: 2atalk.org
+[STDOUT] [2026-07-03T21:21:08.709Z] [2026-07-03T21:21:08.709Z] [CAND]   (168) afleurdepeau-cherbourg.fr
+[STDOUT] [2026-07-03T21:21:08.712Z] [2026-07-03T21:21:08.712Z] [VERIFY] ✓ 3ds-max.org (meta-generator)
+[STDOUT] [2026-07-03T21:21:08.714Z] [2026-07-03T21:21:08.714Z] [INFO]   [Worker 14] Recycled #34: 3ds-max.org
+[STDOUT] [2026-07-03T21:21:08.724Z] [2026-07-03T21:21:08.723Z] [CAND]   (169) afri.jp
+[STDOUT] [2026-07-03T21:21:09.776Z] [2026-07-03T21:21:09.775Z] [VERIFY] ✓ 27kamimen.com (wp-content)
+[STDOUT] [2026-07-03T21:21:09.780Z] [2026-07-03T21:21:09.780Z] [INFO]   [Worker 4] Recycled #35: 27kamimen.com
+[STDOUT] [2026-07-03T21:21:09.843Z] [2026-07-03T21:21:09.843Z] [CAND]   (170) africafootunited.com
+[STDOUT] [2026-07-03T21:21:09.872Z] [2026-07-03T21:21:09.872Z] [VERIFY] ✓ 365.mk (meta-generator)
+[STDOUT] [2026-07-03T21:21:09.874Z] [2026-07-03T21:21:09.874Z] [INFO]   [Worker 1] Recycled #36: 365.mk
+[STDOUT] [2026-07-03T21:21:09.901Z] [2026-07-03T21:21:09.899Z] [CAND]   (171) africanconservation.org
+[STDOUT] [2026-07-03T21:21:09.904Z] [2026-07-03T21:21:09.904Z] [VERIFY] ✓ 247politics.net (wp-json)
+[STDOUT] [2026-07-03T21:21:09.906Z] [2026-07-03T21:21:09.906Z] [INFO]   [Worker 8] Recycled #37: 247politics.net
+[STDOUT] [2026-07-03T21:21:09.934Z] [2026-07-03T21:21:09.931Z] [CAND]   (172) after.gabysterrace.com
+[STDOUT] [2026-07-03T21:21:10.090Z] [2026-07-03T21:21:10.090Z] [VERIFY] ✓ 404.g-net.pl (meta-generator)
+[STDOUT] [2026-07-03T21:21:10.092Z] [2026-07-03T21:21:10.092Z] [INFO]   [Worker 15] Recycled #38: 404.g-net.pl
+[STDOUT] [2026-07-03T21:21:10.156Z] [2026-07-03T21:21:10.155Z] [CAND]   (173) ag-pest-advisory.vaes.vt.edu
+[STDOUT] [2026-07-03T21:21:10.228Z] [2026-07-03T21:21:10.228Z] [REJECT] ✗ 4spire.com (DNS_FAIL:ENODATA)
+[STDOUT] [2026-07-03T21:21:10.244Z] [2026-07-03T21:21:10.244Z] [CAND]   (174) agadir24.info
+[STDOUT] [2026-07-03T21:21:10.554Z] [2026-07-03T21:21:10.553Z] [VERIFY] ✓ 420shop.com (meta-generator)
+[STDOUT] [2026-07-03T21:21:10.556Z] [2026-07-03T21:21:10.556Z] [INFO]   [Worker 5] Recycled #39: 420shop.com
+[STDOUT] [2026-07-03T21:21:10.570Z] [2026-07-03T21:21:10.569Z] [CAND]   (175) aganshop.com
+[STDOUT] [2026-07-03T21:21:11.081Z] [2026-07-03T21:21:11.081Z] [VERIFY] ✓ 3secondrule.co.uk (meta-generator)
+[STDOUT] [2026-07-03T21:21:11.084Z] [2026-07-03T21:21:11.084Z] [INFO]   [Worker 12] Recycled #40: 3secondrule.co.uk
+[STDOUT] [2026-07-03T21:21:11.150Z] [2026-07-03T21:21:11.149Z] [CAND]   (176) agencepassionimmo.fr
+[STDOUT] [2026-07-03T21:21:11.456Z] [2026-07-03T21:21:11.456Z] [RETRY]  1063thebuzz.com attempt 1/3: HTTP: fetch failed
+[STDOUT] [2026-07-03T21:21:11.488Z] [2026-07-03T21:21:11.488Z] [VERIFY] ✓ 4dadvertiser.com (meta-generator)
+[STDOUT] [2026-07-03T21:21:11.490Z] [2026-07-03T21:21:11.490Z] [INFO]   [Worker 4] Inserted #41: 4dadvertiser.com
+[STDOUT] [2026-07-03T21:21:11.517Z] [2026-07-03T21:21:11.517Z] [CAND]   (177) agenciaaguape.com.br
+[STDOUT] [2026-07-03T21:21:11.520Z] [2026-07-03T21:21:11.520Z] [VERIFY] ✓ 30northauto.com (wp-json)
+[STDOUT] [2026-07-03T21:21:11.522Z] [2026-07-03T21:21:11.522Z] [INFO]   [Worker 13] Recycled #42: 30northauto.com
+[STDOUT] [2026-07-03T21:21:11.523Z] [2026-07-03T21:21:11.523Z] [CAND]   (178) agencymanagementinstitute.com
+[STDOUT] [2026-07-03T21:21:11.699Z] [2026-07-03T21:21:11.698Z] [VERIFY] ✓ 101theeagle.com (wp-content)
+[STDOUT] [2026-07-03T21:21:11.702Z] [2026-07-03T21:21:11.702Z] [INFO]   [Worker 6] Recycled #43: 101theeagle.com
+[STDOUT] [2026-07-03T21:21:11.824Z] [2026-07-03T21:21:11.819Z] [CAND]   (179) agewell-nce.ca
+[STDOUT] [2026-07-03T21:21:11.899Z] [2026-07-03T21:21:11.898Z] [VERIFY] ✓ 30-minutes-pour-jouer-du-piano.com (meta-generator)
+[STDOUT] [2026-07-03T21:21:11.900Z] [2026-07-03T21:21:11.900Z] [INFO]   [Worker 7] Inserted #44: 30-minutes-pour-jouer-du-piano.com
+[STDOUT] [2026-07-03T21:21:11.970Z] [2026-07-03T21:21:11.969Z] [CAND]   (180) aghaniaghani.com
+[STDOUT] [2026-07-03T21:21:12.003Z] [2026-07-03T21:21:12.002Z] [VERIFY] ✓ 4stogistic.com (wp-json)
+[STDOUT] [2026-07-03T21:21:12.007Z] [2026-07-03T21:21:12.007Z] [INFO]   [Worker 15] Recycled #45: 4stogistic.com
+[STDOUT] [2026-07-03T21:21:12.008Z] [2026-07-03T21:21:12.008Z] [CAND]   (181) agile-companies.com
+[STDOUT] [2026-07-03T21:21:12.315Z] [2026-07-03T21:21:12.314Z] [VERIFY] ✓ 3bl.me (meta-generator)
+[STDOUT] [2026-07-03T21:21:12.326Z] [2026-07-03T21:21:12.326Z] [INFO]   [Worker 19] Recycled #46: 3bl.me
+[STDOUT] [2026-07-03T21:21:12.363Z] [2026-07-03T21:21:12.363Z] [CAND]   (182) agora-web.jp
+[STDOUT] [2026-07-03T21:21:12.926Z] [2026-07-03T21:21:12.925Z] [VERIFY] ✓ www.zenme.com.vn (wp-login)
+[STDOUT] [2026-07-03T21:21:12.930Z] [2026-07-03T21:21:12.930Z] [INFO]   [Worker 2] Recycled #47: www.zenme.com.vn
+[STDOUT] [2026-07-03T21:21:13.007Z] [2026-07-03T21:21:13.006Z] [CAND]   (183) agricoopvalue.eu
+[STDOUT] [2026-07-03T21:21:13.011Z] [2026-07-03T21:21:13.011Z] [VERIFY] ✓ 555stepup.net (meta-generator)
+[STDOUT] [2026-07-03T21:21:13.075Z] [2026-07-03T21:21:13.074Z] [INFO]   [Worker 4] Recycled #48: 555stepup.net
+[STDOUT] [2026-07-03T21:21:13.116Z] [2026-07-03T21:21:13.114Z] [CAND]   (184) agrifoodsummit.co.il
+[STDOUT] [2026-07-03T21:21:13.405Z] [2026-07-03T21:21:13.405Z] [VERIFY] ✓ 69th-auto.com (meta-generator)
+[STDOUT] [2026-07-03T21:21:13.410Z] [2026-07-03T21:21:13.410Z] [INFO]   [Worker 13] Recycled #49: 69th-auto.com
+[STDOUT] [2026-07-03T21:21:13.496Z] [2026-07-03T21:21:13.496Z] [CAND]   (185) agriscientist.org
+[STDOUT] [2026-07-03T21:21:13.852Z] [2026-07-03T21:21:13.852Z] [RETRY]  8plus1.ru attempt 1/3: HTTP: fetch failed
+[STDOUT] [2026-07-03T21:21:13.951Z] [2026-07-03T21:21:13.950Z] [VERIFY] ✓ 20-wek.ru (wp-json)
+[STDOUT] [2026-07-03T21:21:13.955Z] [2026-07-03T21:21:13.955Z] [INFO]   [Worker 3] Recycled #50: 20-wek.ru
+[STDOUT] [2026-07-03T21:21:14.051Z] [2026-07-03T21:21:14.050Z] [CAND]   (186) agritechfrontiers.com
+[STDOUT] [2026-07-03T21:21:14.052Z] [2026-07-03T21:21:14.052Z] [RETRY]  1markam.ru attempt 1/3: HTTP: fetch failed
+[STDOUT] [2026-07-03T21:21:14.095Z] [2026-07-03T21:21:14.095Z] [VERIFY] ✓ 4revisionengines.com (wp-json)
+[STDOUT] [2026-07-03T21:21:14.097Z] [2026-07-03T21:21:14.097Z] [INFO]   [Worker 8] Recycled #51: 4revisionengines.com
+[STDOUT] [2026-07-03T21:21:14.156Z] [2026-07-03T21:21:14.155Z] [CAND]   (187) agro-luch.ru
+[STDOUT] [2026-07-03T21:21:14.165Z] [2026-07-03T21:21:14.165Z] [VERIFY] ✓ www.tokyobanhbao.com (wp-json)
+[STDOUT] [2026-07-03T21:21:14.169Z] [2026-07-03T21:21:14.169Z] [INFO]   [Worker 11] Recycled #52: www.tokyobanhbao.com
+[STDOUT] [2026-07-03T21:21:14.211Z] [2026-07-03T21:21:14.210Z] [CAND]   (188) agrodez.com.br
+[STDOUT] [2026-07-03T21:21:14.587Z] [2026-07-03T21:21:14.586Z] [RETRY]  8plus1.ru attempt 2/3: HTTP: fetch failed
+[STDOUT] [2026-07-03T21:21:15.493Z] [2026-07-03T21:21:15.493Z] [VERIFY] ✓ 7blog.lifecloud.tw (meta-generator)
+[STDOUT] [2026-07-03T21:21:15.498Z] [2026-07-03T21:21:15.498Z] [INFO]   [Worker 19] Recycled #53: 7blog.lifecloud.tw
+[STDOUT] [2026-07-03T21:21:15.591Z] [2026-07-03T21:21:15.588Z] [CAND]   (189) agrofyllida.gr
+[STDOUT] [2026-07-03T21:21:15.761Z] [2026-07-03T21:21:15.706Z] [VERIFY] ✓ 4uarab.com (meta-generator)
+[2026-07-03T21:21:15.708Z] [INFO]   [Worker 5] Recycled #54: 4uarab.com
+[2026-07-03T21:21:15.713Z] [CAND]   (190) agropart-rnd.ru
+[STDOUT] [2026-07-03T21:21:15.812Z] [2026-07-03T21:21:15.812Z] [REJECT] ✗ 8plus1.ru (HTTP_FAIL:fetch failed)
+[STDOUT] [2026-07-03T21:21:15.892Z] [2026-07-03T21:21:15.892Z] [CAND]   (191) ahomeforyouusa.com
+[STDOUT] [2026-07-03T21:21:16.083Z] [2026-07-03T21:21:16.082Z] [VERIFY] ✓ a-rconst.com (meta-generator)
+[STDOUT] [2026-07-03T21:21:16.085Z] [2026-07-03T21:21:16.084Z] [INFO]   [Worker 8] Inserted #55: a-rconst.com
+[STDOUT] [2026-07-03T21:21:16.180Z] [2026-07-03T21:21:16.178Z] [CAND]   (192) ahrweilerbc.com
+[STDOUT] [2026-07-03T21:21:17.132Z] [2026-07-03T21:21:17.131Z] [VERIFY] ✓ 4cf.pl (wp-json)
+[STDOUT] [2026-07-03T21:21:17.142Z] [2026-07-03T21:21:17.142Z] [INFO]   [Worker 14] Inserted #56: 4cf.pl
+[STDOUT] [2026-07-03T21:21:17.176Z] [2026-07-03T21:21:17.176Z] [CAND]   (193) ahsapbanklar.com
+[STDOUT] [2026-07-03T21:21:17.180Z] [2026-07-03T21:21:17.180Z] [VERIFY] ✓ 75dwest.com (wp-json)
+[STDOUT] [2026-07-03T21:21:17.183Z] [2026-07-03T21:21:17.183Z] [INFO]   [Worker 7] Recycled #57: 75dwest.com
+[STDOUT] [2026-07-03T21:21:17.283Z] [2026-07-03T21:21:17.283Z] [CAND]   (194) ahuramazda.es
+[STDOUT] [2026-07-03T21:21:17.483Z] [2026-07-03T21:21:17.483Z] [REJECT] ✗ 888spiritualscience.blogspot.com (NO_WP_EVIDENCE)
+[STDOUT] [2026-07-03T21:21:17.592Z] [2026-07-03T21:21:17.591Z] [CAND]   (195) aiamiami.org
+[STDOUT] [2026-07-03T21:21:18.149Z] [2026-07-03T21:21:18.148Z] [REJECT] ✗ aapdujunagadh.com (HTTP_FAIL:HTTP_403)
+[STDOUT] [2026-07-03T21:21:18.242Z] [2026-07-03T21:21:18.241Z] [CAND]   (196) aidafarma.com
+[STDOUT] [2026-07-03T21:21:19.368Z] [2026-07-03T21:21:19.368Z] [VERIFY] ✓ a-yane.net (wp-content)
+[STDOUT] [2026-07-03T21:21:19.377Z] [2026-07-03T21:21:19.375Z] [INFO]   [Worker 19] Recycled #58: a-yane.net
+[STDOUT] [2026-07-03T21:21:19.503Z] [2026-07-03T21:21:19.502Z] [CAND]   (197) aidasinc.com
+[STDOUT] [2026-07-03T21:21:19.607Z] [2026-07-03T21:21:19.607Z] [VERIFY] ✓ 4dekor.ru (wp-login)
+[STDOUT] [2026-07-03T21:21:19.609Z] [2026-07-03T21:21:19.609Z] [INFO]   [Worker 1] Recycled #59: 4dekor.ru
+[STDOUT] [2026-07-03T21:21:19.727Z] [2026-07-03T21:21:19.726Z] [CAND]   (198) ailedesign.co.jp
+[STDOUT] [2026-07-03T21:21:19.740Z] [2026-07-03T21:21:19.739Z] [RETRY]  3eparengenharia.com attempt 1/3: HTTP: fetch failed
+[STDOUT] [2026-07-03T21:21:20.241Z] [2026-07-03T21:21:20.240Z] [RETRY]  483betapp.com attempt 1/3: HTTP: fetch failed
+[STDOUT] [2026-07-03T21:21:21.738Z] [2026-07-03T21:21:21.738Z] [RETRY]  4x4extras.com.au attempt 1/3: HTTP: fetch failed
+[STDOUT] [2026-07-03T21:21:21.960Z] [2026-07-03T21:21:21.959Z] [VERIFY] ✓ aarthikvoice.com (wp-login)
+[STDOUT] [2026-07-03T21:21:21.962Z] [2026-07-03T21:21:21.962Z] [INFO]   [Worker 7] Recycled #60: aarthikvoice.com
+[STDOUT] [2026-07-03T21:21:22.019Z] [2026-07-03T21:21:22.018Z] [CAND]   (199) aimeeharrisondesigns.com
+[STDOUT] [2026-07-03T21:21:22.235Z] [2026-07-03T21:21:22.235Z] [VERIFY] ✓ aarambhathemes.com (meta-generator)
+[STDOUT] [2026-07-03T21:21:22.237Z] [2026-07-03T21:21:22.237Z] [INFO]   [Worker 2] Recycled #61: aarambhathemes.com
+[STDOUT] [2026-07-03T21:21:22.273Z] [2026-07-03T21:21:22.273Z] [CAND]   (200) aingroup.com
+[STDOUT] [2026-07-03T21:21:22.539Z] [2026-07-03T21:21:22.538Z] [VERIFY] ✓ 1063thebuzz.com (wp-content)
+[STDOUT] [2026-07-03T21:21:22.543Z] [2026-07-03T21:21:22.542Z] [INFO]   [Worker 18] Recycled #62: 1063thebuzz.com
+[STDOUT] [2026-07-03T21:21:22.545Z] [2026-07-03T21:21:22.545Z] [CAND]   (201) airconcompany.co.za
+[STDOUT] [2026-07-03T21:21:22.580Z] [2026-07-03T21:21:22.579Z] [VERIFY] ✓ 720rip.ru (wp-content)
+[STDOUT] [2026-07-03T21:21:22.583Z] [2026-07-03T21:21:22.582Z] [INFO]   [Worker 6] Recycled #63: 720rip.ru
+[STDOUT] [2026-07-03T21:21:22.585Z] [2026-07-03T21:21:22.584Z] [CAND]   (202) aireannaelanah.com
+[STDOUT] [2026-07-03T21:21:22.722Z] [2026-07-03T21:21:22.722Z] [VERIFY] ✓ 999thepoint.com (wp-content)
+[STDOUT] [2026-07-03T21:21:22.726Z] [2026-07-03T21:21:22.725Z] [INFO]   [Worker 3] Recycled #64: 999thepoint.com
+[STDOUT] [2026-07-03T21:21:22.817Z] [2026-07-03T21:21:22.817Z] [CAND]   (203) airlinescityoffice.com
+[STDOUT] [2026-07-03T21:21:22.819Z] [2026-07-03T21:21:22.819Z] [REJECT] ✗ abeclinic.info (HTTP_FAIL:HTTP_403)
+[STDOUT] [2026-07-03T21:21:23.009Z] [2026-07-03T21:21:23.008Z] [CAND]   (204) airport.lg.ua
+[STDOUT] [2026-07-03T21:21:24.296Z] [2026-07-03T21:21:24.295Z] [VERIFY] ✓ aboutcolor.net (meta-generator)
+[STDOUT] [2026-07-03T21:21:24.299Z] [2026-07-03T21:21:24.298Z] [INFO]   [Worker 3] Recycled #65: aboutcolor.net
+[STDOUT] [2026-07-03T21:21:24.364Z] [2026-07-03T21:21:24.363Z] [CAND]   (205) airpu.org
+[STDOUT] [2026-07-03T21:21:24.824Z] [2026-07-03T21:21:24.824Z] [VERIFY] ✓ ablemove.co.uk (meta-generator)
+[STDOUT] [2026-07-03T21:21:24.832Z] [2026-07-03T21:21:24.832Z] [INFO]   [Worker 18] Recycled #66: ablemove.co.uk
+[STDOUT] [2026-07-03T21:21:24.987Z] [2026-07-03T21:21:24.986Z] [CAND]   (206) airsoftmontequinto.com
+[STDOUT] [2026-07-03T21:21:25.228Z] [2026-07-03T21:21:25.228Z] [VERIFY] ✓ 967theeagle.net (wp-content)
+[STDOUT] [2026-07-03T21:21:25.233Z] [2026-07-03T21:21:25.233Z] [INFO]   [Worker 13] Recycled #67: 967theeagle.net
+[STDOUT] [2026-07-03T21:21:25.390Z] [2026-07-03T21:21:25.389Z] [CAND]   (207) airtoheat.co.uk
+[STDOUT] [2026-07-03T21:21:25.487Z] [2026-07-03T21:21:25.487Z] [RETRY]  1markam.ru attempt 2/3: HTTP: fetch failed
+[STDOUT] [2026-07-03T21:21:26.486Z] [2026-07-03T21:21:26.486Z] [RETRY]  a1feldkirch.net attempt 1/3: HTTP: fetch failed
+[STDOUT] [2026-07-03T21:21:26.864Z] [2026-07-03T21:21:26.863Z] [VERIFY] ✓ abogadosdetusdeudas.com (meta-generator)
+[STDOUT] [2026-07-03T21:21:26.867Z] [2026-07-03T21:21:26.867Z] [INFO]   [Worker 6] Recycled #68: abogadosdetusdeudas.com
+[STDOUT] [2026-07-03T21:21:26.946Z] [2026-07-03T21:21:26.945Z] [CAND]   (208) aitc.ua.edu
+[STDOUT] [2026-07-03T21:21:27.111Z] [2026-07-03T21:21:27.111Z] [VERIFY] ✓ abix-virtual.pl (wp-json)
+[STDOUT] [2026-07-03T21:21:27.117Z] [2026-07-03T21:21:27.116Z] [INFO]   [Worker 2] Recycled #69: abix-virtual.pl
+[STDOUT] [2026-07-03T21:21:27.319Z] [2026-07-03T21:21:27.314Z] [CAND]   (209) aitech365.com
+[STDOUT] [2026-07-03T21:21:27.373Z] [2026-07-03T21:21:27.372Z] [VERIFY] ✓ aa-textiles.com (meta-generator)
+[STDOUT] [2026-07-03T21:21:27.378Z] [2026-07-03T21:21:27.378Z] [INFO]   [Worker 8] Recycled #70: aa-textiles.com
+[STDOUT] [2026-07-03T21:21:27.565Z] [2026-07-03T21:21:27.564Z] [CAND]   (210) aiviremulla.com
+[STDOUT] [2026-07-03T21:21:27.916Z] [2026-07-03T21:21:27.913Z] [VERIFY] ✓ abracadabar.fr (wp-json)
+[STDOUT] [2026-07-03T21:21:27.966Z] [2026-07-03T21:21:27.965Z] [INFO]   [Worker 7] Recycled #71: abracadabar.fr
+[STDOUT] [2026-07-03T21:21:28.137Z] [2026-07-03T21:21:28.136Z] [CAND]   (211) ajansbalikesir.com
+[STDOUT] [2026-07-03T21:21:28.138Z] [2026-07-03T21:21:28.138Z] [VERIFY] ✓ aa-westerncolorado.com (meta-generator)
+[STDOUT] [2026-07-03T21:21:28.142Z] [2026-07-03T21:21:28.141Z] [INFO]   [Worker 14] Recycled #72: aa-westerncolorado.com
+[STDOUT] [2026-07-03T21:21:28.324Z] [2026-07-03T21:21:28.323Z] [CAND]   (212) ajimartono.com
+[STDOUT] [2026-07-03T21:21:28.830Z] [2026-07-03T21:21:28.829Z] [VERIFY] ✓ a5erp.solutions (meta-generator)
+[STDOUT] [2026-07-03T21:21:28.836Z] [2026-07-03T21:21:28.836Z] [INFO]   [Worker 4] Recycled #73: a5erp.solutions
+[STDOUT] [2026-07-03T21:21:28.918Z] [2026-07-03T21:21:28.917Z] [CAND]   (213) ajuda.sgsistemas.com.br
+[STDOUT] [2026-07-03T21:21:28.980Z] [2026-07-03T21:21:28.979Z] [VERIFY] ✓ abramsonfoundation.org (wp-json)
+[STDOUT] [2026-07-03T21:21:28.982Z] [2026-07-03T21:21:28.981Z] [INFO]   [Worker 3] Recycled #74: abramsonfoundation.org
+[STDOUT] [2026-07-03T21:21:29.157Z] [2026-07-03T21:21:29.156Z] [CAND]   (214) akce-letenky.cz
+[STDOUT] [2026-07-03T21:21:29.545Z] [2026-07-03T21:21:29.545Z] [VERIFY] ✓ abalonegraphics.com (wp-json)
+[STDOUT] [2026-07-03T21:21:29.547Z] [2026-07-03T21:21:29.547Z] [INFO]   [Worker 1] Inserted #75: abalonegraphics.com
+[STDOUT] [2026-07-03T21:21:29.747Z] [2026-07-03T21:21:29.744Z] [CAND]   (215) akhisargundem.net
+[STDOUT] [2026-07-03T21:21:30.250Z] [2026-07-03T21:21:30.247Z] [RETRY]  abalar.pt attempt 1/3: HTTP: fetch failed
+[STDOUT] [2026-07-03T21:21:30.482Z] [2026-07-03T21:21:30.482Z] [VERIFY] ✓ ac-times.com (meta-generator)
+[STDOUT] [2026-07-03T21:21:30.490Z] [2026-07-03T21:21:30.489Z] [INFO]   [Worker 8] Recycled #76: ac-times.com
+[STDOUT] [2026-07-03T21:21:30.680Z] [2026-07-03T21:21:30.678Z] [CAND]   (216) akitahome.com
+[STDOUT] [2026-07-03T21:21:31.246Z] [2026-07-03T21:21:31.245Z] [RETRY]  3eparengenharia.com attempt 2/3: HTTP: fetch failed
+[STDOUT] [2026-07-03T21:21:31.273Z] [2026-07-03T21:21:31.266Z] [VERIFY] ✓ acaesclub.com (meta-generator)
+[2026-07-03T21:21:31.272Z] [INFO]   [Worker 14] Recycled #77: acaesclub.com
+[STDOUT] [2026-07-03T21:21:31.364Z] [2026-07-03T21:21:31.363Z] [CAND]   (217) akiya-kaitori.net
+[STDOUT] [2026-07-03T21:21:31.409Z] [2026-07-03T21:21:31.409Z] [VERIFY] ✓ abraves.com.br (wp-json)
+[STDOUT] [2026-07-03T21:21:31.450Z] [2026-07-03T21:21:31.449Z] [INFO]   [Worker 13] Recycled #78: abraves.com.br
+[STDOUT] [2026-07-03T21:21:31.738Z] [2026-07-03T21:21:31.734Z] [CAND]   (218) akmag.net
+[STDOUT] [2026-07-03T21:21:31.744Z] [2026-07-03T21:21:31.744Z] [RETRY]  483betapp.com attempt 2/3: HTTP: fetch failed
+[STDOUT] [2026-07-03T21:21:33.246Z] [2026-07-03T21:21:33.246Z] [RETRY]  4x4extras.com.au attempt 2/3: HTTP: fetch failed
+[STDOUT] [2026-07-03T21:21:33.474Z] [2026-07-03T21:21:33.474Z] [VERIFY] ✓ accommodationworld.in (wp-json)
+[STDOUT] [2026-07-03T21:21:33.485Z] [2026-07-03T21:21:33.484Z] [INFO]   [Worker 14] Recycled #79: accommodationworld.in
+[STDOUT] [2026-07-03T21:21:33.581Z] [2026-07-03T21:21:33.580Z] [CAND]   (219) akonaip.com
+[STDOUT] [2026-07-03T21:21:33.964Z] [2026-07-03T21:21:33.964Z] [REJECT] ✗ 12tomates.com (HTTP_FAIL:HTTP_525)
+[STDOUT] [2026-07-03T21:21:34.207Z] [2026-07-03T21:21:34.203Z] [CAND]   (220) akropolis.info
+[STDOUT] [2026-07-03T21:21:34.582Z] [2026-07-03T21:21:34.581Z] [VERIFY] ✓ acasino.sk (meta-generator)
+[STDOUT] [2026-07-03T21:21:34.589Z] [2026-07-03T21:21:34.589Z] [INFO]   [Worker 3] Recycled #80: acasino.sk
+[STDOUT] [2026-07-03T21:21:34.957Z] [2026-07-03T21:21:34.832Z] [CAND]   (221) akt.fi
+[STDOUT] [2026-07-03T21:21:35.357Z] [2026-07-03T21:21:35.357Z] [REJECT] ✗ accademiadellaliberta.blogspot.com (NO_WP_EVIDENCE)
+[STDOUT] [2026-07-03T21:21:35.595Z] [2026-07-03T21:21:35.594Z] [CAND]   (222) aktasfloors.com
+[STDOUT] [2026-07-03T21:21:35.614Z] [2026-07-03T21:21:35.613Z] [VERIFY] ✓ acecheap.com (meta-generator)
+[STDOUT] [2026-07-03T21:21:35.630Z] [2026-07-03T21:21:35.629Z] [INFO]   [Worker 3] Recycled #81: acecheap.com
+[STDOUT] [2026-07-03T21:21:35.880Z] [2026-07-03T21:21:35.843Z] [CAND]   (223) aktivpsykologi.se
+[2026-07-03T21:21:35.845Z] [REJECT] ✗ 76qbetk.com (HTTP_FAIL:HTTP_522)
+[2026-07-03T21:21:35.845Z] [CAND]   (224) aktueladam.com
+[STDOUT] [2026-07-03T21:21:36.393Z] [2026-07-03T21:21:36.392Z] [VERIFY] ✓ acegu.com.co (meta-generator)
+[STDOUT] [2026-07-03T21:21:36.397Z] [2026-07-03T21:21:36.397Z] [INFO]   [Worker 8] Recycled #82: acegu.com.co
+[STDOUT] [2026-07-03T21:21:36.637Z] [2026-07-03T21:21:36.635Z] [CAND]   (225) aktuelnosti.us
+[STDOUT] [2026-07-03T21:21:36.650Z] [2026-07-03T21:21:36.649Z] [VERIFY] ✓ academiadeadoracion.es (meta-generator)
+[STDOUT] [2026-07-03T21:21:36.718Z] [2026-07-03T21:21:36.713Z] [INFO]   [Worker 7] Recycled #83: academiadeadoracion.es
+[STDOUT] [2026-07-03T21:21:37.518Z] [2026-07-03T21:21:36.986Z] [CAND]   (226) al-wael.com
+[2026-07-03T21:21:36.992Z] [VERIFY] ✓ absal.org (meta-generator)
+[2026-07-03T21:21:36.996Z] [REJECT] ✗ acapps.org (NO_WP_EVIDENCE)
+[2026-07-03T21:21:36.997Z] [CAND]   (227) al3aby.com
+[2026-07-03T21:21:37.003Z] [INFO]   [Worker 6] Recycled #84: absal.org
+[2026-07-03T21:21:37.309Z] [CAND]   (228) alahlynow.com
+[2026-07-03T21:21:37.488Z] [REJECT] ✗ 1markam.ru (HTTP_FAIL:fetch failed)
+[STDOUT] [2026-07-03T21:21:37.740Z] [2026-07-03T21:21:37.740Z] [CAND]   (229) alangidekel.com
+[STDOUT] [2026-07-03T21:21:37.986Z] [2026-07-03T21:21:37.986Z] [RETRY]  abujaba.com attempt 1/3: HTTP: fetch failed
+[STDOUT] [2026-07-03T21:21:37.987Z] [2026-07-03T21:21:37.986Z] [RETRY]  a1feldkirch.net attempt 2/3: HTTP: fetch failed
+[STDOUT] [2026-07-03T21:21:38.238Z] [2026-07-03T21:21:38.238Z] [VERIFY] ✓ www.tlzxjc.com (wp-json)
+[STDOUT] [2026-07-03T21:21:38.303Z] [2026-07-03T21:21:38.303Z] [INFO]   [Worker 10] Inserted #85: www.tlzxjc.com
+[STDOUT] [2026-07-03T21:21:38.555Z] [2026-07-03T21:21:38.546Z] [CAND]   (230) alarmedeclerck.be
+[STDOUT] [2026-07-03T21:21:38.563Z] [2026-07-03T21:21:38.552Z] [VERIFY] ✓ aclass-seishin.jp (meta-generator)
+[STDOUT] [2026-07-03T21:21:38.601Z] [2026-07-03T21:21:38.601Z] [INFO]   [Worker 6] Recycled #86: aclass-seishin.jp
+[STDOUT] [2026-07-03T21:21:38.858Z] [2026-07-03T21:21:38.857Z] [CAND]   (231) alaweertrading.com
+[STDOUT] [2026-07-03T21:21:39.223Z] [2026-07-03T21:21:39.219Z] [VERIFY] ✓ abrasce.com.br (wp-json)
+[STDOUT] [2026-07-03T21:21:41.447Z] [2026-07-03T21:21:39.234Z] [INFO]   [Worker 18] Recycled #87: abrasce.com.br
+[2026-07-03T21:21:39.493Z] [CAND]   (232) albatros-media.at
+[2026-07-03T21:21:39.546Z] [VERIFY] ✓ accountantsnearme.ca (wp-json)
+[2026-07-03T21:21:39.556Z] [INFO]   [Worker 13] Recycled #88: accountantsnearme.ca
+[2026-07-03T21:21:39.557Z] [VERIFY] ✓ acia-ap.org.br (meta-generator)
+[STDOUT] [2026-07-03T21:21:42.004Z] [2026-07-03T21:21:42.003Z] [CAND]   (233) albatroz-eng.com
+[STDOUT] [2026-07-03T21:21:42.021Z] [2026-07-03T21:21:42.021Z] [INFO]   [CHECKPOINT] State persisted. Segment: CC-MAIN-20260508074046-20260508104046-00000.warc.gz offset: 2049 verified: 199
+[STDOUT] [2026-07-03T21:21:42.128Z] [2026-07-03T21:21:42.128Z] [VERIFY] ✓ accuratemedbilling.com (wp-json)
+[STDOUT] [2026-07-03T21:21:42.361Z] [2026-07-03T21:21:42.360Z] [VERIFY] ✓ acf.sa (meta-generator)
+[STDOUT] [2026-07-03T21:21:42.373Z] [2026-07-03T21:21:42.373Z] [VERIFY] ✓ acesaudi.org (meta-generator)
+[STDOUT] [2026-07-03T21:21:42.464Z] [2026-07-03T21:21:42.464Z] [INFO]   [Worker 17] Recycled #89: accuratemedbilling.com
+[STDOUT] [2026-07-03T21:21:42.568Z] [2026-07-03T21:21:42.566Z] [CAND]   (234) albertfeldmann.de
+[STDOUT] [2026-07-03T21:21:42.617Z] [2026-07-03T21:21:42.617Z] [VERIFY] ✓ accountingservicesofyork.com (wp-json)
+[STDOUT] [2026-07-03T21:21:42.629Z] [2026-07-03T21:21:42.628Z] [VERIFY] ✓ acplushvac.com (meta-generator)
+[STDOUT] [2026-07-03T21:21:42.684Z] [2026-07-03T21:21:42.654Z] [INFO]   [Worker 14] Inserted #90: accountingservicesofyork.com
+[STDOUT] [2026-07-03T21:21:43.012Z] [2026-07-03T21:21:43.004Z] [CAND]   (235) alchemi.st
+[STDOUT] [2026-07-03T21:21:43.096Z] [2026-07-03T21:21:43.085Z] [REJECT] ✗ acoo.jp (NO_WP_EVIDENCE)
+[STDOUT] [2026-07-03T21:21:44.712Z] [2026-07-03T21:21:44.599Z] [CAND]   (236) aldjepe.com
+[2026-07-03T21:21:44.620Z] [INFO]   [Worker 8] Recycled #91: acf.sa
+[2026-07-03T21:21:44.621Z] [INFO]   [Worker 6] Recycled #92: acplushvac.com
+[2026-07-03T21:21:44.646Z] [VERIFY] ✓ a-servis.com.tr (wp-json)
+[STDOUT] [2026-07-03T21:22:20.846Z] [2026-07-03T21:22:20.844Z] [INFO]   Starting verified-domain collector
+[STDOUT] [2026-07-03T21:22:20.846Z] [2026-07-03T21:22:20.846Z] [INFO]   Refill target: 500 unserved domains
+[2026-07-03T21:22:20.846Z] [INFO]   Concurrency: 20 workers
+[2026-07-03T21:22:20.846Z] [INFO]   Queue capacity: 100
+[STDOUT] [2026-07-03T21:22:20.927Z] [2026-07-03T21:22:20.927Z] [INFO]   Database: 1189 total domains, 142 unserved
+[STDOUT] [2026-07-03T21:22:20.927Z] [2026-07-03T21:22:20.927Z] [INFO]   Need to refill: 142 unserved → target 500
+[2026-07-03T21:22:20.927Z] [INFO]   Checkpoint detected: resuming from WARC CC-MAIN-20260508074046-20260508104046-00000.warc.gz at record offset 2049 (already verified: 199)
+[STDOUT] [2026-07-03T21:22:20.927Z] [2026-07-03T21:22:20.927Z] [INFO]   Fetching WARC index: https://data.commoncrawl.org/crawl-data/CC-MAIN-2026-21/warc.paths.gz
+[STDOUT] [2026-07-03T21:22:21.488Z] [2026-07-03T21:22:21.488Z] [INFO]   Found checkpoint WARC segment #1. Resuming…
+[STDOUT] [2026-07-03T21:22:21.489Z] [2026-07-03T21:22:21.488Z] [WARC]   Starting segment #1: CC-MAIN-20260508074046-20260508104046-00000.warc.gz
+[STDOUT] [2026-07-03T21:22:44.919Z] [2026-07-03T21:22:44.917Z] [CAND]   (1) albertfeldmann.de
+[STDOUT] [2026-07-03T21:22:44.920Z] [2026-07-03T21:22:44.920Z] [CAND]   (2) alchemi.st
+[STDOUT] [2026-07-03T21:22:44.923Z] [2026-07-03T21:22:44.922Z] [CAND]   (3) aldjepe.com
+[STDOUT] [2026-07-03T21:22:44.950Z] [2026-07-03T21:22:44.950Z] [CAND]   (4) alegorix.media
+[STDOUT] [2026-07-03T21:22:44.968Z] [2026-07-03T21:22:44.968Z] [CAND]   (5) alequine.com
+[STDOUT] [2026-07-03T21:22:45.066Z] [2026-07-03T21:22:45.066Z] [CAND]   (6) alexander-hellas.blogspot.com
+[STDOUT] [2026-07-03T21:22:45.069Z] [2026-07-03T21:22:45.069Z] [CAND]   (7) alexatarantino.com
+[STDOUT] [2026-07-03T21:22:45.070Z] [2026-07-03T21:22:45.070Z] [CAND]   (8) alexejbycek.cz
+[STDOUT] [2026-07-03T21:22:45.071Z] [2026-07-03T21:22:45.071Z] [CAND]   (9) alextanous.org
+[STDOUT] [2026-07-03T21:22:45.074Z] [2026-07-03T21:22:45.073Z] [CAND]   (10) alfaclub.de
+[STDOUT] [2026-07-03T21:22:45.075Z] [2026-07-03T21:22:45.075Z] [CAND]   (11) alfirozhw.com
+[STDOUT] [2026-07-03T21:22:45.172Z] [2026-07-03T21:22:45.172Z] [CAND]   (12) alhadattv.ma
+[STDOUT] [2026-07-03T21:22:45.173Z] [2026-07-03T21:22:45.173Z] [CAND]   (13) alhijazindowisata.co.id
+[STDOUT] [2026-07-03T21:22:45.179Z] [2026-07-03T21:22:45.179Z] [CAND]   (14) ali-altheeb.com
+[STDOUT] [2026-07-03T21:22:45.238Z] [2026-07-03T21:22:45.237Z] [CAND]   (15) alibi.com
+[STDOUT] [2026-07-03T21:22:45.444Z] [2026-07-03T21:22:45.444Z] [CAND]   (16) alinmaepress.com
+[STDOUT] [2026-07-03T21:22:45.452Z] [2026-07-03T21:22:45.451Z] [CAND]   (17) alive-beauty.de
+[STDOUT] [2026-07-03T21:22:45.456Z] [2026-07-03T21:22:45.456Z] [CAND]   (18) aljabran.com
+[STDOUT] [2026-07-03T21:22:45.457Z] [2026-07-03T21:22:45.457Z] [CAND]   (19) aljadide24.ma
+[STDOUT] [2026-07-03T21:22:45.458Z] [2026-07-03T21:22:45.458Z] [CAND]   (20) aljazirnews.com
+[STDOUT] [2026-07-03T21:22:45.641Z] [2026-07-03T21:22:45.641Z] [CAND]   (21) alkhalij-center.com
+[STDOUT] [2026-07-03T21:22:45.644Z] [2026-07-03T21:22:45.643Z] [CAND]   (22) allabout.city
+[STDOUT] [2026-07-03T21:22:45.644Z] [2026-07-03T21:22:45.644Z] [CAND]   (23) allairsolar.com
+[STDOUT] [2026-07-03T21:22:45.645Z] [2026-07-03T21:22:45.645Z] [CAND]   (24) allbuzz.co.uk
+[STDOUT] [2026-07-03T21:22:45.648Z] [2026-07-03T21:22:45.647Z] [CAND]   (25) allcouponat.com
+[STDOUT] [2026-07-03T21:22:45.649Z] [2026-07-03T21:22:45.649Z] [CAND]   (26) alleghenyriverstone.org
+[STDOUT] [2026-07-03T21:22:45.651Z] [2026-07-03T21:22:45.651Z] [CAND]   (27) allendreyfus.com
+[STDOUT] [2026-07-03T21:22:45.651Z] [2026-07-03T21:22:45.651Z] [CAND]   (28) alleppeyhouseboat.in
+[STDOUT] [2026-07-03T21:22:45.652Z] [2026-07-03T21:22:45.652Z] [CAND]   (29) allergybreakthroughcenter.com
+[STDOUT] [2026-07-03T21:22:45.653Z] [2026-07-03T21:22:45.652Z] [CAND]   (30) allespaka.de
+[STDOUT] [2026-07-03T21:22:45.654Z] [2026-07-03T21:22:45.654Z] [CAND]   (31) allg9.com
+[STDOUT] [2026-07-03T21:22:45.666Z] [2026-07-03T21:22:45.665Z] [REJECT] ✗ aldjepe.com (HTTP_FAIL:fetch failed)
+[STDOUT] [2026-07-03T21:22:45.834Z] [2026-07-03T21:22:45.834Z] [CAND]   (32) alliedbiz.tech
+[STDOUT] [2026-07-03T21:22:45.836Z] [2026-07-03T21:22:45.835Z] [CAND]   (33) allkidsdentalva.com
+[STDOUT] [2026-07-03T21:22:45.836Z] [2026-07-03T21:22:45.836Z] [CAND]   (34) allmatics.com
+[STDOUT] [2026-07-03T21:22:45.837Z] [2026-07-03T21:22:45.837Z] [CAND]   (35) allmedialink.com
+[STDOUT] [2026-07-03T21:22:46.033Z] [2026-07-03T21:22:46.032Z] [CAND]   (36) allpropainters.net
+[STDOUT] [2026-07-03T21:22:46.034Z] [2026-07-03T21:22:46.033Z] [CAND]   (37) allsaintsmedicalcentre.com.au
+[STDOUT] [2026-07-03T21:22:46.038Z] [2026-07-03T21:22:46.038Z] [CAND]   (38) allsolutions.nl
+[STDOUT] [2026-07-03T21:22:46.140Z] [2026-07-03T21:22:46.139Z] [CAND]   (39) almeco.gr
+[STDOUT] [2026-07-03T21:22:46.142Z] [2026-07-03T21:22:46.142Z] [CAND]   (40) aloesporte.com.br
+[STDOUT] [2026-07-03T21:22:46.142Z] [2026-07-03T21:22:46.142Z] [CAND]   (41) aloette.com
+[STDOUT] [2026-07-03T21:22:46.143Z] [2026-07-03T21:22:46.143Z] [CAND]   (42) alomdatech.com
+[STDOUT] [2026-07-03T21:22:46.144Z] [2026-07-03T21:22:46.144Z] [CAND]   (43) alpesconseils.fr
+[STDOUT] [2026-07-03T21:22:46.145Z] [2026-07-03T21:22:46.145Z] [CAND]   (44) alpha-lift.be
+[STDOUT] [2026-07-03T21:22:46.146Z] [2026-07-03T21:22:46.146Z] [CAND]   (45) alpha-medical.com.ua
+[STDOUT] [2026-07-03T21:22:46.147Z] [2026-07-03T21:22:46.147Z] [CAND]   (46) alphanews.sn
+[STDOUT] [2026-07-03T21:22:46.147Z] [2026-07-03T21:22:46.147Z] [CAND]   (47) alponiente.com
+[STDOUT] [2026-07-03T21:22:46.148Z] [2026-07-03T21:22:46.148Z] [CAND]   (48) alqueriasportbar.com
+[STDOUT] [2026-07-03T21:22:46.325Z] [2026-07-03T21:22:46.325Z] [CAND]   (49) alsitioarquitectura.com
+[STDOUT] [2026-07-03T21:22:46.327Z] [2026-07-03T21:22:46.326Z] [CAND]   (50) alt-om-nettet.dk
+[STDOUT] [2026-07-03T21:22:46.327Z] [2026-07-03T21:22:46.327Z] [CAND]   (51) alt.edu.vn
+[STDOUT] [2026-07-03T21:22:46.759Z] [2026-07-03T21:22:46.758Z] [VERIFY] ✓ alchemi.st (meta-generator)
+[STDOUT] [2026-07-03T21:22:46.770Z] [2026-07-03T21:22:46.770Z] [INFO]   [Worker 2] Inserted #1: alchemi.st
+[STDOUT] [2026-07-03T21:22:46.786Z] [2026-07-03T21:22:46.785Z] [CAND]   (52) altaqwaonline.com
+[STDOUT] [2026-07-03T21:22:46.786Z] [2026-07-03T21:22:46.786Z] [CAND]   (53) altmod.de
+[STDOUT] [2026-07-03T21:22:46.786Z] [2026-07-03T21:22:46.786Z] [CAND]   (54) altoexito.com
+[STDOUT] [2026-07-03T21:22:46.787Z] [2026-07-03T21:22:46.787Z] [CAND]   (55) altporn.net
+[STDOUT] [2026-07-03T21:22:46.788Z] [2026-07-03T21:22:46.788Z] [CAND]   (56) alukoenigstahl.md
+[STDOUT] [2026-07-03T21:22:46.789Z] [2026-07-03T21:22:46.788Z] [CAND]   (57) alulalearning.com
+[STDOUT] [2026-07-03T21:22:46.791Z] [2026-07-03T21:22:46.790Z] [CAND]   (58) alvaradoco.com
+[STDOUT] [2026-07-03T21:22:46.795Z] [2026-07-03T21:22:46.795Z] [CAND]   (59) alzheimersspeaks.com
+[STDOUT] [2026-07-03T21:22:46.796Z] [2026-07-03T21:22:46.796Z] [CAND]   (60) am-clothes.digitalflow.dev
+[STDOUT] [2026-07-03T21:22:46.816Z] [2026-07-03T21:22:46.816Z] [CAND]   (61) amaghanaonline.com
+[STDOUT] [2026-07-03T21:22:46.818Z] [2026-07-03T21:22:46.818Z] [CAND]   (62) amalfinotizie.it
+[STDOUT] [2026-07-03T21:22:46.821Z] [2026-07-03T21:22:46.821Z] [CAND]   (63) amaraconsulting.com.mm
+[STDOUT] [2026-07-03T21:22:46.822Z] [2026-07-03T21:22:46.822Z] [CAND]   (64) amariah-andrea.com
+[STDOUT] [2026-07-03T21:22:46.823Z] [2026-07-03T21:22:46.823Z] [CAND]   (65) amazedev.com
+[STDOUT] [2026-07-03T21:22:46.824Z] [2026-07-03T21:22:46.823Z] [CAND]   (66) amazingdalat.com
+[STDOUT] [2026-07-03T21:22:46.824Z] [2026-07-03T21:22:46.824Z] [CAND]   (67) ambalajecofetarii.ro
+[STDOUT] [2026-07-03T21:22:46.824Z] [2026-07-03T21:22:46.824Z] [CAND]   (68) ambassadeursduroyaume.com
+[STDOUT] [2026-07-03T21:22:46.825Z] [2026-07-03T21:22:46.825Z] [CAND]   (69) ambassador.adventures.org
+[STDOUT] [2026-07-03T21:22:46.825Z] [2026-07-03T21:22:46.825Z] [CAND]   (70) amcnatural.com
+[STDOUT] [2026-07-03T21:22:46.829Z] [2026-07-03T21:22:46.829Z] [CAND]   (71) amecbrasil.org.br
+[STDOUT] [2026-07-03T21:22:46.843Z] [2026-07-03T21:22:46.843Z] [CAND]   (72) americancaravansdirect.com
+[STDOUT] [2026-07-03T21:22:46.844Z] [2026-07-03T21:22:46.844Z] [CAND]   (73) americaneliteepoxy.com
+[STDOUT] [2026-07-03T21:22:46.844Z] [2026-07-03T21:22:46.844Z] [CAND]   (74) americanexcelsior.com
+[STDOUT] [2026-07-03T21:22:46.847Z] [2026-07-03T21:22:46.847Z] [CAND]   (75) americanhomequotes.com
+[STDOUT] [2026-07-03T21:22:46.850Z] [2026-07-03T21:22:46.850Z] [CAND]   (76) americanrealestateventures.com
+[STDOUT] [2026-07-03T21:22:46.918Z] [2026-07-03T21:22:46.917Z] [CAND]   (77) americanrefractivesurgerycouncil.org
+[STDOUT] [2026-07-03T21:22:46.920Z] [2026-07-03T21:22:46.920Z] [CAND]   (78) amersm.ai
+[STDOUT] [2026-07-03T21:22:46.925Z] [2026-07-03T21:22:46.925Z] [CAND]   (79) amfoo-shop.de
+[STDOUT] [2026-07-03T21:22:46.926Z] [2026-07-03T21:22:46.926Z] [CAND]   (80) amherstva.gov
+[STDOUT] [2026-07-03T21:22:46.926Z] [2026-07-03T21:22:46.926Z] [CAND]   (81) amigasenlacocina.com
+[STDOUT] [2026-07-03T21:22:46.927Z] [2026-07-03T21:22:46.926Z] [CAND]   (82) amilifeassurance.com
+[STDOUT] [2026-07-03T21:22:46.976Z] [2026-07-03T21:22:46.976Z] [VERIFY] ✓ alfirozhw.com (meta-generator)
+[STDOUT] [2026-07-03T21:22:46.979Z] [2026-07-03T21:22:46.979Z] [INFO]   [Worker 11] Inserted #2: alfirozhw.com
+[STDOUT] [2026-07-03T21:22:47.119Z] [2026-07-03T21:22:47.119Z] [CAND]   (83) amis-musee-valence.org
+[STDOUT] [2026-07-03T21:22:47.125Z] [2026-07-03T21:22:47.124Z] [CAND]   (84) amitabhsaxena.com
+[STDOUT] [2026-07-03T21:22:47.126Z] [2026-07-03T21:22:47.126Z] [CAND]   (85) amkorti.com
+[STDOUT] [2026-07-03T21:22:47.127Z] [2026-07-03T21:22:47.127Z] [CAND]   (86) amongtheleaves.com
+[STDOUT] [2026-07-03T21:22:47.128Z] [2026-07-03T21:22:47.128Z] [CAND]   (87) amorsystems.com
+[STDOUT] [2026-07-03T21:22:47.128Z] [2026-07-03T21:22:47.128Z] [CAND]   (88) amoversuae.com
+[STDOUT] [2026-07-03T21:22:47.130Z] [2026-07-03T21:22:47.130Z] [CAND]   (89) amsterdam750.nl
+[STDOUT] [2026-07-03T21:22:47.134Z] [2026-07-03T21:22:47.133Z] [CAND]   (90) amyanderson.net
+[STDOUT] [2026-07-03T21:22:47.135Z] [2026-07-03T21:22:47.135Z] [CAND]   (91) anal.fanza.link
+[STDOUT] [2026-07-03T21:22:47.136Z] [2026-07-03T21:22:47.135Z] [CAND]   (92) analystliberiaonline.com
+[STDOUT] [2026-07-03T21:22:47.525Z] [2026-07-03T21:22:47.524Z] [CAND]   (93) anchorspointcoa.org
+[STDOUT] [2026-07-03T21:22:47.525Z] [2026-07-03T21:22:47.525Z] [CAND]   (94) and1-detail.net
+[STDOUT] [2026-07-03T21:22:47.656Z] [2026-07-03T21:22:47.656Z] [CAND]   (95) andpremium.jp
+[STDOUT] [2026-07-03T21:22:47.657Z] [2026-07-03T21:22:47.657Z] [CAND]   (96) andrafarazahar.ro
+[STDOUT] [2026-07-03T21:22:47.661Z] [2026-07-03T21:22:47.661Z] [CAND]   (97) andros.co
+[STDOUT] [2026-07-03T21:22:47.662Z] [2026-07-03T21:22:47.661Z] [CAND]   (98) andylosik.blogspot.com
+[STDOUT] [2026-07-03T21:22:47.664Z] [2026-07-03T21:22:47.664Z] [CAND]   (99) anfe.fr
+[STDOUT] [2026-07-03T21:22:47.665Z] [2026-07-03T21:22:47.665Z] [CAND]   (100) anglophone-direct.com
+[STDOUT] [2026-07-03T21:22:47.666Z] [2026-07-03T21:22:47.666Z] [CAND]   (101) angoragarnet.com
+[STDOUT] [2026-07-03T21:22:47.666Z] [2026-07-03T21:22:47.666Z] [CAND]   (102) angottistrafacelaw.com
+[STDOUT] [2026-07-03T21:22:47.667Z] [2026-07-03T21:22:47.667Z] [CAND]   (103) anhhongdecal.com
+[STDOUT] [2026-07-03T21:22:47.670Z] [2026-07-03T21:22:47.670Z] [CAND]   (104) animals.net
+[STDOUT] [2026-07-03T21:22:47.678Z] [2026-07-03T21:22:47.677Z] [CAND]   (105) animexin.dev
+[STDOUT] [2026-07-03T21:22:47.679Z] [2026-07-03T21:22:47.679Z] [CAND]   (106) aniro.pl
+[STDOUT] [2026-07-03T21:22:47.684Z] [2026-07-03T21:22:47.684Z] [CAND]   (107) anisimov.biz
+[STDOUT] [2026-07-03T21:22:47.685Z] [2026-07-03T21:22:47.685Z] [CAND]   (108) anjoseluz.net
+[STDOUT] [2026-07-03T21:22:47.686Z] [2026-07-03T21:22:47.686Z] [CAND]   (109) ankaraescortq.com
+[STDOUT] [2026-07-03T21:22:47.689Z] [2026-07-03T21:22:47.689Z] [CAND]   (110) annastories.gr
+[STDOUT] [2026-07-03T21:22:47.689Z] [2026-07-03T21:22:47.689Z] [CAND]   (111) annehauck.com
+[STDOUT] [2026-07-03T21:22:47.690Z] [2026-07-03T21:22:47.690Z] [CAND]   (112) annelandmanblog.com
+[STDOUT] [2026-07-03T21:22:47.692Z] [2026-07-03T21:22:47.691Z] [CAND]   (113) anneloosveld.nl
+[STDOUT] [2026-07-03T21:22:47.692Z] [2026-07-03T21:22:47.692Z] [CAND]   (114) annemariechagnon.jp
+[STDOUT] [2026-07-03T21:22:47.865Z] [2026-07-03T21:22:47.864Z] [CAND]   (115) annespantry.com.au
+[STDOUT] [2026-07-03T21:22:47.885Z] [2026-07-03T21:22:47.885Z] [CAND]   (116) annonces.quebec.kioux.com
+[STDOUT] [2026-07-03T21:22:47.898Z] [2026-07-03T21:22:47.897Z] [CAND]   (117) annonciation.org
+[STDOUT] [2026-07-03T21:22:47.912Z] [2026-07-03T21:22:47.912Z] [CAND]   (118) anphuchung.vn
+[STDOUT] [2026-07-03T21:22:47.931Z] [2026-07-03T21:22:47.930Z] [CAND]   (119) ansherman.com
+[STDOUT] [2026-07-03T21:22:47.941Z] [2026-07-03T21:22:47.940Z] [CAND]   (120) answers.magickum.com
+[STDOUT] [2026-07-03T21:22:47.959Z] [2026-07-03T21:22:47.958Z] [CAND]   (121) antelopevalleytoday.com
+[STDOUT] [2026-07-03T21:22:47.967Z] [2026-07-03T21:22:47.967Z] [CAND]   (122) anthroposophie.blog
+[STDOUT] [2026-07-03T21:22:47.983Z] [2026-07-03T21:22:47.982Z] [CAND]   (123) antilalospress.gr
+[STDOUT] [2026-07-03T21:22:47.984Z] [2026-07-03T21:22:47.983Z] [CAND]   (124) antiochcofc.org
+[STDOUT] [2026-07-03T21:22:48.069Z] [2026-07-03T21:22:48.069Z] [VERIFY] ✓ alibi.com (meta-generator)
+[STDOUT] [2026-07-03T21:22:48.072Z] [2026-07-03T21:22:48.072Z] [INFO]   [Worker 15] Inserted #3: alibi.com
+[STDOUT] [2026-07-03T21:22:48.075Z] [2026-07-03T21:22:48.075Z] [CAND]   (125) antonio-campos.com
+[STDOUT] [2026-07-03T21:22:48.817Z] [2026-07-03T21:22:48.817Z] [VERIFY] ✓ aljazirnews.com (meta-generator)
+[STDOUT] [2026-07-03T21:22:48.819Z] [2026-07-03T21:22:48.818Z] [INFO]   [Worker 20] Inserted #4: aljazirnews.com
+[STDOUT] [2026-07-03T21:22:48.823Z] [2026-07-03T21:22:48.823Z] [CAND]   (126) anula2010.blogspot.com
+[STDOUT] [2026-07-03T21:22:49.646Z] [2026-07-03T21:22:49.645Z] [VERIFY] ✓ alhijazindowisata.co.id (wp-json)
+[STDOUT] [2026-07-03T21:22:49.648Z] [2026-07-03T21:22:49.648Z] [INFO]   [Worker 13] Inserted #5: alhijazindowisata.co.id
+[STDOUT] [2026-07-03T21:22:49.713Z] [2026-07-03T21:22:49.713Z] [CAND]   (127) anyala.fi
+[STDOUT] [2026-07-03T21:22:49.788Z] [2026-07-03T21:22:49.788Z] [VERIFY] ✓ aljadide24.ma (meta-generator)
+[STDOUT] [2026-07-03T21:22:49.790Z] [2026-07-03T21:22:49.789Z] [INFO]   [Worker 19] Inserted #6: aljadide24.ma
+[STDOUT] [2026-07-03T21:22:49.794Z] [2026-07-03T21:22:49.794Z] [CAND]   (128) anythingprinting.com.gh
+[STDOUT] [2026-07-03T21:22:50.946Z] [2026-07-03T21:22:50.945Z] [VERIFY] ✓ alhadattv.ma (wp-json)
+[STDOUT] [2026-07-03T21:22:50.948Z] [2026-07-03T21:22:50.948Z] [INFO]   [Worker 12] Inserted #7: alhadattv.ma
+[STDOUT] [2026-07-03T21:22:50.956Z] [2026-07-03T21:22:50.956Z] [CAND]   (129) anziy.net
+[STDOUT] [2026-07-03T21:22:51.051Z] [2026-07-03T21:22:51.051Z] [REJECT] ✗ allcouponat.com (HTTP_FAIL:HTTP_403)
+[STDOUT] [2026-07-03T21:22:51.056Z] [2026-07-03T21:22:51.056Z] [CAND]   (130) aotearoamedia.co.nz
+[STDOUT] [2026-07-03T21:22:51.355Z] [2026-07-03T21:22:51.354Z] [VERIFY] ✓ alleppeyhouseboat.in (meta-generator)
+[STDOUT] [2026-07-03T21:22:51.357Z] [2026-07-03T21:22:51.357Z] [INFO]   [Worker 12] Inserted #8: alleppeyhouseboat.in
+[STDOUT] [2026-07-03T21:22:51.364Z] [2026-07-03T21:22:51.364Z] [CAND]   (131) aoyama.wolfgangssteakhouse.jp
+[STDOUT] [2026-07-03T21:22:51.569Z] [2026-07-03T21:22:51.569Z] [VERIFY] ✓ alegorix.media (meta-generator)
+[STDOUT] [2026-07-03T21:22:51.571Z] [2026-07-03T21:22:51.571Z] [INFO]   [Worker 4] Inserted #9: alegorix.media
+[STDOUT] [2026-07-03T21:22:51.582Z] [2026-07-03T21:22:51.581Z] [CAND]   (132) apekmimarlik.com
+[STDOUT] [2026-07-03T21:22:52.479Z] [2026-07-03T21:22:52.479Z] [VERIFY] ✓ alinmaepress.com (meta-generator)
+[STDOUT] [2026-07-03T21:22:52.481Z] [2026-07-03T21:22:52.480Z] [INFO]   [Worker 16] Inserted #10: alinmaepress.com
+[STDOUT] [2026-07-03T21:22:52.488Z] [2026-07-03T21:22:52.488Z] [CAND]   (133) aperture.skydocu.com
+[STDOUT] [2026-07-03T21:22:52.960Z] [2026-07-03T21:22:52.959Z] [VERIFY] ✓ aljabran.com (meta-generator)
+[STDOUT] [2026-07-03T21:22:52.979Z] [2026-07-03T21:22:52.963Z] [INFO]   [Worker 18] Inserted #11: aljabran.com
+[STDOUT] [2026-07-03T21:22:52.982Z] [2026-07-03T21:22:52.982Z] [VERIFY] ✓ alexatarantino.com (wp-json)
+[STDOUT] [2026-07-03T21:22:52.989Z] [2026-07-03T21:22:52.989Z] [CAND]   (134) api.businessforhome.org
+[STDOUT] [2026-07-03T21:22:52.991Z] [2026-07-03T21:22:52.991Z] [INFO]   [Worker 7] Inserted #12: alexatarantino.com
+[STDOUT] [2026-07-03T21:22:53.004Z] [2026-07-03T21:22:53.004Z] [CAND]   (135) apislhc.org
+[STDOUT] [2026-07-03T21:22:54.500Z] [2026-07-03T21:22:54.499Z] [VERIFY] ✓ allmatics.com (meta-generator)
+[STDOUT] [2026-07-03T21:22:54.501Z] [2026-07-03T21:22:54.501Z] [INFO]   [Worker 7] Inserted #13: allmatics.com
+[STDOUT] [2026-07-03T21:22:54.512Z] [2026-07-03T21:22:54.511Z] [CAND]   (136) apispria.ro
+[STDOUT] [2026-07-03T21:22:54.763Z] [2026-07-03T21:22:54.762Z] [REJECT] ✗ alexander-hellas.blogspot.com (NO_WP_EVIDENCE)
+[STDOUT] [2026-07-03T21:22:54.773Z] [2026-07-03T21:22:54.773Z] [CAND]   (137) apolloislotjoker.net
+[STDOUT] [2026-07-03T21:22:54.847Z] [2026-07-03T21:22:54.846Z] [VERIFY] ✓ alleghenyriverstone.org (wp-json)
+[STDOUT] [2026-07-03T21:22:54.848Z] [2026-07-03T21:22:54.848Z] [INFO]   [Worker 13] Inserted #14: alleghenyriverstone.org
+[STDOUT] [2026-07-03T21:22:54.851Z] [2026-07-03T21:22:54.851Z] [CAND]   (138) apologia.hu
+[STDOUT] [2026-07-03T21:22:54.930Z] [2026-07-03T21:22:54.930Z] [VERIFY] ✓ alfaclub.de (wp-json)
+[STDOUT] [2026-07-03T21:22:54.932Z] [2026-07-03T21:22:54.931Z] [INFO]   [Worker 10] Inserted #15: alfaclub.de
+[STDOUT] [2026-07-03T21:22:54.942Z] [2026-07-03T21:22:54.942Z] [CAND]   (139) apotek-alma.com
+[STDOUT] [2026-07-03T21:22:55.382Z] [2026-07-03T21:22:55.382Z] [VERIFY] ✓ alexejbycek.cz (wp-json)
+[STDOUT] [2026-07-03T21:22:55.384Z] [2026-07-03T21:22:55.383Z] [INFO]   [Worker 8] Inserted #16: alexejbycek.cz
+[STDOUT] [2026-07-03T21:22:55.394Z] [2026-07-03T21:22:55.394Z] [CAND]   (140) apotekar-online.rs
+[STDOUT] [2026-07-03T21:22:55.423Z] [2026-07-03T21:22:55.422Z] [VERIFY] ✓ allg9.com (meta-generator)
+[STDOUT] [2026-07-03T21:22:55.424Z] [2026-07-03T21:22:55.424Z] [INFO]   [Worker 4] Inserted #17: allg9.com
+[STDOUT] [2026-07-03T21:22:55.435Z] [2026-07-03T21:22:55.435Z] [CAND]   (141) apoza.es
+[STDOUT] [2026-07-03T21:22:55.911Z] [2026-07-03T21:22:55.910Z] [REJECT] ✗ alliedbiz.tech (NO_WP_EVIDENCE)
+[STDOUT] [2026-07-03T21:22:55.930Z] [2026-07-03T21:22:55.930Z] [CAND]   (142) app-quran.telkomuniversity.ac.id
+[STDOUT] [2026-07-03T21:22:56.231Z] [2026-07-03T21:22:56.230Z] [VERIFY] ✓ allsaintsmedicalcentre.com.au (meta-generator)
+[STDOUT] [2026-07-03T21:22:56.260Z] [2026-07-03T21:22:56.260Z] [INFO]   [Worker 13] Recycled #18: allsaintsmedicalcentre.com.au
+[STDOUT] [2026-07-03T21:22:56.290Z] [2026-07-03T21:22:56.290Z] [CAND]   (143) app.summersplaceauctions.com
+[STDOUT] [2026-07-03T21:22:56.295Z] [2026-07-03T21:22:56.295Z] [VERIFY] ✓ allespaka.de (wp-json)
+[STDOUT] [2026-07-03T21:22:56.296Z] [2026-07-03T21:22:56.296Z] [INFO]   [Worker 12] Inserted #19: allespaka.de
+[STDOUT] [2026-07-03T21:22:56.298Z] [2026-07-03T21:22:56.298Z] [CAND]   (144) appbefit.com
+[STDOUT] [2026-07-03T21:22:56.573Z] [2026-07-03T21:22:56.572Z] [VERIFY] ✓ allabout.city (wp-json)
+[STDOUT] [2026-07-03T21:22:56.574Z] [2026-07-03T21:22:56.574Z] [INFO]   [Worker 2] Inserted #20: allabout.city
+[STDOUT] [2026-07-03T21:22:56.593Z] [2026-07-03T21:22:56.592Z] [CAND]   (145) applied.econ.uth.gr
+[STDOUT] [2026-07-03T21:22:57.317Z] [2026-07-03T21:22:57.317Z] [VERIFY] ✓ allairsolar.com (wp-json)
+[STDOUT] [2026-07-03T21:22:57.327Z] [2026-07-03T21:22:57.326Z] [INFO]   [Worker 11] Inserted #21: allairsolar.com
+[STDOUT] [2026-07-03T21:22:57.344Z] [2026-07-03T21:22:57.344Z] [CAND]   (146) appwiki.checkpoint.com
+[STDOUT] [2026-07-03T21:22:58.093Z] [2026-07-03T21:22:58.092Z] [VERIFY] ✓ almeco.gr (wp-content)
+[STDOUT] [2026-07-03T21:22:58.100Z] [2026-07-03T21:22:58.100Z] [INFO]   [Worker 8] Recycled #22: almeco.gr
+[STDOUT] [2026-07-03T21:22:58.122Z] [2026-07-03T21:22:58.122Z] [CAND]   (147) aprendaviver.com
+[STDOUT] [2026-07-03T21:22:58.198Z] [2026-07-03T21:22:58.197Z] [VERIFY] ✓ allbuzz.co.uk (wp-json)
+[STDOUT] [2026-07-03T21:22:58.201Z] [2026-07-03T21:22:58.200Z] [INFO]   [Worker 15] Recycled #23: allbuzz.co.uk
+[STDOUT] [2026-07-03T21:22:58.221Z] [2026-07-03T21:22:58.221Z] [CAND]   (148) aprilmaura.com
+[STDOUT] [2026-07-03T21:22:58.231Z] [2026-07-03T21:22:58.230Z] [VERIFY] ✓ allmedialink.com (meta-generator)
+[STDOUT] [2026-07-03T21:22:58.233Z] [2026-07-03T21:22:58.233Z] [INFO]   [Worker 7] Inserted #24: allmedialink.com
+[STDOUT] [2026-07-03T21:22:58.235Z] [2026-07-03T21:22:58.235Z] [CAND]   (149) apsrewinds.com.au
+[STDOUT] [2026-07-03T21:22:58.548Z] [2026-07-03T21:22:58.547Z] [VERIFY] ✓ allergybreakthroughcenter.com (wp-json)
+[STDOUT] [2026-07-03T21:22:58.552Z] [2026-07-03T21:22:58.551Z] [INFO]   [Worker 20] Inserted #25: allergybreakthroughcenter.com
+[STDOUT] [2026-07-03T21:22:58.571Z] [2026-07-03T21:22:58.571Z] [CAND]   (150) aptekaonlinekatiusha.com
+[STDOUT] [2026-07-03T21:22:58.690Z] [2026-07-03T21:22:58.690Z] [VERIFY] ✓ albertfeldmann.de (meta-generator)
+[STDOUT] [2026-07-03T21:22:58.692Z] [2026-07-03T21:22:58.692Z] [INFO]   [Worker 1] Inserted #26: albertfeldmann.de
+[STDOUT] [2026-07-03T21:22:58.710Z] [2026-07-03T21:22:58.709Z] [CAND]   (151) apuestasdetenisendirecto.com
+[STDOUT] [2026-07-03T21:22:58.823Z] [2026-07-03T21:22:58.823Z] [REJECT] ✗ allkidsdentalva.com (HTTP_FAIL:HTTP_403)
+[STDOUT] [2026-07-03T21:22:58.840Z] [2026-07-03T21:22:58.840Z] [CAND]   (152) aqmarinadigital.com
+[STDOUT] [2026-07-03T21:22:58.842Z] [2026-07-03T21:22:58.842Z] [VERIFY] ✓ alpha-lift.be (meta-generator)
+[STDOUT] [2026-07-03T21:22:58.845Z] [2026-07-03T21:22:58.845Z] [INFO]   [Worker 2] Recycled #27: alpha-lift.be
+[STDOUT] [2026-07-03T21:22:58.863Z] [2026-07-03T21:22:58.863Z] [CAND]   (153) aqua-bud-standart.com.ua
+[STDOUT] [2026-07-03T21:22:58.922Z] [2026-07-03T21:22:58.922Z] [VERIFY] ✓ alomdatech.com (meta-generator)
+[STDOUT] [2026-07-03T21:22:58.925Z] [2026-07-03T21:22:58.925Z] [INFO]   [Worker 13] Recycled #28: alomdatech.com
+[STDOUT] [2026-07-03T21:22:58.930Z] [2026-07-03T21:22:58.930Z] [CAND]   (154) aquamax.uz
+[STDOUT] [2026-07-03T21:22:59.100Z] [2026-07-03T21:22:59.100Z] [VERIFY] ✓ aloette.com (wp-json)
+[STDOUT] [2026-07-03T21:22:59.106Z] [2026-07-03T21:22:59.106Z] [INFO]   [Worker 16] Recycled #29: aloette.com
+[STDOUT] [2026-07-03T21:22:59.126Z] [2026-07-03T21:22:59.126Z] [CAND]   (155) aquanimal.ca
+[STDOUT] [2026-07-03T21:22:59.401Z] [2026-07-03T21:22:59.401Z] [REJECT] ✗ altaqwaonline.com (HTTP_FAIL:HTTP_403)
+[STDOUT] [2026-07-03T21:22:59.428Z] [2026-07-03T21:22:59.428Z] [CAND]   (156) aquazenima.com
+[STDOUT] [2026-07-03T21:22:59.914Z] [2026-07-03T21:22:59.913Z] [VERIFY] ✓ alt-om-nettet.dk (meta-generator)
+[STDOUT] [2026-07-03T21:22:59.918Z] [2026-07-03T21:22:59.918Z] [INFO]   [Worker 1] Recycled #30: alt-om-nettet.dk
+[STDOUT] [2026-07-03T21:22:59.944Z] [2026-07-03T21:22:59.944Z] [CAND]   (157) ar.traasgpu.com
+[STDOUT] [2026-07-03T21:23:00.451Z] [2026-07-03T21:23:00.450Z] [VERIFY] ✓ alponiente.com (meta-generator)
+[STDOUT] [2026-07-03T21:23:00.455Z] [2026-07-03T21:23:00.454Z] [INFO]   [Worker 15] Recycled #31: alponiente.com
+[STDOUT] [2026-07-03T21:23:00.477Z] [2026-07-03T21:23:00.477Z] [CAND]   (158) ar4u.com.pl
+[STDOUT] [2026-07-03T21:23:00.798Z] [2026-07-03T21:23:00.798Z] [REJECT] ✗ altoexito.com (HTTP_FAIL:fetch failed)
+[STDOUT] [2026-07-03T21:23:00.820Z] [2026-07-03T21:23:00.820Z] [CAND]   (159) arab24.news
+[STDOUT] [2026-07-03T21:23:03.039Z] [2026-07-03T21:23:03.039Z] [VERIFY] ✓ alpesconseils.fr (meta-generator)
+[STDOUT] [2026-07-03T21:23:03.046Z] [2026-07-03T21:23:03.045Z] [INFO]   [Worker 12] Recycled #32: alpesconseils.fr
+[STDOUT] [2026-07-03T21:23:03.106Z] [2026-07-03T21:23:03.105Z] [CAND]   (160) aralconsultoria.com
+[STDOUT] [2026-07-03T21:23:03.516Z] [2026-07-03T21:23:03.515Z] [VERIFY] ✓ allpropainters.net (wp-json)
+[STDOUT] [2026-07-03T21:23:03.519Z] [2026-07-03T21:23:03.519Z] [INFO]   [Worker 6] Recycled #33: allpropainters.net
+[STDOUT] [2026-07-03T21:23:03.592Z] [2026-07-03T21:23:03.591Z] [CAND]   (161) aramapp.info
+[STDOUT] [2026-07-03T21:23:03.609Z] [2026-07-03T21:23:03.609Z] [VERIFY] ✓ alqueriasportbar.com (meta-generator)
+[STDOUT] [2026-07-03T21:23:03.611Z] [2026-07-03T21:23:03.611Z] [INFO]   [Worker 7] Recycled #34: alqueriasportbar.com
+[STDOUT] [2026-07-03T21:23:03.645Z] [2026-07-03T21:23:03.645Z] [CAND]   (162) arata.lat
+[STDOUT] [2026-07-03T21:23:03.663Z] [2026-07-03T21:23:03.663Z] [VERIFY] ✓ alextanous.org (wp-json)
+[STDOUT] [2026-07-03T21:23:03.664Z] [2026-07-03T21:23:03.664Z] [INFO]   [Worker 9] Inserted #35: alextanous.org
+[STDOUT] [2026-07-03T21:23:03.707Z] [2026-07-03T21:23:03.707Z] [CAND]   (163) arc-dog.jp
+[STDOUT] [2026-07-03T21:23:03.938Z] [2026-07-03T21:23:03.938Z] [VERIFY] ✓ alukoenigstahl.md (meta-generator)
+[STDOUT] [2026-07-03T21:23:03.940Z] [2026-07-03T21:23:03.940Z] [INFO]   [Worker 1] Recycled #36: alukoenigstahl.md
+[STDOUT] [2026-07-03T21:23:04.037Z] [2026-07-03T21:23:04.037Z] [CAND]   (164) archden.org
+[STDOUT] [2026-07-03T21:23:04.041Z] [2026-07-03T21:23:04.041Z] [VERIFY] ✓ altporn.net (meta-generator)
+[STDOUT] [2026-07-03T21:23:04.043Z] [2026-07-03T21:23:04.043Z] [INFO]   [Worker 2] Recycled #37: altporn.net
+[STDOUT] [2026-07-03T21:23:04.047Z] [2026-07-03T21:23:04.047Z] [CAND]   (165) architecturalfans.com
+[STDOUT] [2026-07-03T21:23:04.052Z] [2026-07-03T21:23:04.052Z] [REJECT] ✗ am-clothes.digitalflow.dev (HTTP_FAIL:fetch failed)
+[STDOUT] [2026-07-03T21:23:04.053Z] [2026-07-03T21:23:04.052Z] [CAND]   (166) archive.c4u.org.ua
+[STDOUT] [2026-07-03T21:23:04.206Z] [2026-07-03T21:23:04.206Z] [VERIFY] ✓ allendreyfus.com (wp-json)
+[STDOUT] [2026-07-03T21:23:04.207Z] [2026-07-03T21:23:04.207Z] [INFO]   [Worker 19] Inserted #38: allendreyfus.com
+[STDOUT] [2026-07-03T21:23:04.232Z] [2026-07-03T21:23:04.232Z] [CAND]   (167) archive.nselam.com
+[STDOUT] [2026-07-03T21:23:04.555Z] [2026-07-03T21:23:04.555Z] [REJECT] ✗ amalfinotizie.it (HTTP_FAIL:HTTP_520)
+[STDOUT] [2026-07-03T21:23:04.602Z] [2026-07-03T21:23:04.602Z] [CAND]   (168) archives.freepresskashmir.com
+[STDOUT] [2026-07-03T21:23:04.611Z] [2026-07-03T21:23:04.611Z] [VERIFY] ✓ alulalearning.com (meta-generator)
+[STDOUT] [2026-07-03T21:23:04.617Z] [2026-07-03T21:23:04.616Z] [INFO]   [Worker 15] Recycled #39: alulalearning.com
+[STDOUT] [2026-07-03T21:23:04.687Z] [2026-07-03T21:23:04.686Z] [CAND]   (169) archivlandschaft.vda.lvmecklenburg-vorpommern.archiv.net
+[STDOUT] [2026-07-03T21:23:04.873Z] [2026-07-03T21:23:04.873Z] [VERIFY] ✓ alpha-medical.com.ua (wp-json)
+[STDOUT] [2026-07-03T21:23:04.878Z] [2026-07-03T21:23:04.878Z] [INFO]   [Worker 11] Recycled #40: alpha-medical.com.ua
+[STDOUT] [2026-07-03T21:23:04.981Z] [2026-07-03T21:23:04.980Z] [CAND]   (170) archivo.laaao.com
+[STDOUT] [2026-07-03T21:23:05.102Z] [2026-07-03T21:23:05.102Z] [RETRY]  allsolutions.nl attempt 1/3: HTTP: fetch failed
+[STDOUT] [2026-07-03T21:23:05.632Z] [2026-07-03T21:23:05.632Z] [VERIFY] ✓ aloesporte.com.br (wp-json)
+[STDOUT] [2026-07-03T21:23:05.656Z] [2026-07-03T21:23:05.655Z] [INFO]   [Worker 4] Recycled #41: aloesporte.com.br
+[STDOUT] [2026-07-03T21:23:05.758Z] [2026-07-03T21:23:05.757Z] [CAND]   (171) archlinux.fr
+[STDOUT] [2026-07-03T21:23:05.785Z] [2026-07-03T21:23:05.784Z] [VERIFY] ✓ ambassador.adventures.org (meta-generator)
+[STDOUT] [2026-07-03T21:23:05.788Z] [2026-07-03T21:23:05.788Z] [INFO]   [Worker 11] Recycled #42: ambassador.adventures.org
+[STDOUT] [2026-07-03T21:23:05.881Z] [2026-07-03T21:23:05.879Z] [CAND]   (172) archovavisuals.com
+[STDOUT] [2026-07-03T21:23:05.885Z] [2026-07-03T21:23:05.885Z] [VERIFY] ✓ altmod.de (meta-generator)
+[STDOUT] [2026-07-03T21:23:05.888Z] [2026-07-03T21:23:05.888Z] [INFO]   [Worker 13] Recycled #43: altmod.de
+[STDOUT] [2026-07-03T21:23:05.976Z] [2026-07-03T21:23:05.976Z] [CAND]   (173) ardapak.com
+[STDOUT] [2026-07-03T21:23:06.711Z] [2026-07-03T21:23:06.708Z] [VERIFY] ✓ amazedev.com (wp-login)
+[STDOUT] [2026-07-03T21:23:06.720Z] [2026-07-03T21:23:06.719Z] [INFO]   [Worker 6] Recycled #44: amazedev.com
+[STDOUT] [2026-07-03T21:23:06.762Z] [2026-07-03T21:23:06.762Z] [CAND]   (174) aremont.ru
+[STDOUT] [2026-07-03T21:23:07.081Z] [2026-07-03T21:23:07.081Z] [REJECT] ✗ americancaravansdirect.com (HTTP_FAIL:HTTP_403)
+[STDOUT] [2026-07-03T21:23:07.186Z] [2026-07-03T21:23:07.186Z] [CAND]   (175) arenda-yacht-phuket.com
+[STDOUT] [2026-07-03T21:23:07.187Z] [2026-07-03T21:23:07.186Z] [REJECT] ✗ amazingdalat.com (NO_WP_EVIDENCE)
+[STDOUT] [2026-07-03T21:23:07.187Z] [2026-07-03T21:23:07.187Z] [CAND]   (176) arequipamistipress.com
+[STDOUT] [2026-07-03T21:23:07.188Z] [2026-07-03T21:23:07.188Z] [VERIFY] ✓ alvaradoco.com (wp-json)
+[STDOUT] [2026-07-03T21:23:07.190Z] [2026-07-03T21:23:07.189Z] [INFO]   [Worker 16] Recycled #45: alvaradoco.com
+[STDOUT] [2026-07-03T21:23:07.295Z] [2026-07-03T21:23:07.293Z] [CAND]   (177) ariadne-portal.uni-greifswald.de
+[STDOUT] [2026-07-03T21:23:07.363Z] [2026-07-03T21:23:07.363Z] [VERIFY] ✓ alt.edu.vn (wp-json)
+[STDOUT] [2026-07-03T21:23:07.366Z] [2026-07-03T21:23:07.366Z] [INFO]   [Worker 18] Recycled #46: alt.edu.vn
+[STDOUT] [2026-07-03T21:23:07.485Z] [2026-07-03T21:23:07.483Z] [CAND]   (178) ark.ru
+[STDOUT] [2026-07-03T21:23:07.977Z] [2026-07-03T21:23:07.977Z] [VERIFY] ✓ ambassadeursduroyaume.com (meta-generator)
+[STDOUT] [2026-07-03T21:23:07.981Z] [2026-07-03T21:23:07.980Z] [INFO]   [Worker 15] Recycled #47: ambassadeursduroyaume.com
+[STDOUT] [2026-07-03T21:23:08.090Z] [2026-07-03T21:23:08.089Z] [CAND]   (179) arkoevent.com
+[STDOUT] [2026-07-03T21:23:08.206Z] [2026-07-03T21:23:08.205Z] [VERIFY] ✓ amecbrasil.org.br (meta-generator)
+[STDOUT] [2026-07-03T21:23:08.235Z] [2026-07-03T21:23:08.235Z] [INFO]   [Worker 11] Recycled #48: amecbrasil.org.br
+[STDOUT] [2026-07-03T21:23:08.375Z] [2026-07-03T21:23:08.375Z] [CAND]   (180) arkusze.pl
+[STDOUT] [2026-07-03T21:23:08.379Z] [2026-07-03T21:23:08.378Z] [REJECT] ✗ amaraconsulting.com.mm (HTTP_FAIL:HTTP_500)
+[STDOUT] [2026-07-03T21:23:08.509Z] [2026-07-03T21:23:08.508Z] [CAND]   (181) arlingtonmarble.com
+[STDOUT] [2026-07-03T21:23:08.596Z] [2026-07-03T21:23:08.596Z] [VERIFY] ✓ alive-beauty.de (wp-json)
+[STDOUT] [2026-07-03T21:23:08.606Z] [2026-07-03T21:23:08.606Z] [INFO]   [Worker 17] Inserted #49: alive-beauty.de
+[STDOUT] [2026-07-03T21:23:08.892Z] [2026-07-03T21:23:08.728Z] [CAND]   (182) armadio.net.ua
+[2026-07-03T21:23:08.732Z] [RETRY]  alphanews.sn attempt 1/3: HTTP: fetch failed
+[STDOUT] [2026-07-03T21:23:09.046Z] [2026-07-03T21:23:09.046Z] [VERIFY] ✓ americanexcelsior.com (meta-generator)
+[STDOUT] [2026-07-03T21:23:09.077Z] [2026-07-03T21:23:09.076Z] [INFO]   [Worker 13] Recycled #50: americanexcelsior.com
+[STDOUT] [2026-07-03T21:23:09.119Z] [2026-07-03T21:23:09.119Z] [CAND]   (183) armastore.com.br
+[STDOUT] [2026-07-03T21:23:09.854Z] [2026-07-03T21:23:09.852Z] [VERIFY] ✓ ambalajecofetarii.ro (meta-generator)
+[STDOUT] [2026-07-03T21:23:09.862Z] [2026-07-03T21:23:09.862Z] [INFO]   [Worker 9] Recycled #51: ambalajecofetarii.ro
+[STDOUT] [2026-07-03T21:23:10.018Z] [2026-07-03T21:23:10.017Z] [CAND]   (184) arnobiorocha.com.br
+[STDOUT] [2026-07-03T21:23:11.382Z] [2026-07-03T21:23:11.382Z] [VERIFY] ✓ americanhomequotes.com (wp-json)
+[STDOUT] [2026-07-03T21:23:11.386Z] [2026-07-03T21:23:11.386Z] [INFO]   [Worker 19] Recycled #52: americanhomequotes.com
+[STDOUT] [2026-07-03T21:23:11.448Z] [2026-07-03T21:23:11.448Z] [CAND]   (185) arom-productions.com
+[STDOUT] [2026-07-03T21:23:11.455Z] [2026-07-03T21:23:11.455Z] [VERIFY] ✓ amherstva.gov (wp-json)
+[STDOUT] [2026-07-03T21:23:11.458Z] [2026-07-03T21:23:11.457Z] [INFO]   [Worker 1] Recycled #53: amherstva.gov
+[STDOUT] [2026-07-03T21:23:11.498Z] [2026-07-03T21:23:11.498Z] [CAND]   (186) aroundtheworldinflipflops.com
+[STDOUT] [2026-07-03T21:23:11.731Z] [2026-07-03T21:23:11.730Z] [VERIFY] ✓ amcnatural.com (wp-json)
+[STDOUT] [2026-07-03T21:23:11.732Z] [2026-07-03T21:23:11.732Z] [INFO]   [Worker 4] Recycled #54: amcnatural.com
+[STDOUT] [2026-07-03T21:23:11.772Z] [2026-07-03T21:23:11.771Z] [CAND]   (187) aroundtownrealty.in
+[STDOUT] [2026-07-03T21:23:12.031Z] [2026-07-03T21:23:12.030Z] [VERIFY] ✓ amis-musee-valence.org (meta-generator)
+[STDOUT] [2026-07-03T21:23:12.035Z] [2026-07-03T21:23:12.034Z] [INFO]   [Worker 9] Recycled #55: amis-musee-valence.org
+[STDOUT] [2026-07-03T21:23:12.197Z] [2026-07-03T21:23:12.192Z] [CAND]   (188) arqueologia-iab.com.br
+[STDOUT] [2026-07-03T21:23:12.200Z] [2026-07-03T21:23:12.200Z] [VERIFY] ✓ amigasenlacocina.com (meta-generator)
+[STDOUT] [2026-07-03T21:23:12.203Z] [2026-07-03T21:23:12.202Z] [INFO]   [Worker 17] Recycled #56: amigasenlacocina.com
+[STDOUT] [2026-07-03T21:23:12.346Z] [2026-07-03T21:23:12.346Z] [CAND]   (189) arquiscopio.com
+[STDOUT] [2026-07-03T21:23:13.183Z] [2026-07-03T21:23:13.182Z] [VERIFY] ✓ amariah-andrea.com (wp-json)
+[STDOUT] [2026-07-03T21:23:13.186Z] [2026-07-03T21:23:13.185Z] [INFO]   [Worker 2] Recycled #57: amariah-andrea.com
+[STDOUT] [2026-07-03T21:23:13.251Z] [2026-07-03T21:23:13.251Z] [CAND]   (190) arquitectos2rv.es
+[STDOUT] [2026-07-03T21:23:13.464Z] [2026-07-03T21:23:13.464Z] [VERIFY] ✓ amoversuae.com (meta-generator)
+[STDOUT] [2026-07-03T21:23:13.470Z] [2026-07-03T21:23:13.470Z] [INFO]   [Worker 17] Recycled #58: amoversuae.com
+[STDOUT] [2026-07-03T21:23:13.637Z] [2026-07-03T21:23:13.634Z] [CAND]   (191) arqxarq.es
+[STDOUT] [2026-07-03T21:23:13.742Z] [2026-07-03T21:23:13.742Z] [VERIFY] ✓ americanrefractivesurgerycouncil.org (wp-login)
+[STDOUT] [2026-07-03T21:23:13.745Z] [2026-07-03T21:23:13.744Z] [INFO]   [Worker 18] Recycled #59: americanrefractivesurgerycouncil.org
+[STDOUT] [2026-07-03T21:23:13.901Z] [2026-07-03T21:23:13.900Z] [CAND]   (192) ars-tremonia.de
+[STDOUT] [2026-07-03T21:23:13.905Z] [2026-07-03T21:23:13.904Z] [RETRY]  alzheimersspeaks.com attempt 1/3: HTTP: fetch failed
+[STDOUT] [2026-07-03T21:23:14.383Z] [2026-07-03T21:23:14.383Z] [VERIFY] ✓ amongtheleaves.com (meta-generator)
+[STDOUT] [2026-07-03T21:23:14.386Z] [2026-07-03T21:23:14.385Z] [INFO]   [Worker 4] Recycled #60: amongtheleaves.com
+[STDOUT] [2026-07-03T21:23:14.504Z] [2026-07-03T21:23:14.504Z] [CAND]   (193) arsip.ugm.ac.id
+[STDOUT] [2026-07-03T21:23:14.513Z] [2026-07-03T21:23:14.513Z] [REJECT] ✗ amyanderson.net (HTTP_FAIL:fetch failed)
+[STDOUT] [2026-07-03T21:23:14.665Z] [2026-07-03T21:23:14.664Z] [CAND]   (194) art4you.nl
+[STDOUT] [2026-07-03T21:23:14.998Z] [2026-07-03T21:23:14.998Z] [VERIFY] ✓ americanrealestateventures.com (wp-json)
+[STDOUT] [2026-07-03T21:23:15.007Z] [2026-07-03T21:23:15.007Z] [INFO]   [Worker 16] Recycled #61: americanrealestateventures.com
+[STDOUT] [2026-07-03T21:23:15.282Z] [2026-07-03T21:23:15.171Z] [CAND]   (195) artesyoficiosactorllorens.com
+[2026-07-03T21:23:15.173Z] [VERIFY] ✓ amorsystems.com (wp-json)
+[2026-07-03T21:23:15.176Z] [INFO]   [Worker 9] Recycled #62: amorsystems.com
+[2026-07-03T21:23:15.177Z] [CAND]   (196) arthabazar.com
+[STDOUT] [2026-07-03T21:23:15.537Z] [2026-07-03T21:23:15.536Z] [VERIFY] ✓ americaneliteepoxy.com (wp-json)
+[STDOUT] [2026-07-03T21:23:15.540Z] [2026-07-03T21:23:15.540Z] [INFO]   [Worker 6] Recycled #63: americaneliteepoxy.com
+[STDOUT] [2026-07-03T21:23:15.682Z] [2026-07-03T21:23:15.682Z] [CAND]   (197) articlenest.store
+[STDOUT] [2026-07-03T21:23:15.687Z] [2026-07-03T21:23:15.686Z] [VERIFY] ✓ amkorti.com (meta-generator)
+[STDOUT] [2026-07-03T21:23:15.701Z] [2026-07-03T21:23:15.699Z] [INFO]   [Worker 1] Recycled #64: amkorti.com
+[STDOUT] [2026-07-03T21:23:15.854Z] [2026-07-03T21:23:15.853Z] [CAND]   (198) articlepin.com
+[STDOUT] [2026-07-03T21:23:16.503Z] [2026-07-03T21:23:16.502Z] [RETRY]  allsolutions.nl attempt 2/3: HTTP: fetch failed
+[STDOUT] [2026-07-03T21:23:17.627Z] [2026-07-03T21:23:17.626Z] [VERIFY] ✓ andpremium.jp (wp-json)
+[STDOUT] [2026-07-03T21:23:17.633Z] [2026-07-03T21:23:17.632Z] [INFO]   [Worker 9] Recycled #65: andpremium.jp
+[STDOUT] [2026-07-03T21:23:17.737Z] [2026-07-03T21:23:17.737Z] [CAND]   (199) articulate.pl
+[STDOUT] [2026-07-03T21:23:17.944Z] [2026-07-03T21:23:17.944Z] [VERIFY] ✓ and1-detail.net (meta-generator)
+[STDOUT] [2026-07-03T21:23:17.946Z] [2026-07-03T21:23:17.946Z] [INFO]   [Worker 16] Recycled #66: and1-detail.net
+[STDOUT] [2026-07-03T21:23:18.103Z] [2026-07-03T21:23:18.102Z] [CAND]   (200) artinwebs.com
+[STDOUT] [2026-07-03T21:23:18.116Z] [2026-07-03T21:23:18.115Z] [VERIFY] ✓ anchorspointcoa.org (meta-generator)
+[STDOUT] [2026-07-03T21:23:18.118Z] [2026-07-03T21:23:18.118Z] [INFO]   [Worker 17] Recycled #67: anchorspointcoa.org
+[STDOUT] [2026-07-03T21:23:18.120Z] [2026-07-03T21:23:18.119Z] [CAND]   (201) artlight.ee
+[STDOUT] [2026-07-03T21:23:18.216Z] [2026-07-03T21:23:18.215Z] [VERIFY] ✓ amilifeassurance.com (wp-json)
+[STDOUT] [2026-07-03T21:23:18.221Z] [2026-07-03T21:23:18.220Z] [INFO]   [Worker 13] Recycled #68: amilifeassurance.com
+[STDOUT] [2026-07-03T21:23:18.418Z] [2026-07-03T21:23:18.416Z] [CAND]   (202) artpara-fukagawa.tokyo
+[STDOUT] [2026-07-03T21:23:19.110Z] [2026-07-03T21:23:19.110Z] [RETRY]  amersm.ai attempt 1/3: HTTP: fetch failed
+[STDOUT] [2026-07-03T21:23:19.152Z] [2026-07-03T21:23:19.151Z] [VERIFY] ✓ amsterdam750.nl (wp-json)
+[STDOUT] [2026-07-03T21:23:19.176Z] [2026-07-03T21:23:19.176Z] [INFO]   [Worker 2] Recycled #69: amsterdam750.nl
+[STDOUT] [2026-07-03T21:23:19.359Z] [2026-07-03T21:23:19.357Z] [CAND]   (203) arts.cd
+[STDOUT] [2026-07-03T21:23:19.796Z] [2026-07-03T21:23:19.793Z] [VERIFY] ✓ anal.fanza.link (wp-json)
+[STDOUT] [2026-07-03T21:23:19.797Z] [2026-07-03T21:23:19.795Z] [INFO]   [Worker 18] Recycled #70: anal.fanza.link
+[STDOUT] [2026-07-03T21:23:19.867Z] [2026-07-03T21:23:19.866Z] [CAND]   (204) aryagurukul.in
+[STDOUT] [2026-07-03T21:23:20.116Z] [2026-07-03T21:23:20.115Z] [VERIFY] ✓ amfoo-shop.de (wp-json)
+[STDOUT] [2026-07-03T21:23:20.116Z] [2026-07-03T21:23:20.116Z] [RETRY]  alphanews.sn attempt 2/3: HTTP: fetch failed
+[STDOUT] [2026-07-03T21:23:20.128Z] [2026-07-03T21:23:20.128Z] [INFO]   [Worker 11] Recycled #71: amfoo-shop.de
+[STDOUT] [2026-07-03T21:23:20.277Z] [2026-07-03T21:23:20.276Z] [CAND]   (205) asacademy.id
+[STDOUT] [2026-07-03T21:23:21.738Z] [2026-07-03T21:23:21.738Z] [INFO]   [CHECKPOINT] State persisted. Segment: CC-MAIN-20260508074046-20260508104046-00000.warc.gz offset: 2472 verified: 270
+[STDOUT] [2026-07-03T21:23:21.783Z] [2026-07-03T21:23:21.783Z] [REJECT] ✗ andylosik.blogspot.com (NO_WP_EVIDENCE)
+[STDOUT] [2026-07-03T21:23:21.863Z] [2026-07-03T21:23:21.861Z] [CAND]   (206) asahi-tatemono.com
+[STDOUT] [2026-07-03T21:23:21.864Z] [2026-07-03T21:23:21.864Z] [VERIFY] ✓ analystliberiaonline.com (meta-generator)
+[STDOUT] [2026-07-03T21:23:21.868Z] [2026-07-03T21:23:21.868Z] [INFO]   [Worker 4] Recycled #72: analystliberiaonline.com
+[STDOUT] [2026-07-03T21:23:21.907Z] [2026-07-03T21:23:21.907Z] [CAND]   (207) asakita.net
+[STDOUT] [2026-07-03T21:23:22.423Z] [2026-07-03T21:23:22.422Z] [VERIFY] ✓ anhhongdecal.com (wp-json)
+[STDOUT] [2026-07-03T21:23:22.423Z] [2026-07-03T21:23:22.423Z] [VERIFY] ✓ ali-altheeb.com (wp-content)
+[STDOUT] [2026-07-03T21:23:22.455Z] [2026-07-03T21:23:22.453Z] [VERIFY] ✓ andrafarazahar.ro (meta-generator)
+[STDOUT] [2026-07-03T21:23:22.472Z] [2026-07-03T21:23:22.471Z] [INFO]   [Worker 18] Inserted #73: anhhongdecal.com
+[STDOUT] [2026-07-03T21:23:22.663Z] [2026-07-03T21:23:22.663Z] [CAND]   (208) asapjournal.com
+[STDOUT] [2026-07-03T21:23:22.669Z] [2026-07-03T21:23:22.669Z] [VERIFY] ✓ amitabhsaxena.com (wp-json)
+[STDOUT] [2026-07-03T21:23:22.672Z] [2026-07-03T21:23:22.672Z] [INFO]   [Worker 19] Recycled #74: amitabhsaxena.com
+[STDOUT] [2026-07-03T21:23:22.902Z] [2026-07-03T21:23:22.901Z] [CAND]   (209) aschg.org
+[STDOUT] [2026-07-03T21:23:22.906Z] [2026-07-03T21:23:22.906Z] [VERIFY] ✓ anfe.fr (meta-generator)
+[STDOUT] [2026-07-03T21:23:22.911Z] [2026-07-03T21:23:22.911Z] [INFO]   [Worker 16] Recycled #75: anfe.fr
+[STDOUT] [2026-07-03T21:23:23.182Z] [2026-07-03T21:23:23.166Z] [CAND]   (210) ascom.bo.it
+[STDOUT] [2026-07-03T21:23:23.189Z] [2026-07-03T21:23:23.189Z] [VERIFY] ✓ animexin.dev (meta-generator)
+[STDOUT] [2026-07-03T21:23:23.191Z] [2026-07-03T21:23:23.191Z] [VERIFY] ✓ andros.co (wp-json)
+[STDOUT] [2026-07-03T21:23:23.204Z] [2026-07-03T21:23:23.204Z] [INFO]   [Worker 9] Recycled #76: animexin.dev
+[STDOUT] [2026-07-03T21:23:23.460Z] [2026-07-03T21:23:23.458Z] [CAND]   (211) aseelfoundation.org
+[STDOUT] [2026-07-03T21:23:23.460Z] [2026-07-03T21:23:23.459Z] [INFO]   [Worker 6] Inserted #77: andrafarazahar.ro
+[STDOUT] [2026-07-03T21:23:23.462Z] [2026-07-03T21:23:23.461Z] [INFO]   [Worker 14] Inserted #78: ali-altheeb.com
+[STDOUT] [2026-07-03T21:23:23.747Z] [2026-07-03T21:23:23.745Z] [CAND]   (212) asfias.com
+[STDOUT] [2026-07-03T21:23:23.748Z] [2026-07-03T21:23:23.746Z] [CAND]   (213) asfs.apsva.us
+[2026-07-03T21:23:23.747Z] [INFO]   [Worker 1] Recycled #79: andros.co
+[STDOUT] [2026-07-03T21:23:24.134Z] [2026-07-03T21:23:24.132Z] [CAND]   (214) asi.org.ru
+[STDOUT] [2026-07-03T21:23:25.589Z] [2026-07-03T21:23:24.182Z] [VERIFY] ✓ angottistrafacelaw.com (wp-json)
+[2026-07-03T21:23:24.214Z] [VERIFY] ✓ animals.net (wp-json)
+[2026-07-03T21:23:24.355Z] [INFO]   [Worker 11] Recycled #80: animals.net
+[2026-07-03T21:23:24.355Z] [INFO]   [Worker 2] Recycled #81: angottistrafacelaw.com
+[STDOUT] [2026-07-03T21:23:26.398Z] [2026-07-03T21:23:26.057Z] [CAND]   (215) asia-profi.de
+[2026-07-03T21:23:26.063Z] [CAND]   (216) asianfoods.sk
+[2026-07-03T21:23:26.103Z] [VERIFY] ✓ ankaraescortq.com (meta-generator)
+[2026-07-03T21:23:26.105Z] [VERIFY] ✓ anisimov.biz (meta-generator)
+[2026-07-03T21:23:26.114Z] [VERIFY] ✓ anglophone-direct.com (wp-json)
+[2026-07-03T21:23:26.117Z] [INFO]   [Worker 18] Recycled #82: anisimov.biz
+[2026-07-03T21:23:26.121Z] [INFO]   [Worker 16] Inserted #83: ankaraescortq.com
+[STDOUT] [2026-07-03T21:23:26.505Z] [2026-07-03T21:23:26.502Z] [CAND]   (217) asianhoneypot.com
+[2026-07-03T21:23:26.503Z] [CAND]   (218) asianjournal.com
+[STDOUT] [2026-07-03T21:23:26.521Z] [2026-07-03T21:23:26.521Z] [VERIFY] ✓ alsitioarquitectura.com (meta-generator)
+[STDOUT] [2026-07-03T21:23:26.526Z] [2026-07-03T21:23:26.526Z] [INFO]   [Worker 17] Recycled #84: anglophone-direct.com
+[STDOUT] [2026-07-03T21:23:27.273Z] [2026-07-03T21:23:27.258Z] [CAND]   (219) asianscandal.net
+[STDOUT] [2026-07-03T21:23:27.289Z] [2026-07-03T21:23:27.289Z] [VERIFY] ✓ annastories.gr (meta-generator)
+[STDOUT] [2026-07-03T21:23:27.301Z] [2026-07-03T21:23:27.301Z] [INFO]   [Worker 9] Recycled #85: annastories.gr
+[STDOUT] [2026-07-03T21:23:28.298Z] [2026-07-03T21:23:28.289Z] [CAND]   (220) asimplepantry.com
+[STDOUT] [2026-07-03T21:23:28.300Z] [2026-07-03T21:23:28.292Z] [INFO]   [Worker 20] Recycled #86: alsitioarquitectura.com
+[STDOUT] [2026-07-03T21:23:29.211Z] [2026-07-03T21:23:29.204Z] [CAND]   (221) askmeflash.com
+[STDOUT] [2026-07-03T21:23:29.290Z] [2026-07-03T21:23:29.290Z] [RETRY]  alzheimersspeaks.com attempt 2/3: HTTP: fetch failed
+[STDOUT] [2026-07-03T21:23:29.293Z] [2026-07-03T21:23:29.291Z] [VERIFY] ✓ angoragarnet.com (meta-generator)
+[STDOUT] [2026-07-03T21:23:29.304Z] [2026-07-03T21:23:29.304Z] [VERIFY] ✓ annemariechagnon.jp (meta-generator)
+[STDOUT] [2026-07-03T21:23:29.309Z] [2026-07-03T21:23:29.308Z] [VERIFY] ✓ annelandmanblog.com (wp-json)
+[STDOUT] [2026-07-03T21:23:29.311Z] [2026-07-03T21:23:29.310Z] [VERIFY] ✓ anneloosveld.nl (wp-json)
+[STDOUT] [2026-07-03T21:23:29.421Z] [2026-07-03T21:23:29.420Z] [INFO]   [Worker 1] Recycled #87: anneloosveld.nl
+[STDOUT] [2026-07-03T21:23:29.429Z] [2026-07-03T21:23:29.428Z] [INFO]   [Worker 14] Recycled #88: annelandmanblog.com
+[STDOUT] [2026-07-03T21:23:29.434Z] [2026-07-03T21:23:29.429Z] [INFO]   [Worker 11] Recycled #89: annemariechagnon.jp
+[STDOUT] [2026-07-03T21:23:29.440Z] [2026-07-03T21:23:29.439Z] [INFO]   [Worker 13] Recycled #90: angoragarnet.com
+[STDOUT] [2026-07-03T21:23:29.544Z] [2026-07-03T21:23:29.544Z] [CAND]   (222) asobu.blog
+[STDOUT] [2026-07-03T21:23:29.546Z] [2026-07-03T21:23:29.545Z] [CAND]   (223) asparker.com
+[2026-07-03T21:23:29.545Z] [CAND]   (224) asrc.lt
+[2026-07-03T21:23:29.545Z] [CAND]   (225) assembly-vr.com
+[STDOUT] [2026-07-03T21:23:29.547Z] [2026-07-03T21:23:29.547Z] [REJECT] ✗ anphuchung.vn (HTTP_FAIL:fetch failed)
+[STDOUT] [2026-07-03T21:23:29.549Z] [2026-07-03T21:23:29.547Z] [CAND]   (226) assicurazionigandini.it
+[STDOUT] [2026-07-03T21:23:29.554Z] [2026-07-03T21:23:29.554Z] [VERIFY] ✓ aniro.pl (wp-json)
+[STDOUT] [2026-07-03T21:23:29.570Z] [2026-07-03T21:23:29.570Z] [INFO]   [Worker 4] Recycled #91: aniro.pl
+[STDOUT] [2026-07-03T21:23:29.645Z] [2026-07-03T21:23:29.645Z] [CAND]   (227) assurances-papalia.fr
+[STDOUT] [2026-07-03T21:23:29.712Z] [2026-07-03T21:23:29.711Z] [VERIFY] ✓ anjoseluz.net (wp-json)
+[STDOUT] [2026-07-03T21:23:29.716Z] [2026-07-03T21:23:29.716Z] [INFO]   [Worker 19] Recycled #92: anjoseluz.net
+[STDOUT] [2026-07-03T21:23:29.751Z] [2026-07-03T21:23:29.751Z] [CAND]   (228) assuredhopehealth.com
+[STDOUT] [2026-07-03T21:23:29.941Z] [2026-07-03T21:23:29.940Z] [VERIFY] ✓ annonces.quebec.kioux.com (meta-generator)
+[STDOUT] [2026-07-03T21:23:29.953Z] [2026-07-03T21:23:29.952Z] [INFO]   [Worker 18] Recycled #93: annonces.quebec.kioux.com
+[STDOUT] [2026-07-03T21:23:30.004Z] [2026-07-03T21:23:30.003Z] [CAND]   (229) asta-bochum.de
+[STDOUT] [2026-07-03T21:23:30.119Z] [2026-07-03T21:23:30.118Z] [REJECT] ✗ answers.magickum.com (HTTP_FAIL:HTTP_500)
+[STDOUT] [2026-07-03T21:23:30.119Z] [2026-07-03T21:23:30.119Z] [CAND]   (230) astero-studio.ru
+[STDOUT] [2026-07-03T21:23:30.210Z] [2026-07-03T21:23:30.210Z] [VERIFY] ✓ amaghanaonline.com (wp-json)
+[STDOUT] [2026-07-03T21:23:30.218Z] [2026-07-03T21:23:30.217Z] [INFO]   [Worker 7] Inserted #94: amaghanaonline.com
+[STDOUT] [2026-07-03T21:23:30.264Z] [2026-07-03T21:23:30.264Z] [CAND]   (231) astonwellltd.co.uk
+[STDOUT] [2026-07-03T21:23:30.476Z] [2026-07-03T21:23:30.475Z] [VERIFY] ✓ ansherman.com (wp-json)
+[STDOUT] [2026-07-03T21:23:30.490Z] [2026-07-03T21:23:30.489Z] [INFO]   [Worker 9] Recycled #95: ansherman.com
+[STDOUT] [2026-07-03T21:23:30.551Z] [2026-07-03T21:23:30.550Z] [CAND]   (232) astorpsbtk.se
+[STDOUT] [2026-07-03T21:23:30.581Z] [2026-07-03T21:23:30.581Z] [VERIFY] ✓ antiochcofc.org (meta-generator)
+[STDOUT] [2026-07-03T21:23:30.609Z] [2026-07-03T21:23:30.609Z] [INFO]   [Worker 13] Recycled #96: antiochcofc.org
+[STDOUT] [2026-07-03T21:23:30.668Z] [2026-07-03T21:23:30.667Z] [CAND]   (233) astrahan.sun-pr.ru
+[STDOUT] [2026-07-03T21:23:32.213Z] [2026-07-03T21:23:32.213Z] [REJECT] ✗ allsolutions.nl (HTTP_FAIL:fetch failed)
+[STDOUT] [2026-07-03T21:23:32.275Z] [2026-07-03T21:23:32.274Z] [CAND]   (234) astro.altspu.ru
+[STDOUT] [2026-07-03T21:23:32.322Z] [2026-07-03T21:23:32.321Z] [VERIFY] ✓ anyala.fi (meta-generator)
+[STDOUT] [2026-07-03T21:23:32.369Z] [2026-07-03T21:23:32.324Z] [INFO]   [Worker 19] Recycled #97: anyala.fi
+[2026-07-03T21:23:32.326Z] [CAND]   (235) astrodrjyotijoshi.com
+[STDOUT] [2026-07-03T21:23:32.717Z] [2026-07-03T21:23:32.716Z] [VERIFY] ✓ antelopevalleytoday.com (wp-content)
+[STDOUT] [2026-07-03T21:23:32.729Z] [2026-07-03T21:23:32.728Z] [INFO]   [Worker 1] Recycled #98: antelopevalleytoday.com
+[STDOUT] [2026-07-03T21:23:32.794Z] [2026-07-03T21:23:32.794Z] [CAND]   (236) astrologiacampusvirtual.com
+[STDOUT] [2026-07-03T21:23:32.802Z] [2026-07-03T21:23:32.801Z] [VERIFY] ✓ antilalospress.gr (meta-generator)
+[STDOUT] [2026-07-03T21:23:32.826Z] [2026-07-03T21:23:32.826Z] [INFO]   [Worker 11] Inserted #99: antilalospress.gr
+[STDOUT] [2026-07-03T21:23:32.827Z] [2026-07-03T21:23:32.827Z] [CAND]   (237) astrosfuture.com
+[STDOUT] [2026-07-03T21:23:33.167Z] [2026-07-03T21:23:33.166Z] [VERIFY] ✓ apekmimarlik.com (meta-generator)
+[STDOUT] [2026-07-03T21:23:33.455Z] [2026-07-03T21:23:33.168Z] [INFO]   [Worker 13] Inserted #100: apekmimarlik.com
+[STDOUT] [2026-07-03T21:23:33.516Z] [2026-07-03T21:23:33.515Z] [CAND]   (238) aswaqdaily.com
+[STDOUT] [2026-07-03T21:23:33.534Z] [2026-07-03T21:23:33.523Z] [VERIFY] ✓ anythingprinting.com.gh (meta-generator)
+[2026-07-03T21:23:33.529Z] [INFO]   [Worker 18] Recycled #101: anythingprinting.com.gh
+[STDOUT] [2026-07-03T21:23:33.816Z] [2026-07-03T21:23:33.816Z] [CAND]   (239) at.nuhw.ac.jp
+[STDOUT] [2026-07-03T21:23:33.822Z] [2026-07-03T21:23:33.821Z] [VERIFY] ✓ annespantry.com.au (meta-generator)
+[STDOUT] [2026-07-03T21:23:33.825Z] [2026-07-03T21:23:33.824Z] [VERIFY] ✓ annehauck.com (meta-generator)
+[STDOUT] [2026-07-03T21:23:33.828Z] [2026-07-03T21:23:33.828Z] [INFO]   [Worker 6] Inserted #102: annehauck.com
+[STDOUT] [2026-07-03T21:23:34.258Z] [2026-07-03T21:23:34.258Z] [CAND]   (240) atalexpressnews.com
+[STDOUT] [2026-07-03T21:23:34.327Z] [2026-07-03T21:23:34.258Z] [INFO]   [Worker 2] Recycled #103: annespantry.com.au
+[2026-07-03T21:23:34.278Z] [REJECT] ✗ anula2010.blogspot.com (NO_WP_EVIDENCE)
+[STDOUT] [2026-07-03T21:23:34.604Z] [2026-07-03T21:23:34.598Z] [CAND]   (241) atamashi.net
+[STDOUT] [2026-07-03T21:23:34.837Z] [2026-07-03T21:23:34.812Z] [CAND]   (242) atdi.com
+[2026-07-03T21:23:34.823Z] [RETRY]  amersm.ai attempt 2/3: HTTP: fetch failed
+[2026-07-03T21:23:34.825Z] [VERIFY] ✓ api.businessforhome.org (wp-json)
+[STDOUT] [2026-07-03T21:23:34.850Z] [2026-07-03T21:23:34.848Z] [INFO]   [Worker 19] Recycled #104: api.businessforhome.org
+[STDOUT] [2026-07-03T21:23:35.199Z] [2026-07-03T21:23:35.195Z] [CAND]   (243) ateaminc.jp
+[STDOUT] [2026-07-03T21:23:35.218Z] [2026-07-03T21:23:35.218Z] [VERIFY] ✓ aoyama.wolfgangssteakhouse.jp (meta-generator)
+[STDOUT] [2026-07-03T21:23:35.219Z] [2026-07-03T21:23:35.219Z] [VERIFY] ✓ apolloislotjoker.net (meta-generator)
+[STDOUT] [2026-07-03T21:23:35.225Z] [2026-07-03T21:23:35.224Z] [INFO]   [Worker 9] Recycled #105: aoyama.wolfgangssteakhouse.jp
+[STDOUT] [2026-07-03T21:23:35.573Z] [2026-07-03T21:23:35.570Z] [CAND]   (244) atelieralmajansen.nl
+[STDOUT] [2026-07-03T21:23:35.575Z] [2026-07-03T21:23:35.573Z] [INFO]   [Worker 13] Recycled #106: apolloislotjoker.net
+[STDOUT] [2026-07-03T21:23:35.856Z] [2026-07-03T21:23:35.853Z] [CAND]   (245) ateliers-sauvages.fr
+[STDOUT] [2026-07-03T21:23:35.861Z] [2026-07-03T21:23:35.861Z] [VERIFY] ✓ apislhc.org (meta-generator)
+[STDOUT] [2026-07-03T21:23:35.864Z] [2026-07-03T21:23:35.862Z] [VERIFY] ✓ aotearoamedia.co.nz (wp-json)
+[STDOUT] [2026-07-03T21:23:35.882Z] [2026-07-03T21:23:35.882Z] [INFO]   [Worker 7] Recycled #107: aotearoamedia.co.nz
+[STDOUT] [2026-07-03T21:23:35.882Z] [2026-07-03T21:23:35.882Z] [INFO]   [Worker 1] Recycled #108: apislhc.org
+[STDOUT] [2026-07-03T21:23:36.159Z] [2026-07-03T21:23:36.157Z] [CAND]   (246) ateneomusicalcriptana.es
+[STDOUT] [2026-07-03T21:23:36.560Z] [2026-07-03T21:23:36.555Z] [CAND]   (247) athleticnetwork.net
+[STDOUT] [2026-07-03T21:23:36.868Z] [2026-07-03T21:23:36.868Z] [VERIFY] ✓ alkhalij-center.com (wp-json)
+[STDOUT] [2026-07-03T21:23:36.906Z] [2026-07-03T21:23:36.905Z] [REJECT] ✗ alphanews.sn (HTTP_FAIL:fetch failed)
+[STDOUT] [2026-07-03T21:23:37.589Z] [2026-07-03T21:23:37.575Z] [CAND]   (248) athlitikianaskopisi.gr
+[STDOUT] [2026-07-03T21:23:37.628Z] [2026-07-03T21:23:37.613Z] [VERIFY] ✓ aperture.skydocu.com (wp-content)
+[STDOUT] [2026-07-03T21:23:37.634Z] [2026-07-03T21:23:37.628Z] [INFO]   [Worker 3] Inserted #109: alkhalij-center.com
+[STDOUT] [2026-07-03T21:23:37.779Z] [2026-07-03T21:23:37.778Z] [CAND]   (249) athomeindependentliving.com
+[STDOUT] [2026-07-03T21:23:37.791Z] [2026-07-03T21:23:37.780Z] [REJECT] ✗ app-quran.telkomuniversity.ac.id (HTTP_FAIL:HTTP_403)
+[2026-07-03T21:23:37.782Z] [CAND]   (250) atomlifestyle.ee
+[2026-07-03T21:23:37.782Z] [INFO]   [Worker 10] Recycled #110: aperture.skydocu.com
+[STDOUT] [2026-07-03T21:23:37.814Z] [2026-07-03T21:23:37.814Z] [VERIFY] ✓ annonciation.org (wp-json)
+[STDOUT] [2026-07-03T21:23:38.058Z] [2026-07-03T21:23:37.920Z] [CAND]   (251) atoznursing.com
+[2026-07-03T21:23:37.936Z] [INFO]   [Worker 16] Inserted #111: annonciation.org
+[2026-07-03T21:23:37.995Z] [CAND]   (252) atredici.ch
+[2026-07-03T21:23:38.014Z] [VERIFY] ✓ apispria.ro (meta-generator)
+[2026-07-03T21:23:38.016Z] [VERIFY] ✓ antonio-campos.com (wp-json)
+[2026-07-03T21:23:38.017Z] [VERIFY] ✓ anthroposophie.blog (wp-json)
+[STDOUT] [2026-07-03T21:23:38.067Z] [2026-07-03T21:23:38.067Z] [INFO]   [Worker 11] Recycled #112: apispria.ro
+[STDOUT] [2026-07-03T21:23:38.092Z] [2026-07-03T21:23:38.091Z] [INFO]   [Worker 17] Recycled #113: antonio-campos.com
+[STDOUT] [2026-07-03T21:23:38.909Z] [2026-07-03T21:23:38.906Z] [CAND]   (253) aucklandvhf.org
+[STDOUT] [2026-07-03T21:23:39.030Z] [2026-07-03T21:23:39.030Z] [CAND]   (254) auctiondaily.com
+[STDOUT] [2026-07-03T21:23:39.235Z] [2026-07-03T21:23:39.235Z] [INFO]   [Worker 14] Recycled #114: anthroposophie.blog
+[STDOUT] [2026-07-03T21:23:41.401Z] [2026-07-03T21:23:41.399Z] [CAND]   (255) aucview.aucfan.com
+[STDOUT] [2026-07-03T21:23:41.404Z] [2026-07-03T21:23:41.404Z] [REJECT] ✗ applied.econ.uth.gr (DNS_FAIL:DNS_TIMEOUT)
+[STDOUT] [2026-07-03T21:23:41.405Z] [2026-07-03T21:23:41.405Z] [CAND]   (256) audiobook-land.ru
+[STDOUT] [2026-07-03T21:23:41.426Z] [2026-07-03T21:23:41.426Z] [VERIFY] ✓ apologia.hu (wp-json)
+[STDOUT] [2026-07-03T21:23:41.451Z] [2026-07-03T21:23:41.451Z] [VERIFY] ✓ alequine.com (wp-json)
+[STDOUT] [2026-07-03T21:23:41.460Z] [2026-07-03T21:23:41.460Z] [VERIFY] ✓ aqmarinadigital.com (meta-generator)
+[STDOUT] [2026-07-03T21:23:41.468Z] [2026-07-03T21:23:41.468Z] [INFO]   [Worker 18] Inserted #115: apologia.hu
+[STDOUT] [2026-07-03T21:23:42.238Z] [2026-07-03T21:23:41.631Z] [CAND]   (257) audiobooks-online.ru
+[2026-07-03T21:23:41.631Z] [INFO]   [Worker 5] Inserted #116: alequine.com
+[2026-07-03T21:23:41.633Z] [INFO]   [Worker 11] Recycled #117: aqmarinadigital.com
+[2026-07-03T21:23:41.683Z] [CAND]   (258) audiodigital.ru
+[2026-07-03T21:23:41.757Z] [CAND]   (259) auditasanidad.org
+[2026-07-03T21:23:41.821Z] [VERIFY] ✓ apotekar-online.rs (wp-content)
+[2026-07-03T21:23:41.824Z] [INFO]   [Worker 4] Recycled #118: apotekar-online.rs
+[2026-07-03T21:23:41.826Z] [VERIFY] ✓ aprendaviver.com (wp-json)
+[2026-07-03T21:23:41.869Z] [CAND]   (260) audittool.recyclass.eu
+[2026-07-03T21:23:41.888Z] [INFO]   [Worker 8] Recycled #119: aprendaviver.com
+[2026-07-03T21:23:41.936Z] [CAND]   (261) aufgegessen.info
+[2026-07-03T21:23:42.046Z] [VERIFY] ✓ aprilmaura.com (wp-json)
+[2026-07-03T21:23:42.082Z] [INFO]   [Worker 3] Recycled #120: aprilmaura.com
+[2026-07-03T21:23:42.171Z] [CAND]   (262) auravlox.com
+[2026-07-03T21:23:42.184Z] [VERIFY] ✓ apoza.es (wp-json)
+[2026-07-03T21:23:42.220Z] [INFO]   [Worker 2] Inserted #121: apoza.es
+[STDOUT] [2026-07-03T21:23:42.991Z] [2026-07-03T21:23:42.508Z] [CAND]   (263) aureliaev.org
+[2026-07-03T21:23:42.514Z] [VERIFY] ✓ apuestasdetenisendirecto.com (wp-content)
+[2026-07-03T21:23:42.519Z] [REJECT] ✗ app.summersplaceauctions.com (NO_WP_EVIDENCE)
+[2026-07-03T21:23:42.863Z] [CAND]   (264) aureliansolutions.com
+[2026-07-03T21:23:42.864Z] [INFO]   [Worker 16] Recycled #122: apuestasdetenisendirecto.com
+[STDOUT] [2026-07-03T21:23:43.567Z] [2026-07-03T21:23:43.561Z] [CAND]   (265) aurn.com
+[STDOUT] [2026-07-03T21:25:41.169Z] [2026-07-03T21:25:41.168Z] [INFO]   Starting verified-domain collector
+[STDOUT] [2026-07-03T21:25:41.169Z] [2026-07-03T21:25:41.169Z] [INFO]   Refill target: 500 unserved domains
+[2026-07-03T21:25:41.169Z] [INFO]   Concurrency: 20 workers
+[2026-07-03T21:25:41.169Z] [INFO]   Queue capacity: 100
+[STDOUT] [2026-07-03T21:25:41.257Z] [2026-07-03T21:25:41.256Z] [INFO]   Database: 1228 total domains, 264 unserved
+[STDOUT] [2026-07-03T21:25:41.257Z] [2026-07-03T21:25:41.257Z] [INFO]   Need to refill: 264 unserved → target 500
+[2026-07-03T21:25:41.257Z] [INFO]   Checkpoint detected: resuming from WARC CC-MAIN-20260508074046-20260508104046-00000.warc.gz at record offset 2472 (already verified: 270)
+[STDOUT] [2026-07-03T21:25:41.257Z] [2026-07-03T21:25:41.257Z] [INFO]   Fetching WARC index: https://data.commoncrawl.org/crawl-data/CC-MAIN-2026-21/warc.paths.gz
+[STDOUT] [2026-07-03T21:25:41.808Z] [2026-07-03T21:25:41.808Z] [INFO]   Found checkpoint WARC segment #1. Resuming…
+[STDOUT] [2026-07-03T21:25:41.809Z] [2026-07-03T21:25:41.808Z] [WARC]   Starting segment #1: CC-MAIN-20260508074046-20260508104046-00000.warc.gz
+[STDOUT] [2026-07-03T21:26:12.868Z] [2026-07-03T21:26:12.866Z] [CAND]   (1) asahi-tatemono.com
+[STDOUT] [2026-07-03T21:26:12.896Z] [2026-07-03T21:26:12.896Z] [CAND]   (2) asakita.net
+[STDOUT] [2026-07-03T21:26:12.901Z] [2026-07-03T21:26:12.900Z] [CAND]   (3) asapjournal.com
+[STDOUT] [2026-07-03T21:26:12.908Z] [2026-07-03T21:26:12.907Z] [CAND]   (4) aschg.org
+[STDOUT] [2026-07-03T21:26:12.942Z] [2026-07-03T21:26:12.942Z] [CAND]   (5) ascom.bo.it
+[STDOUT] [2026-07-03T21:26:12.986Z] [2026-07-03T21:26:12.986Z] [CAND]   (6) aseelfoundation.org
+[STDOUT] [2026-07-03T21:26:13.000Z] [2026-07-03T21:26:13.000Z] [CAND]   (7) asfias.com
+[STDOUT] [2026-07-03T21:26:13.006Z] [2026-07-03T21:26:13.006Z] [CAND]   (8) asfs.apsva.us
+[STDOUT] [2026-07-03T21:26:13.023Z] [2026-07-03T21:26:13.022Z] [CAND]   (9) asi.org.ru
+[STDOUT] [2026-07-03T21:26:13.026Z] [2026-07-03T21:26:13.026Z] [CAND]   (10) asia-profi.de
+[STDOUT] [2026-07-03T21:26:13.087Z] [2026-07-03T21:26:13.087Z] [REJECT] ✗ asfias.com (DNS_FAIL:ENOTFOUND)
+[STDOUT] [2026-07-03T21:26:13.141Z] [2026-07-03T21:26:13.140Z] [CAND]   (11) asianfoods.sk
+[STDOUT] [2026-07-03T21:26:13.141Z] [2026-07-03T21:26:13.141Z] [REJECT] ✗ asfs.apsva.us (HTTP_FAIL:HTTP_403)
+[STDOUT] [2026-07-03T21:26:13.144Z] [2026-07-03T21:26:13.144Z] [CAND]   (12) asianhoneypot.com
+[STDOUT] [2026-07-03T21:26:13.161Z] [2026-07-03T21:26:13.161Z] [CAND]   (13) asianjournal.com
+[STDOUT] [2026-07-03T21:26:13.174Z] [2026-07-03T21:26:13.174Z] [CAND]   (14) asianscandal.net
+[STDOUT] [2026-07-03T21:26:13.264Z] [2026-07-03T21:26:13.264Z] [VERIFY] ✓ asianjournal.com (meta-generator)
+[STDOUT] [2026-07-03T21:26:13.279Z] [2026-07-03T21:26:13.279Z] [INFO]   [Worker 13] Inserted #1: asianjournal.com
+[STDOUT] [2026-07-03T21:26:13.360Z] [2026-07-03T21:26:13.360Z] [CAND]   (15) asimplepantry.com
+[STDOUT] [2026-07-03T21:26:13.363Z] [2026-07-03T21:26:13.363Z] [CAND]   (16) askmeflash.com
+[STDOUT] [2026-07-03T21:26:13.368Z] [2026-07-03T21:26:13.367Z] [CAND]   (17) asobu.blog
+[STDOUT] [2026-07-03T21:26:13.368Z] [2026-07-03T21:26:13.368Z] [CAND]   (18) asparker.com
+[STDOUT] [2026-07-03T21:26:13.369Z] [2026-07-03T21:26:13.369Z] [CAND]   (19) asrc.lt
+[STDOUT] [2026-07-03T21:26:13.369Z] [2026-07-03T21:26:13.369Z] [CAND]   (20) assembly-vr.com
+[STDOUT] [2026-07-03T21:26:13.370Z] [2026-07-03T21:26:13.370Z] [CAND]   (21) assicurazionigandini.it
+[STDOUT] [2026-07-03T21:26:13.380Z] [2026-07-03T21:26:13.380Z] [CAND]   (22) assurances-papalia.fr
+[STDOUT] [2026-07-03T21:26:13.396Z] [2026-07-03T21:26:13.395Z] [CAND]   (23) assuredhopehealth.com
+[STDOUT] [2026-07-03T21:26:13.718Z] [2026-07-03T21:26:13.717Z] [CAND]   (24) asta-bochum.de
+[STDOUT] [2026-07-03T21:26:13.719Z] [2026-07-03T21:26:13.719Z] [CAND]   (25) astero-studio.ru
+[STDOUT] [2026-07-03T21:26:13.720Z] [2026-07-03T21:26:13.719Z] [CAND]   (26) astonwellltd.co.uk
+[STDOUT] [2026-07-03T21:26:13.720Z] [2026-07-03T21:26:13.720Z] [CAND]   (27) astorpsbtk.se
+[STDOUT] [2026-07-03T21:26:13.721Z] [2026-07-03T21:26:13.721Z] [CAND]   (28) astrahan.sun-pr.ru
+[STDOUT] [2026-07-03T21:26:13.722Z] [2026-07-03T21:26:13.722Z] [CAND]   (29) astro.altspu.ru
+[STDOUT] [2026-07-03T21:26:13.723Z] [2026-07-03T21:26:13.723Z] [CAND]   (30) astrodrjyotijoshi.com
+[STDOUT] [2026-07-03T21:26:13.727Z] [2026-07-03T21:26:13.727Z] [CAND]   (31) astrologiacampusvirtual.com
+[STDOUT] [2026-07-03T21:26:13.730Z] [2026-07-03T21:26:13.730Z] [CAND]   (32) astrosfuture.com
+[STDOUT] [2026-07-03T21:26:13.732Z] [2026-07-03T21:26:13.732Z] [CAND]   (33) aswaqdaily.com
+[STDOUT] [2026-07-03T21:26:13.733Z] [2026-07-03T21:26:13.733Z] [CAND]   (34) at.nuhw.ac.jp
+[STDOUT] [2026-07-03T21:26:13.735Z] [2026-07-03T21:26:13.735Z] [CAND]   (35) atalexpressnews.com
+[STDOUT] [2026-07-03T21:26:13.741Z] [2026-07-03T21:26:13.741Z] [CAND]   (36) atamashi.net
+[STDOUT] [2026-07-03T21:26:13.755Z] [2026-07-03T21:26:13.755Z] [REJECT] ✗ askmeflash.com (HTTP_FAIL:HTTP_403)
+[STDOUT] [2026-07-03T21:26:13.774Z] [2026-07-03T21:26:13.774Z] [CAND]   (37) atdi.com
+[STDOUT] [2026-07-03T21:26:13.788Z] [2026-07-03T21:26:13.788Z] [CAND]   (38) ateaminc.jp
+[STDOUT] [2026-07-03T21:26:13.810Z] [2026-07-03T21:26:13.810Z] [CAND]   (39) atelieralmajansen.nl
+[STDOUT] [2026-07-03T21:26:13.817Z] [2026-07-03T21:26:13.817Z] [CAND]   (40) ateliers-sauvages.fr
+[STDOUT] [2026-07-03T21:26:13.823Z] [2026-07-03T21:26:13.823Z] [CAND]   (41) ateneomusicalcriptana.es
+[STDOUT] [2026-07-03T21:26:13.829Z] [2026-07-03T21:26:13.829Z] [CAND]   (42) athleticnetwork.net
+[STDOUT] [2026-07-03T21:26:13.842Z] [2026-07-03T21:26:13.842Z] [CAND]   (43) athlitikianaskopisi.gr
+[STDOUT] [2026-07-03T21:26:13.849Z] [2026-07-03T21:26:13.849Z] [CAND]   (44) athomeindependentliving.com
+[STDOUT] [2026-07-03T21:26:13.871Z] [2026-07-03T21:26:13.871Z] [VERIFY] ✓ aseelfoundation.org (meta-generator)
+[STDOUT] [2026-07-03T21:26:13.874Z] [2026-07-03T21:26:13.874Z] [INFO]   [Worker 6] Inserted #2: aseelfoundation.org
+[STDOUT] [2026-07-03T21:26:13.921Z] [2026-07-03T21:26:13.921Z] [CAND]   (45) atomlifestyle.ee
+[STDOUT] [2026-07-03T21:26:14.143Z] [2026-07-03T21:26:14.142Z] [CAND]   (46) atoznursing.com
+[STDOUT] [2026-07-03T21:26:14.143Z] [2026-07-03T21:26:14.143Z] [CAND]   (47) atredici.ch
+[STDOUT] [2026-07-03T21:26:14.206Z] [2026-07-03T21:26:14.206Z] [CAND]   (48) aucklandvhf.org
+[STDOUT] [2026-07-03T21:26:14.209Z] [2026-07-03T21:26:14.209Z] [CAND]   (49) auctiondaily.com
+[STDOUT] [2026-07-03T21:26:14.212Z] [2026-07-03T21:26:14.212Z] [CAND]   (50) aucview.aucfan.com
+[STDOUT] [2026-07-03T21:26:14.241Z] [2026-07-03T21:26:14.240Z] [CAND]   (51) audiobook-land.ru
+[STDOUT] [2026-07-03T21:26:14.251Z] [2026-07-03T21:26:14.251Z] [CAND]   (52) audiobooks-online.ru
+[STDOUT] [2026-07-03T21:26:14.257Z] [2026-07-03T21:26:14.257Z] [CAND]   (53) audiodigital.ru
+[STDOUT] [2026-07-03T21:26:14.263Z] [2026-07-03T21:26:14.263Z] [CAND]   (54) auditasanidad.org
+[STDOUT] [2026-07-03T21:26:14.270Z] [2026-07-03T21:26:14.270Z] [CAND]   (55) audittool.recyclass.eu
+[STDOUT] [2026-07-03T21:26:14.284Z] [2026-07-03T21:26:14.284Z] [CAND]   (56) aufgegessen.info
+[STDOUT] [2026-07-03T21:26:14.307Z] [2026-07-03T21:26:14.305Z] [REJECT] ✗ asakita.net (NO_WP_EVIDENCE)
+[STDOUT] [2026-07-03T21:26:14.312Z] [2026-07-03T21:26:14.312Z] [CAND]   (57) auravlox.com
+[STDOUT] [2026-07-03T21:26:14.362Z] [2026-07-03T21:26:14.362Z] [VERIFY] ✓ asimplepantry.com (wp-json)
+[STDOUT] [2026-07-03T21:26:14.365Z] [2026-07-03T21:26:14.364Z] [INFO]   [Worker 15] Inserted #3: asimplepantry.com
+[STDOUT] [2026-07-03T21:26:14.447Z] [2026-07-03T21:26:14.446Z] [VERIFY] ✓ asianhoneypot.com (meta-generator)
+[STDOUT] [2026-07-03T21:26:14.450Z] [2026-07-03T21:26:14.450Z] [INFO]   [Worker 12] Inserted #4: asianhoneypot.com
+[STDOUT] [2026-07-03T21:26:14.496Z] [2026-07-03T21:26:14.496Z] [CAND]   (58) aureliaev.org
+[STDOUT] [2026-07-03T21:26:14.497Z] [2026-07-03T21:26:14.497Z] [CAND]   (59) aureliansolutions.com
+[STDOUT] [2026-07-03T21:26:14.502Z] [2026-07-03T21:26:14.501Z] [CAND]   (60) aurn.com
+[STDOUT] [2026-07-03T21:26:14.502Z] [2026-07-03T21:26:14.502Z] [CAND]   (61) aurorastrong.org
+[STDOUT] [2026-07-03T21:26:14.512Z] [2026-07-03T21:26:14.512Z] [VERIFY] ✓ asia-profi.de (meta-generator)
+[STDOUT] [2026-07-03T21:26:14.514Z] [2026-07-03T21:26:14.514Z] [INFO]   [Worker 10] Inserted #5: asia-profi.de
+[STDOUT] [2026-07-03T21:26:14.607Z] [2026-07-03T21:26:14.606Z] [CAND]   (62) authenticborneo.com
+[STDOUT] [2026-07-03T21:26:14.608Z] [2026-07-03T21:26:14.608Z] [CAND]   (63) authenticrooftile.com
+[STDOUT] [2026-07-03T21:26:14.610Z] [2026-07-03T21:26:14.609Z] [CAND]   (64) autismmomsmentor.com
+[STDOUT] [2026-07-03T21:26:14.610Z] [2026-07-03T21:26:14.610Z] [CAND]   (65) auto-hasler-nuernberg.de
+[STDOUT] [2026-07-03T21:26:14.613Z] [2026-07-03T21:26:14.613Z] [CAND]   (66) auto2u.my
+[STDOUT] [2026-07-03T21:26:14.719Z] [2026-07-03T21:26:14.713Z] [CAND]   (67) autobaak.nl
+[STDOUT] [2026-07-03T21:26:14.722Z] [2026-07-03T21:26:14.722Z] [CAND]   (68) autocaravanascamperdadi.com
+[STDOUT] [2026-07-03T21:26:14.725Z] [2026-07-03T21:26:14.724Z] [CAND]   (69) autocarrepair.in
+[STDOUT] [2026-07-03T21:26:14.725Z] [2026-07-03T21:26:14.725Z] [CAND]   (70) autoconocimientoyprosperidad.com
+[STDOUT] [2026-07-03T21:26:14.728Z] [2026-07-03T21:26:14.728Z] [CAND]   (71) autoexcelsior.com
+[STDOUT] [2026-07-03T21:26:14.731Z] [2026-07-03T21:26:14.731Z] [CAND]   (72) autogekte.nl
+[STDOUT] [2026-07-03T21:26:14.733Z] [2026-07-03T21:26:14.732Z] [CAND]   (73) autogid.pro
+[STDOUT] [2026-07-03T21:26:14.734Z] [2026-07-03T21:26:14.734Z] [CAND]   (74) autologics.ru
+[STDOUT] [2026-07-03T21:26:14.735Z] [2026-07-03T21:26:14.735Z] [CAND]   (75) automatednsw.com
+[STDOUT] [2026-07-03T21:26:14.737Z] [2026-07-03T21:26:14.737Z] [CAND]   (76) automotive-am.com
+[STDOUT] [2026-07-03T21:26:14.738Z] [2026-07-03T21:26:14.738Z] [CAND]   (77) automotorsisport.ro
+[STDOUT] [2026-07-03T21:26:14.953Z] [2026-07-03T21:26:14.953Z] [REJECT] ✗ astero-studio.ru (HTTP_FAIL:HTTP_500)
+[STDOUT] [2026-07-03T21:26:15.035Z] [2026-07-03T21:26:15.035Z] [CAND]   (78) autopodcast.ru
+[STDOUT] [2026-07-03T21:26:15.054Z] [2026-07-03T21:26:15.054Z] [CAND]   (79) autossalacars.es
+[STDOUT] [2026-07-03T21:26:15.085Z] [2026-07-03T21:26:15.085Z] [CAND]   (80) avainasunnot.fi
+[STDOUT] [2026-07-03T21:26:15.100Z] [2026-07-03T21:26:15.100Z] [CAND]   (81) avantgarde.ns1.efortis.hr
+[STDOUT] [2026-07-03T21:26:15.110Z] [2026-07-03T21:26:15.110Z] [CAND]   (82) avantgardenbronzes.com
+[STDOUT] [2026-07-03T21:26:15.111Z] [2026-07-03T21:26:15.111Z] [CAND]   (83) avanttecno.com
+[STDOUT] [2026-07-03T21:26:15.141Z] [2026-07-03T21:26:15.141Z] [CAND]   (84) avestakurd.net
+[STDOUT] [2026-07-03T21:26:15.147Z] [2026-07-03T21:26:15.147Z] [CAND]   (85) avgustiada.com
+[STDOUT] [2026-07-03T21:26:15.272Z] [2026-07-03T21:26:15.271Z] [CAND]   (86) avinyainfotech.com
+[STDOUT] [2026-07-03T21:26:15.277Z] [2026-07-03T21:26:15.277Z] [CAND]   (87) avivrealtyltd.com
+[STDOUT] [2026-07-03T21:26:15.414Z] [2026-07-03T21:26:15.413Z] [VERIFY] ✓ asianfoods.sk (meta-generator)
+[STDOUT] [2026-07-03T21:26:15.415Z] [2026-07-03T21:26:15.415Z] [INFO]   [Worker 11] Inserted #6: asianfoods.sk
+[STDOUT] [2026-07-03T21:26:15.669Z] [2026-07-03T21:26:15.669Z] [CAND]   (88) awasplus.co.in
+[STDOUT] [2026-07-03T21:26:15.669Z] [2026-07-03T21:26:15.669Z] [CAND]   (89) awesomemusicentertainment.com
+[STDOUT] [2026-07-03T21:26:15.670Z] [2026-07-03T21:26:15.669Z] [CAND]   (90) awmod.com
+[STDOUT] [2026-07-03T21:26:15.672Z] [2026-07-03T21:26:15.672Z] [CAND]   (91) axeplex.com
+[STDOUT] [2026-07-03T21:26:15.673Z] [2026-07-03T21:26:15.672Z] [CAND]   (92) axiomaesthetics.co.uk
+[STDOUT] [2026-07-03T21:26:15.678Z] [2026-07-03T21:26:15.678Z] [CAND]   (93) aydenhectorstanford.com
+[STDOUT] [2026-07-03T21:26:15.678Z] [2026-07-03T21:26:15.678Z] [CAND]   (94) ayheproductions.net
+[STDOUT] [2026-07-03T21:26:15.679Z] [2026-07-03T21:26:15.679Z] [CAND]   (95) ayto-fuentealamo.es
+[STDOUT] [2026-07-03T21:26:16.012Z] [2026-07-03T21:26:16.012Z] [REJECT] ✗ assuredhopehealth.com (NO_WP_EVIDENCE)
+[STDOUT] [2026-07-03T21:26:16.162Z] [2026-07-03T21:26:16.162Z] [VERIFY] ✓ astrodrjyotijoshi.com (meta-generator)
+[STDOUT] [2026-07-03T21:26:16.164Z] [2026-07-03T21:26:16.164Z] [INFO]   [Worker 6] Inserted #7: astrodrjyotijoshi.com
+[STDOUT] [2026-07-03T21:26:16.209Z] [2026-07-03T21:26:16.209Z] [CAND]   (96) az.shafaqna.com
+[STDOUT] [2026-07-03T21:26:16.210Z] [2026-07-03T21:26:16.210Z] [CAND]   (97) az2lab.mx
+[STDOUT] [2026-07-03T21:26:16.213Z] [2026-07-03T21:26:16.212Z] [CAND]   (98) azarawheels.com
+[STDOUT] [2026-07-03T21:26:16.215Z] [2026-07-03T21:26:16.214Z] [CAND]   (99) aziparealestate.co.ke
+[STDOUT] [2026-07-03T21:26:16.338Z] [2026-07-03T21:26:16.338Z] [VERIFY] ✓ aschg.org (meta-generator)
+[STDOUT] [2026-07-03T21:26:16.340Z] [2026-07-03T21:26:16.340Z] [INFO]   [Worker 4] Inserted #8: aschg.org
+[STDOUT] [2026-07-03T21:26:16.676Z] [2026-07-03T21:26:16.676Z] [CAND]   (100) baag.com.au
+[STDOUT] [2026-07-03T21:26:16.678Z] [2026-07-03T21:26:16.678Z] [CAND]   (101) babatac.com
+[STDOUT] [2026-07-03T21:26:16.937Z] [2026-07-03T21:26:16.937Z] [VERIFY] ✓ asta-bochum.de (meta-generator)
+[STDOUT] [2026-07-03T21:26:16.938Z] [2026-07-03T21:26:16.938Z] [CAND]   (102) babblingpanda.com
+[STDOUT] [2026-07-03T21:26:16.938Z] [2026-07-03T21:26:16.938Z] [INFO]   [Worker 16] Inserted #9: asta-bochum.de
+[STDOUT] [2026-07-03T21:26:16.941Z] [2026-07-03T21:26:16.941Z] [CAND]   (103) babyandkidfashion.hu
+[STDOUT] [2026-07-03T21:26:16.942Z] [2026-07-03T21:26:16.942Z] [CAND]   (104) babymom.cc
+[STDOUT] [2026-07-03T21:26:16.950Z] [2026-07-03T21:26:16.950Z] [CAND]   (105) babystore.ae
+[STDOUT] [2026-07-03T21:26:16.951Z] [2026-07-03T21:26:16.951Z] [CAND]   (106) babytown.com.bd
+[STDOUT] [2026-07-03T21:26:16.953Z] [2026-07-03T21:26:16.953Z] [CAND]   (107) bacakomikindo.com
+[STDOUT] [2026-07-03T21:26:16.956Z] [2026-07-03T21:26:16.955Z] [CAND]   (108) bacchante.nl
+[STDOUT] [2026-07-03T21:26:16.957Z] [2026-07-03T21:26:16.957Z] [CAND]   (109) bacchinserrature.it
+[STDOUT] [2026-07-03T21:26:16.957Z] [2026-07-03T21:26:16.957Z] [CAND]   (110) backlinkqualitypro.com
+[STDOUT] [2026-07-03T21:26:16.957Z] [2026-07-03T21:26:16.957Z] [CAND]   (111) badfrog.ca
+[STDOUT] [2026-07-03T21:26:16.958Z] [2026-07-03T21:26:16.958Z] [CAND]   (112) badiset.org
+[STDOUT] [2026-07-03T21:26:16.960Z] [2026-07-03T21:26:16.960Z] [CAND]   (113) baeckerfachschule.de
+[STDOUT] [2026-07-03T21:26:16.961Z] [2026-07-03T21:26:16.961Z] [CAND]   (114) baghdad24.news
+[STDOUT] [2026-07-03T21:26:16.969Z] [2026-07-03T21:26:16.969Z] [CAND]   (115) bah39.hu
+[STDOUT] [2026-07-03T21:26:16.974Z] [2026-07-03T21:26:16.973Z] [CAND]   (116) bahamamamas-stjohns.com
+[STDOUT] [2026-07-03T21:26:16.976Z] [2026-07-03T21:26:16.976Z] [CAND]   (117) bahwesh.com
+[STDOUT] [2026-07-03T21:26:16.977Z] [2026-07-03T21:26:16.977Z] [CAND]   (118) bakeitwell.com
+[STDOUT] [2026-07-03T21:26:16.978Z] [2026-07-03T21:26:16.978Z] [CAND]   (119) bakewithayesha.com
+[STDOUT] [2026-07-03T21:26:16.982Z] [2026-07-03T21:26:16.982Z] [CAND]   (120) balaton.hu
+[STDOUT] [2026-07-03T21:26:16.982Z] [2026-07-03T21:26:16.982Z] [CAND]   (121) balazovicjr.sk
+[STDOUT] [2026-07-03T21:26:17.020Z] [2026-07-03T21:26:17.020Z] [CAND]   (122) balita.mb.com.ph
+[STDOUT] [2026-07-03T21:26:17.022Z] [2026-07-03T21:26:17.022Z] [CAND]   (123) ballet-search.com
+[STDOUT] [2026-07-03T21:26:17.023Z] [2026-07-03T21:26:17.023Z] [CAND]   (124) balletkledingwinkel.com
+[STDOUT] [2026-07-03T21:26:17.027Z] [2026-07-03T21:26:17.026Z] [CAND]   (125) baltimorehoney.org
+[STDOUT] [2026-07-03T21:26:17.029Z] [2026-07-03T21:26:17.029Z] [CAND]   (126) bamboo-contentpartner.com
+[STDOUT] [2026-07-03T21:26:17.029Z] [2026-07-03T21:26:17.029Z] [CAND]   (127) bambusapiens.com
+[STDOUT] [2026-07-03T21:26:17.157Z] [2026-07-03T21:26:17.156Z] [CAND]   (128) bamkidz.com
+[STDOUT] [2026-07-03T21:26:17.174Z] [2026-07-03T21:26:17.174Z] [CAND]   (129) banco.asb.com.ar
+[STDOUT] [2026-07-03T21:26:17.211Z] [2026-07-03T21:26:17.210Z] [CAND]   (130) bandas-continental.com.mx
+[STDOUT] [2026-07-03T21:26:17.213Z] [2026-07-03T21:26:17.212Z] [CAND]   (131) bandsaustin.com
+[STDOUT] [2026-07-03T21:26:17.219Z] [2026-07-03T21:26:17.219Z] [VERIFY] ✓ astrologiacampusvirtual.com (meta-generator)
+[STDOUT] [2026-07-03T21:26:17.221Z] [2026-07-03T21:26:17.220Z] [INFO]   [Worker 11] Inserted #10: astrologiacampusvirtual.com
+[STDOUT] [2026-07-03T21:26:17.226Z] [2026-07-03T21:26:17.226Z] [CAND]   (132) banglajagotv.com
+[STDOUT] [2026-07-03T21:26:17.255Z] [2026-07-03T21:26:17.255Z] [CAND]   (133) banglatech24.com
+[STDOUT] [2026-07-03T21:26:17.275Z] [2026-07-03T21:26:17.274Z] [CAND]   (134) bankograndma.com
+[STDOUT] [2026-07-03T21:26:17.282Z] [2026-07-03T21:26:17.281Z] [CAND]   (135) bannhadalat.com
+[STDOUT] [2026-07-03T21:26:17.319Z] [2026-07-03T21:26:17.282Z] [CAND]   (136) bannhadatninhhoa.com
+[2026-07-03T21:26:17.283Z] [CAND]   (137) bannisterpost.com
+[STDOUT] [2026-07-03T21:26:17.502Z] [2026-07-03T21:26:17.502Z] [VERIFY] ✓ aswaqdaily.com (meta-generator)
+[STDOUT] [2026-07-03T21:26:17.505Z] [2026-07-03T21:26:17.505Z] [INFO]   [Worker 6] Inserted #11: aswaqdaily.com
+[STDOUT] [2026-07-03T21:26:17.509Z] [2026-07-03T21:26:17.509Z] [CAND]   (138) banzaijapan.life
+[STDOUT] [2026-07-03T21:26:17.657Z] [2026-07-03T21:26:17.657Z] [VERIFY] ✓ asapjournal.com (wp-json)
+[STDOUT] [2026-07-03T21:26:17.663Z] [2026-07-03T21:26:17.663Z] [INFO]   [Worker 3] Inserted #12: asapjournal.com
+[STDOUT] [2026-07-03T21:26:17.666Z] [2026-07-03T21:26:17.666Z] [CAND]   (139) baobaohavana.com
+[STDOUT] [2026-07-03T21:26:17.667Z] [2026-07-03T21:26:17.667Z] [VERIFY] ✓ atalexpressnews.com (meta-generator)
+[STDOUT] [2026-07-03T21:26:17.668Z] [2026-07-03T21:26:17.668Z] [INFO]   [Worker 16] Inserted #13: atalexpressnews.com
+[STDOUT] [2026-07-03T21:26:17.671Z] [2026-07-03T21:26:17.671Z] [CAND]   (140) baonhat.com
+[STDOUT] [2026-07-03T21:26:17.929Z] [2026-07-03T21:26:17.929Z] [VERIFY] ✓ asobu.blog (wp-json)
+[STDOUT] [2026-07-03T21:26:17.931Z] [2026-07-03T21:26:17.931Z] [INFO]   [Worker 17] Inserted #14: asobu.blog
+[STDOUT] [2026-07-03T21:26:17.935Z] [2026-07-03T21:26:17.934Z] [CAND]   (141) baotreonline.com
+[STDOUT] [2026-07-03T21:26:17.982Z] [2026-07-03T21:26:17.981Z] [VERIFY] ✓ astrosfuture.com (meta-generator)
+[STDOUT] [2026-07-03T21:26:17.983Z] [2026-07-03T21:26:17.983Z] [INFO]   [Worker 13] Inserted #15: astrosfuture.com
+[STDOUT] [2026-07-03T21:26:17.985Z] [2026-07-03T21:26:17.985Z] [CAND]   (142) barcelino.com
+[STDOUT] [2026-07-03T21:26:19.359Z] [2026-07-03T21:26:19.358Z] [VERIFY] ✓ assembly-vr.com (wp-json)
+[STDOUT] [2026-07-03T21:26:19.360Z] [2026-07-03T21:26:19.360Z] [INFO]   [Worker 20] Inserted #16: assembly-vr.com
+[STDOUT] [2026-07-03T21:26:19.364Z] [2026-07-03T21:26:19.364Z] [CAND]   (143) barcook.ru
+[STDOUT] [2026-07-03T21:26:19.529Z] [2026-07-03T21:26:19.528Z] [VERIFY] ✓ asrc.lt (wp-json)
+[STDOUT] [2026-07-03T21:26:19.532Z] [2026-07-03T21:26:19.531Z] [INFO]   [Worker 19] Inserted #17: asrc.lt
+[STDOUT] [2026-07-03T21:26:19.541Z] [2026-07-03T21:26:19.541Z] [CAND]   (144) barefoot-austria.at
+[STDOUT] [2026-07-03T21:26:19.544Z] [2026-07-03T21:26:19.544Z] [VERIFY] ✓ asi.org.ru (wp-json)
+[STDOUT] [2026-07-03T21:26:19.546Z] [2026-07-03T21:26:19.545Z] [INFO]   [Worker 9] Inserted #18: asi.org.ru
+[STDOUT] [2026-07-03T21:26:19.552Z] [2026-07-03T21:26:19.552Z] [CAND]   (145) barkingdrum.com
+[STDOUT] [2026-07-03T21:26:19.608Z] [2026-07-03T21:26:19.608Z] [VERIFY] ✓ athleticnetwork.net (meta-generator)
+[STDOUT] [2026-07-03T21:26:19.639Z] [2026-07-03T21:26:19.638Z] [VERIFY] ✓ ateaminc.jp (meta-generator)
+[STDOUT] [2026-07-03T21:26:19.643Z] [2026-07-03T21:26:19.643Z] [INFO]   [Worker 20] Recycled #19: athleticnetwork.net
+[STDOUT] [2026-07-03T21:26:19.661Z] [2026-07-03T21:26:19.661Z] [CAND]   (146) barkingfoundation.org
+[STDOUT] [2026-07-03T21:26:19.680Z] [2026-07-03T21:26:19.679Z] [INFO]   [Worker 3] Inserted #20: ateaminc.jp
+[STDOUT] [2026-07-03T21:26:19.685Z] [2026-07-03T21:26:19.684Z] [CAND]   (147) barodevel.com
+[STDOUT] [2026-07-03T21:26:19.993Z] [2026-07-03T21:26:19.992Z] [VERIFY] ✓ ateliers-sauvages.fr (meta-generator)
+[STDOUT] [2026-07-03T21:26:19.994Z] [2026-07-03T21:26:19.994Z] [INFO]   [Worker 17] Inserted #21: ateliers-sauvages.fr
+[STDOUT] [2026-07-03T21:26:19.999Z] [2026-07-03T21:26:19.998Z] [CAND]   (148) barretomarketingdigital.com.br
+[STDOUT] [2026-07-03T21:26:20.877Z] [2026-07-03T21:26:20.877Z] [VERIFY] ✓ atdi.com (meta-generator)
+[STDOUT] [2026-07-03T21:26:20.879Z] [2026-07-03T21:26:20.879Z] [INFO]   [Worker 6] Inserted #22: atdi.com
+[STDOUT] [2026-07-03T21:26:20.887Z] [2026-07-03T21:26:20.887Z] [CAND]   (149) barrierowing.org
+[STDOUT] [2026-07-03T21:26:21.004Z] [2026-07-03T21:26:21.004Z] [VERIFY] ✓ atamashi.net (meta-generator)
+[STDOUT] [2026-07-03T21:26:21.007Z] [2026-07-03T21:26:21.007Z] [INFO]   [Worker 11] Inserted #23: atamashi.net
+[STDOUT] [2026-07-03T21:26:21.016Z] [2026-07-03T21:26:21.015Z] [CAND]   (150) basket-arlon.be
+[STDOUT] [2026-07-03T21:26:21.292Z] [2026-07-03T21:26:21.292Z] [VERIFY] ✓ astrahan.sun-pr.ru (wp-content)
+[STDOUT] [2026-07-03T21:26:21.294Z] [2026-07-03T21:26:21.293Z] [INFO]   [Worker 12] Inserted #24: astrahan.sun-pr.ru
+[STDOUT] [2026-07-03T21:26:21.302Z] [2026-07-03T21:26:21.302Z] [CAND]   (151) bataminfo.co.id
+[STDOUT] [2026-07-03T21:26:21.504Z] [2026-07-03T21:26:21.504Z] [VERIFY] ✓ athlitikianaskopisi.gr (meta-generator)
+[STDOUT] [2026-07-03T21:26:21.509Z] [2026-07-03T21:26:21.508Z] [INFO]   [Worker 19] Recycled #25: athlitikianaskopisi.gr
+[STDOUT] [2026-07-03T21:26:21.514Z] [2026-07-03T21:26:21.513Z] [CAND]   (152) batteryservicehub.com.au
+[STDOUT] [2026-07-03T21:26:21.672Z] [2026-07-03T21:26:21.671Z] [VERIFY] ✓ ateneomusicalcriptana.es (meta-generator)
+[STDOUT] [2026-07-03T21:26:21.674Z] [2026-07-03T21:26:21.673Z] [INFO]   [Worker 13] Inserted #26: ateneomusicalcriptana.es
+[STDOUT] [2026-07-03T21:26:21.683Z] [2026-07-03T21:26:21.682Z] [CAND]   (153) bauerntuete.de
+[STDOUT] [2026-07-03T21:26:22.163Z] [2026-07-03T21:26:22.162Z] [VERIFY] ✓ asahi-tatemono.com (wp-json)
+[STDOUT] [2026-07-03T21:26:22.165Z] [2026-07-03T21:26:22.164Z] [INFO]   [Worker 1] Inserted #27: asahi-tatemono.com
+[STDOUT] [2026-07-03T21:26:22.183Z] [2026-07-03T21:26:22.183Z] [CAND]   (154) baufrage.net
+[STDOUT] [2026-07-03T21:26:23.369Z] [2026-07-03T21:26:23.369Z] [REJECT] ✗ aucview.aucfan.com (HTTP_FAIL:HTTP_405)
+[STDOUT] [2026-07-03T21:26:23.382Z] [2026-07-03T21:26:23.381Z] [CAND]   (155) baxcompany.com
+[STDOUT] [2026-07-03T21:26:23.511Z] [2026-07-03T21:26:23.511Z] [VERIFY] ✓ aucklandvhf.org (meta-generator)
+[STDOUT] [2026-07-03T21:26:23.525Z] [2026-07-03T21:26:23.525Z] [INFO]   [Worker 6] Recycled #28: aucklandvhf.org
+[STDOUT] [2026-07-03T21:26:23.526Z] [2026-07-03T21:26:23.526Z] [VERIFY] ✓ auctiondaily.com (meta-generator)
+[STDOUT] [2026-07-03T21:26:23.536Z] [2026-07-03T21:26:23.536Z] [CAND]   (156) bayoojoandco.com
+[STDOUT] [2026-07-03T21:26:23.544Z] [2026-07-03T21:26:23.544Z] [INFO]   [Worker 11] Recycled #29: auctiondaily.com
+[STDOUT] [2026-07-03T21:26:23.554Z] [2026-07-03T21:26:23.554Z] [CAND]   (157) bb.skauting.sk
+[STDOUT] [2026-07-03T21:26:23.560Z] [2026-07-03T21:26:23.559Z] [REJECT] ✗ athomeindependentliving.com (HTTP_FAIL:HTTP_503)
+[STDOUT] [2026-07-03T21:26:23.569Z] [2026-07-03T21:26:23.569Z] [CAND]   (158) bbank.jp
+[STDOUT] [2026-07-03T21:26:23.751Z] [2026-07-03T21:26:23.750Z] [VERIFY] ✓ atoznursing.com (wp-json)
+[STDOUT] [2026-07-03T21:26:23.766Z] [2026-07-03T21:26:23.766Z] [INFO]   [Worker 3] Recycled #30: atoznursing.com
+[STDOUT] [2026-07-03T21:26:23.779Z] [2026-07-03T21:26:23.778Z] [CAND]   (159) bbntuning.com
+[STDOUT] [2026-07-03T21:26:23.833Z] [2026-07-03T21:26:23.833Z] [VERIFY] ✓ atredici.ch (meta-generator)
+[STDOUT] [2026-07-03T21:26:23.836Z] [2026-07-03T21:26:23.836Z] [INFO]   [Worker 17] Recycled #31: atredici.ch
+[STDOUT] [2026-07-03T21:26:23.838Z] [2026-07-03T21:26:23.838Z] [CAND]   (160) bbs.binus.ac.id
+[STDOUT] [2026-07-03T21:26:24.077Z] [2026-07-03T21:26:24.076Z] [RETRY]  assicurazionigandini.it attempt 1/3: HTTP: fetch failed
+[STDOUT] [2026-07-03T21:26:24.574Z] [2026-07-03T21:26:24.574Z] [RETRY]  astonwellltd.co.uk attempt 1/3: HTTP: fetch failed
+[STDOUT] [2026-07-03T21:26:24.740Z] [2026-07-03T21:26:24.740Z] [VERIFY] ✓ audiodigital.ru (meta-generator)
+[STDOUT] [2026-07-03T21:26:24.744Z] [2026-07-03T21:26:24.744Z] [INFO]   [Worker 1] Recycled #32: audiodigital.ru
+[STDOUT] [2026-07-03T21:26:24.761Z] [2026-07-03T21:26:24.761Z] [CAND]   (161) bbwp.blackbaud.com
+[STDOUT] [2026-07-03T21:26:24.911Z] [2026-07-03T21:26:24.911Z] [VERIFY] ✓ at.nuhw.ac.jp (wp-json)
+[STDOUT] [2026-07-03T21:26:24.912Z] [2026-07-03T21:26:24.912Z] [INFO]   [Worker 4] Inserted #33: at.nuhw.ac.jp
+[STDOUT] [2026-07-03T21:26:24.922Z] [2026-07-03T21:26:24.921Z] [CAND]   (162) bccerebralpalsy.com
+[STDOUT] [2026-07-03T21:26:25.192Z] [2026-07-03T21:26:25.191Z] [VERIFY] ✓ atelieralmajansen.nl (wp-json)
+[STDOUT] [2026-07-03T21:26:25.194Z] [2026-07-03T21:26:25.194Z] [INFO]   [Worker 16] Inserted #34: atelieralmajansen.nl
+[STDOUT] [2026-07-03T21:26:25.212Z] [2026-07-03T21:26:25.211Z] [CAND]   (163) bcso.net
+[STDOUT] [2026-07-03T21:26:25.494Z] [2026-07-03T21:26:25.494Z] [VERIFY] ✓ audiobook-land.ru (meta-generator)
+[STDOUT] [2026-07-03T21:26:25.498Z] [2026-07-03T21:26:25.497Z] [INFO]   [Worker 19] Recycled #35: audiobook-land.ru
+[STDOUT] [2026-07-03T21:26:25.515Z] [2026-07-03T21:26:25.515Z] [CAND]   (164) bdsm-encyclopedia.com
+[STDOUT] [2026-07-03T21:26:25.566Z] [2026-07-03T21:26:25.565Z] [VERIFY] ✓ audittool.recyclass.eu (wp-json)
+[STDOUT] [2026-07-03T21:26:25.634Z] [2026-07-03T21:26:25.633Z] [INFO]   [Worker 6] Recycled #36: audittool.recyclass.eu
+[STDOUT] [2026-07-03T21:26:25.661Z] [2026-07-03T21:26:25.661Z] [CAND]   (165) beatymd.com
+[STDOUT] [2026-07-03T21:26:25.793Z] [2026-07-03T21:26:25.792Z] [VERIFY] ✓ authenticborneo.com (meta-generator)
+[STDOUT] [2026-07-03T21:26:25.798Z] [2026-07-03T21:26:25.797Z] [INFO]   [Worker 16] Recycled #37: authenticborneo.com
+[STDOUT] [2026-07-03T21:26:25.801Z] [2026-07-03T21:26:25.801Z] [CAND]   (166) beautifulwritingsets.co.uk
+[STDOUT] [2026-07-03T21:26:25.940Z] [2026-07-03T21:26:25.940Z] [VERIFY] ✓ aurorastrong.org (meta-generator)
+[STDOUT] [2026-07-03T21:26:25.944Z] [2026-07-03T21:26:25.944Z] [INFO]   [Worker 4] Recycled #38: aurorastrong.org
+[STDOUT] [2026-07-03T21:26:25.968Z] [2026-07-03T21:26:25.968Z] [CAND]   (167) beautybar.gr
+[STDOUT] [2026-07-03T21:26:25.974Z] [2026-07-03T21:26:25.974Z] [REJECT] ✗ astro.altspu.ru (NO_WP_EVIDENCE)
+[STDOUT] [2026-07-03T21:26:25.975Z] [2026-07-03T21:26:25.975Z] [CAND]   (168) beautyenroute.ca
+[STDOUT] [2026-07-03T21:26:26.134Z] [2026-07-03T21:26:26.134Z] [VERIFY] ✓ aufgegessen.info (wp-json)
+[STDOUT] [2026-07-03T21:26:26.137Z] [2026-07-03T21:26:26.137Z] [INFO]   [Worker 11] Recycled #39: aufgegessen.info
+[STDOUT] [2026-07-03T21:26:26.160Z] [2026-07-03T21:26:26.159Z] [CAND]   (169) beckerle.de
+[STDOUT] [2026-07-03T21:26:26.870Z] [2026-07-03T21:26:26.869Z] [VERIFY] ✓ auto2u.my (meta-generator)
+[STDOUT] [2026-07-03T21:26:26.874Z] [2026-07-03T21:26:26.874Z] [INFO]   [Worker 4] Recycled #40: auto2u.my
+[STDOUT] [2026-07-03T21:26:26.898Z] [2026-07-03T21:26:26.898Z] [CAND]   (170) becurioustravel.com
+[STDOUT] [2026-07-03T21:26:28.060Z] [2026-07-03T21:26:28.059Z] [VERIFY] ✓ assurances-papalia.fr (wp-json)
+[STDOUT] [2026-07-03T21:26:28.061Z] [2026-07-03T21:26:28.061Z] [INFO]   [Worker 8] Inserted #41: assurances-papalia.fr
+[STDOUT] [2026-07-03T21:26:28.099Z] [2026-07-03T21:26:28.099Z] [CAND]   (171) bedishop.ge
+[STDOUT] [2026-07-03T21:26:28.188Z] [2026-07-03T21:26:28.187Z] [VERIFY] ✓ auditasanidad.org (meta-generator)
+[STDOUT] [2026-07-03T21:26:28.190Z] [2026-07-03T21:26:28.190Z] [INFO]   [Worker 12] Recycled #42: auditasanidad.org
+[STDOUT] [2026-07-03T21:26:28.211Z] [2026-07-03T21:26:28.211Z] [CAND]   (172) beeflovingtexans.com
+[STDOUT] [2026-07-03T21:26:28.827Z] [2026-07-03T21:26:28.826Z] [VERIFY] ✓ autocarrepair.in (wp-content)
+[STDOUT] [2026-07-03T21:26:28.828Z] [2026-07-03T21:26:28.828Z] [INFO]   [Worker 4] Inserted #43: autocarrepair.in
+[STDOUT] [2026-07-03T21:26:28.848Z] [2026-07-03T21:26:28.848Z] [CAND]   (173) beegurme.com.tr
+[STDOUT] [2026-07-03T21:26:28.849Z] [2026-07-03T21:26:28.849Z] [REJECT] ✗ aureliansolutions.com (DNS_FAIL:DNS_TIMEOUT)
+[STDOUT] [2026-07-03T21:26:28.850Z] [2026-07-03T21:26:28.849Z] [CAND]   (174) beemari.de
+[STDOUT] [2026-07-03T21:26:28.893Z] [2026-07-03T21:26:28.893Z] [VERIFY] ✓ aureliaev.org (meta-generator)
+[STDOUT] [2026-07-03T21:26:28.895Z] [2026-07-03T21:26:28.895Z] [INFO]   [Worker 3] Recycled #44: aureliaev.org
+[STDOUT] [2026-07-03T21:26:28.920Z] [2026-07-03T21:26:28.920Z] [CAND]   (175) beetravel.news
+[STDOUT] [2026-07-03T21:26:29.671Z] [2026-07-03T21:26:29.670Z] [VERIFY] ✓ autoexcelsior.com (meta-generator)
+[STDOUT] [2026-07-03T21:26:29.676Z] [2026-07-03T21:26:29.675Z] [INFO]   [Worker 12] Recycled #45: autoexcelsior.com
+[STDOUT] [2026-07-03T21:26:29.772Z] [2026-07-03T21:26:29.772Z] [CAND]   (176) begas-sa.gr
+[STDOUT] [2026-07-03T21:26:29.774Z] [2026-07-03T21:26:29.774Z] [VERIFY] ✓ autoconocimientoyprosperidad.com (meta-generator)
+[STDOUT] [2026-07-03T21:26:29.777Z] [2026-07-03T21:26:29.776Z] [INFO]   [Worker 8] Recycled #46: autoconocimientoyprosperidad.com
+[STDOUT] [2026-07-03T21:26:29.814Z] [2026-07-03T21:26:29.814Z] [CAND]   (177) beginningwell.com
+[STDOUT] [2026-07-03T21:26:29.896Z] [2026-07-03T21:26:29.896Z] [VERIFY] ✓ autogekte.nl (meta-generator)
+[STDOUT] [2026-07-03T21:26:29.899Z] [2026-07-03T21:26:29.899Z] [INFO]   [Worker 4] Recycled #47: autogekte.nl
+[STDOUT] [2026-07-03T21:26:29.926Z] [2026-07-03T21:26:29.926Z] [CAND]   (178) behar.edu.ba
+[STDOUT] [2026-07-03T21:26:30.435Z] [2026-07-03T21:26:30.434Z] [VERIFY] ✓ autologics.ru (meta-generator)
+[STDOUT] [2026-07-03T21:26:30.437Z] [2026-07-03T21:26:30.437Z] [INFO]   [Worker 3] Recycled #48: autologics.ru
+[STDOUT] [2026-07-03T21:26:30.478Z] [2026-07-03T21:26:30.477Z] [CAND]   (179) behetzem.co.il
+[STDOUT] [2026-07-03T21:26:31.026Z] [2026-07-03T21:26:31.025Z] [VERIFY] ✓ autismmomsmentor.com (wp-json)
+[STDOUT] [2026-07-03T21:26:31.030Z] [2026-07-03T21:26:31.030Z] [INFO]   [Worker 6] Recycled #49: autismmomsmentor.com
+[STDOUT] [2026-07-03T21:26:31.116Z] [2026-07-03T21:26:31.116Z] [CAND]   (180) behindthebadge.com
+[STDOUT] [2026-07-03T21:26:31.319Z] [2026-07-03T21:26:31.319Z] [VERIFY] ✓ aurn.com (wp-json)
+[STDOUT] [2026-07-03T21:26:31.322Z] [2026-07-03T21:26:31.322Z] [INFO]   [Worker 1] Recycled #50: aurn.com
+[STDOUT] [2026-07-03T21:26:31.364Z] [2026-07-03T21:26:31.364Z] [CAND]   (181) behsoodi.com
+[STDOUT] [2026-07-03T21:26:31.555Z] [2026-07-03T21:26:31.554Z] [REJECT] ✗ autossalacars.es (HTTP_FAIL:HTTP_308)
+[STDOUT] [2026-07-03T21:26:31.618Z] [2026-07-03T21:26:31.618Z] [CAND]   (182) bekosan.com
+[STDOUT] [2026-07-03T21:26:31.815Z] [2026-07-03T21:26:31.814Z] [VERIFY] ✓ asparker.com (wp-json)
+[STDOUT] [2026-07-03T21:26:31.817Z] [2026-07-03T21:26:31.817Z] [INFO]   [Worker 18] Inserted #51: asparker.com
+[STDOUT] [2026-07-03T21:26:31.923Z] [2026-07-03T21:26:31.922Z] [CAND]   (183) bel.wordpress.org
+[STDOUT] [2026-07-03T21:26:31.925Z] [2026-07-03T21:26:31.925Z] [VERIFY] ✓ automotorsisport.ro (meta-generator)
+[STDOUT] [2026-07-03T21:26:31.927Z] [2026-07-03T21:26:31.927Z] [INFO]   [Worker 4] Recycled #52: automotorsisport.ro
+[STDOUT] [2026-07-03T21:26:31.963Z] [2026-07-03T21:26:31.962Z] [CAND]   (184) belearn.swiss
+[STDOUT] [2026-07-03T21:26:32.218Z] [2026-07-03T21:26:32.217Z] [VERIFY] ✓ auto-hasler-nuernberg.de (wp-json)
+[STDOUT] [2026-07-03T21:26:32.260Z] [2026-07-03T21:26:32.257Z] [INFO]   [Worker 16] Recycled #53: auto-hasler-nuernberg.de
+[STDOUT] [2026-07-03T21:26:32.427Z] [2026-07-03T21:26:32.427Z] [CAND]   (185) beleefgiethoorn.nl
+[STDOUT] [2026-07-03T21:26:32.513Z] [2026-07-03T21:26:32.513Z] [VERIFY] ✓ autopodcast.ru (meta-generator)
+[STDOUT] [2026-07-03T21:26:32.517Z] [2026-07-03T21:26:32.517Z] [INFO]   [Worker 3] Recycled #54: autopodcast.ru
+[STDOUT] [2026-07-03T21:26:32.604Z] [2026-07-03T21:26:32.603Z] [CAND]   (186) beleza.com.au
+[STDOUT] [2026-07-03T21:26:34.118Z] [2026-07-03T21:26:34.118Z] [RETRY]  auravlox.com attempt 1/3: HTTP: fetch failed
+[STDOUT] [2026-07-03T21:26:34.794Z] [2026-07-03T21:26:34.794Z] [VERIFY] ✓ avantgardenbronzes.com (meta-generator)
+[STDOUT] [2026-07-03T21:26:34.800Z] [2026-07-03T21:26:34.800Z] [INFO]   [Worker 18] Recycled #55: avantgardenbronzes.com
+[STDOUT] [2026-07-03T21:26:34.911Z] [2026-07-03T21:26:34.910Z] [CAND]   (187) belicos.ro
+[STDOUT] [2026-07-03T21:26:35.116Z] [2026-07-03T21:26:35.116Z] [RETRY]  audiobooks-online.ru attempt 1/3: HTTP: fetch failed
+[STDOUT] [2026-07-03T21:26:35.117Z] [2026-07-03T21:26:35.116Z] [RETRY]  assicurazionigandini.it attempt 2/3: HTTP: fetch failed
+[STDOUT] [2026-07-03T21:26:35.622Z] [2026-07-03T21:26:35.616Z] [RETRY]  astonwellltd.co.uk attempt 2/3: HTTP: fetch failed
+[STDOUT] [2026-07-03T21:26:36.115Z] [2026-07-03T21:26:36.114Z] [RETRY]  autobaak.nl attempt 1/3: HTTP: fetch failed
+[STDOUT] [2026-07-03T21:26:36.851Z] [2026-07-03T21:26:36.850Z] [VERIFY] ✓ avgustiada.com (meta-generator)
+[STDOUT] [2026-07-03T21:26:36.855Z] [2026-07-03T21:26:36.854Z] [INFO]   [Worker 3] Inserted #56: avgustiada.com
+[STDOUT] [2026-07-03T21:26:36.905Z] [2026-07-03T21:26:36.905Z] [CAND]   (188) benaethiopiancoffee.com
+[STDOUT] [2026-07-03T21:26:37.356Z] [2026-07-03T21:26:37.355Z] [VERIFY] ✓ avainasunnot.fi (wp-json)
+[STDOUT] [2026-07-03T21:26:37.360Z] [2026-07-03T21:26:37.360Z] [INFO]   [Worker 1] Recycled #57: avainasunnot.fi
+[STDOUT] [2026-07-03T21:26:37.472Z] [2026-07-03T21:26:37.471Z] [CAND]   (189) benbino.com
+[STDOUT] [2026-07-03T21:26:37.913Z] [2026-07-03T21:26:37.911Z] [VERIFY] ✓ avestakurd.net (meta-generator)
+[STDOUT] [2026-07-03T21:26:37.917Z] [2026-07-03T21:26:37.916Z] [INFO]   [Worker 16] Recycled #58: avestakurd.net
+[STDOUT] [2026-07-03T21:26:38.094Z] [2026-07-03T21:26:38.094Z] [CAND]   (190) bepowerfulandfree.com
+[STDOUT] [2026-07-03T21:26:38.358Z] [2026-07-03T21:26:38.357Z] [VERIFY] ✓ automotive-am.com (wp-json)
+[STDOUT] [2026-07-03T21:26:38.359Z] [2026-07-03T21:26:38.359Z] [INFO]   [Worker 8] Inserted #59: automotive-am.com
+[STDOUT] [2026-07-03T21:26:38.483Z] [2026-07-03T21:26:38.482Z] [CAND]   (191) beratung-schenker.de
+[STDOUT] [2026-07-03T21:26:39.067Z] [2026-07-03T21:26:39.067Z] [VERIFY] ✓ awasplus.co.in (meta-generator)
+[STDOUT] [2026-07-03T21:26:39.069Z] [2026-07-03T21:26:39.069Z] [INFO]   [Worker 1] Recycled #60: awasplus.co.in
+[STDOUT] [2026-07-03T21:26:39.126Z] [2026-07-03T21:26:39.126Z] [CAND]   (192) bergenrealestate.com
+[STDOUT] [2026-07-03T21:26:39.302Z] [2026-07-03T21:26:39.302Z] [VERIFY] ✓ awesomemusicentertainment.com (meta-generator)
+[STDOUT] [2026-07-03T21:26:39.304Z] [2026-07-03T21:26:39.304Z] [INFO]   [Worker 16] Recycled #61: awesomemusicentertainment.com
+[STDOUT] [2026-07-03T21:26:39.405Z] [2026-07-03T21:26:39.403Z] [CAND]   (193) berkley-tech-vod.safetysourceonline.com
+[STDOUT] [2026-07-03T21:26:40.097Z] [2026-07-03T21:26:40.096Z] [VERIFY] ✓ ascom.bo.it (wp-json)
+[STDOUT] [2026-07-03T21:26:40.099Z] [2026-07-03T21:26:40.099Z] [INFO]   [Worker 5] Inserted #62: ascom.bo.it
+[STDOUT] [2026-07-03T21:26:40.239Z] [2026-07-03T21:26:40.238Z] [CAND]   (194) berlin-bootscharter.de
+[STDOUT] [2026-07-03T21:26:40.244Z] [2026-07-03T21:26:40.243Z] [VERIFY] ✓ awmod.com (meta-generator)
+[STDOUT] [2026-07-03T21:26:40.246Z] [2026-07-03T21:26:40.246Z] [INFO]   [Worker 8] Recycled #63: awmod.com
+[STDOUT] [2026-07-03T21:26:40.393Z] [2026-07-03T21:26:40.393Z] [CAND]   (195) berlinacademyofamericanmusic.com
+[STDOUT] [2026-07-03T21:26:40.667Z] [2026-07-03T21:26:40.666Z] [VERIFY] ✓ axiomaesthetics.co.uk (wp-json)
+[STDOUT] [2026-07-03T21:26:40.750Z] [2026-07-03T21:26:40.722Z] [INFO]   [Worker 16] Recycled #64: axiomaesthetics.co.uk
+[STDOUT] [2026-07-03T21:26:41.130Z] [2026-07-03T21:26:40.913Z] [CAND]   (196) bescaroasters.de
+[2026-07-03T21:26:41.126Z] [INFO]   [CHECKPOINT] Saved final checkpoint on SIGTERM
+[2026-07-03T21:26:41.126Z] [INFO]   
+SIGTERM received — initiating graceful shutdown…

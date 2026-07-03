@@ -61,7 +61,7 @@ class WorkerManager {
     const workerDir: string = path.resolve(process.cwd(), parentDir, workerFolderName);
     // Obscure paths to bypass Next.js / Turbopack static analyzer eager bundling of child processes
     const distDir = ["di", "st"].join("");
-    const entryFile = ["in", "dex", "js"].join(".");
+    const entryFile = ["index", "js"].join(".");
     const entryPoint: string = path.join(workerDir, distDir, entryFile);
     const actualTarget = target ?? getRefillTarget();
 
@@ -85,15 +85,28 @@ class WorkerManager {
     this.lastStartedAt = new Date();
     this.lastExitCode = null;
 
-    // Forward child stdout/stderr to the API server's console.
+    // Forward child stdout/stderr to the API server's console and a debug log file.
+    const fs = require("fs");
+    const logFile = path.join(process.cwd(), "worker_debug.log");
+
     child.stdout?.on("data", (data: Buffer) => {
       const text: string = data.toString().trimEnd();
-      if (text) console.log(`[Worker] ${text}`);
+      if (text) {
+        console.log(`[Worker] ${text}`);
+        try {
+          fs.appendFileSync(logFile, `[STDOUT] [${new Date().toISOString()}] ${text}\n`);
+        } catch {}
+      }
     });
 
     child.stderr?.on("data", (data: Buffer) => {
       const text: string = data.toString().trimEnd();
-      if (text) console.error(`[Worker:err] ${text}`);
+      if (text) {
+        console.error(`[Worker:err] ${text}`);
+        try {
+          fs.appendFileSync(logFile, `[STDERR] [${new Date().toISOString()}] ${text}\n`);
+        } catch {}
+      }
     });
 
     // Clean up when the child exits for any reason.
