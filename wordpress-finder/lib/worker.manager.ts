@@ -26,6 +26,7 @@ import { spawn, type ChildProcess } from "child_process";
 import * as path from "path";
 import { getRefillTarget } from "@/lib/inventory.config";
 import type { WorkerManagerStatus, WorkerStatusLabel } from "@/lib/inventory.types";
+import "@/lib/watchdog";
 
 /* ── Singleton class ───────────────────────────────────────────────── */
 
