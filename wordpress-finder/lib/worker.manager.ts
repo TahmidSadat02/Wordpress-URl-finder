@@ -68,6 +68,7 @@ class WorkerManager {
       env: {
         ...process.env,
         TARGET: String(actualTarget),
+        REFILL_TARGET: String(actualTarget),
       },
       stdio: ["ignore", "pipe", "pipe"],
       detached: false,

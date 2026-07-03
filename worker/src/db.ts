@@ -52,32 +52,46 @@ function extractDomain(originUrl: string): string | null {
 /**
  * Insert a single verified domain into the database.
  *
- * Uses Prisma's `upsert` to atomically handle duplicates:
- *  - If the domain doesn't exist → INSERT → returns "inserted"
- *  - If the domain already exists → no-op → returns "duplicate"
+ * Three possible outcomes:
+ *  - Domain is new          → INSERT           → returns "inserted"
+ *  - Domain exists, served  → UPDATE served=F  → returns "recycled"
+ *  - Domain exists, unserved → no-op           → returns "duplicate"
+ *
+ * The "recycled" case is critical for the refill system: when all
+ * existing domains have been served, re-crawling the same WARC data
+ * will re-discover the same hostnames.  Instead of skipping them as
+ * duplicates (which would prevent the unserved count from ever
+ * increasing), we flip served back to false so the domain re-enters
+ * the available pool.
  *
  * @param domain    - The bare hostname (e.g. "example.com")
  * @param sourceWarc - The WARC file URL this domain was discovered in
- * @returns "inserted" | "duplicate"
+ * @returns "inserted" | "recycled" | "duplicate"
  */
 export async function insertDomain(
   domain: string,
   sourceWarc: string
-): Promise<"inserted" | "duplicate"> {
+): Promise<"inserted" | "recycled" | "duplicate"> {
   try {
     await prisma.discoveredDomain.create({
       data: { domain, sourceWarc },
     });
     return "inserted";
   } catch (err: unknown) {
-    // Prisma P2002 = unique constraint violation (duplicate domain).
+    // Prisma P2002 = unique constraint violation (domain already exists).
     if (
       typeof err === "object" &&
       err !== null &&
       "code" in err &&
       (err as { code: string }).code === "P2002"
     ) {
-      return "duplicate";
+      // The domain already exists.  If it has been served, recycle it
+      // back into the unserved pool so it can be served again.
+      const updated = await prisma.discoveredDomain.updateMany({
+        where: { domain, served: true },
+        data: { served: false, servedAt: null },
+      });
+      return updated.count > 0 ? "recycled" : "duplicate";
     }
     throw err;
   }
@@ -91,6 +105,17 @@ export async function insertDomain(
  */
 export async function countDomains(): Promise<number> {
   return prisma.discoveredDomain.count();
+}
+
+/**
+ * Returns the number of domains that have NOT been served yet.
+ * Used by the refill logic to decide when to stop crawling:
+ * the worker keeps crawling until unserved count >= REFILL_TARGET.
+ */
+export async function countUnservedDomains(): Promise<number> {
+  return prisma.discoveredDomain.count({
+    where: { served: false },
+  });
 }
 
 /* ── Bulk insert (kept for backwards compatibility) ─────────────────── */

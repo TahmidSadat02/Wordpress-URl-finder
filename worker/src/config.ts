@@ -34,6 +34,13 @@ export const TARGET = envInt("TARGET", 500);
 /** @deprecated Use TARGET */
 export const VERIFIED_TARGET = TARGET;
 
+/**
+ * The inventory refill target: keep crawling until there are at least
+ * this many *unserved* (served = false) domains in the database.
+ * Defaults to the same value as TARGET for backward compatibility.
+ */
+export const REFILL_TARGET = envInt("REFILL_TARGET", TARGET);
+
 /* ── Concurrency & Queue ────────────────────────────────────────────── */
 
 /** Number of parallel verification workers. */

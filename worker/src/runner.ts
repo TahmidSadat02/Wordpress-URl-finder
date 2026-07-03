@@ -37,13 +37,14 @@
 
 import {
   TARGET,
+  REFILL_TARGET,
   VERIFY_CONCURRENCY,
   QUEUE_SIZE,
   PROGRESS_INTERVAL,
   LOG_MEMORY_EVERY,
 } from "./config";
 import { isWordPressBody, isWordPressUrl, extractHostname } from "./detector";
-import { insertDomain, countDomains, disconnect } from "./db";
+import { insertDomain, countDomains, countUnservedDomains, disconnect } from "./db";
 import { verifyDomain } from "./verifier";
 import { log, createStats } from "./logger";
 import { streamWarcRecords } from "./warcParser";
@@ -65,7 +66,7 @@ export async function run(): Promise<void> {
   const startTime = Date.now();
 
   log.info("Starting verified-domain collector");
-  log.info(`Target: ${TARGET} verified WordPress domains`);
+  log.info(`Refill target: ${REFILL_TARGET} unserved domains`);
   log.info(`Concurrency: ${VERIFY_CONCURRENCY} workers`);
   log.info(`Queue capacity: ${QUEUE_SIZE}`);
 
@@ -75,14 +76,26 @@ export async function run(): Promise<void> {
   let resumeRecordOffset = checkpoint?.recordOffset ?? 0;
   let startingVerifiedCount = checkpoint?.verifiedCount ?? 0;
 
-  // ── Check existing progress ─────────────────────────────────────────
+  // ── Check existing inventory ────────────────────────────────────────
   const existingCount = await countDomains();
+  const unservedCount = await countUnservedDomains();
   if (existingCount > 0) {
-    log.info(`Database: ${existingCount} domains already in database`);
+    log.info(`Database: ${existingCount} total domains, ${unservedCount} unserved`);
   }
 
+  // If the inventory is already full, exit early.
+  if (unservedCount >= REFILL_TARGET) {
+    log.info(
+      `✅ Inventory already sufficient: ${unservedCount}/${REFILL_TARGET} unserved domains. Nothing to do.`
+    );
+    await disconnect();
+    return;
+  }
+
+  log.info(`Need to refill: ${unservedCount} unserved → target ${REFILL_TARGET}`);
+
   // ── Shared state ────────────────────────────────────────────────────
-  const stats = createStats(existingCount);
+  const stats = createStats();
   if (checkpoint) {
     stats.verified = startingVerifiedCount;
     log.info(
@@ -139,7 +152,7 @@ export async function run(): Promise<void> {
     clearInterval(checkpointTimer);
 
     // Save final checkpoint if we haven't reached target yet
-    if (stats.inserted < TARGET && currentWarcPath) {
+    if (!cancellation.isCancelled && currentWarcPath) {
       const offsetToSave = (currentWarcPath === resumeWarcPath)
         ? Math.max(currentWarcRecordIndex, resumeRecordOffset)
         : currentWarcRecordIndex;
@@ -225,17 +238,19 @@ export async function run(): Promise<void> {
         // Insert into database.
         const dbResult = await insertDomain(hostname, sourceWarc);
 
-        if (dbResult === "inserted") {
+        if (dbResult === "inserted" || dbResult === "recycled") {
           stats.inserted++;
+          const label = dbResult === "recycled" ? "Recycled" : "Inserted";
           log.info(
-            `[Worker ${workerId}] Inserted #${stats.inserted}: ${hostname}`
+            `[Worker ${workerId}] ${label} #${stats.inserted}: ${hostname}`
           );
 
-          // Check target — trigger global cancellation.
-          if (stats.inserted >= TARGET && !cancellation.isCancelled) {
-            cancellation.cancel("target reached");
+          // Check refill target — query live unserved count from PostgreSQL.
+          const currentUnserved = await countUnservedDomains();
+          if (currentUnserved >= REFILL_TARGET && !cancellation.isCancelled) {
+            cancellation.cancel("refill target reached");
             log.info(
-              `🎯 Target reached! ${stats.inserted}/${TARGET} verified domains.`
+              `🎯 Refill target reached! ${currentUnserved}/${REFILL_TARGET} unserved domains in inventory.`
             );
             queue.clear();
             queue.close();
@@ -390,11 +405,14 @@ export async function run(): Promise<void> {
   // ── Final summary ──────────────────────────────────────────────────
   log.runtimeSummary(stats, startTime);
 
-  if (stats.inserted < TARGET && !cancellation.isCancelled) {
-    log.info(
-      `⚠ Collected ${stats.inserted}/${TARGET} domains. ` +
-        `Ran out of WARC segments. Try a different CC_CRAWL_ID or increase CC_SEGMENT_LIMIT.`
-    );
+  if (!cancellation.isCancelled) {
+    const finalUnserved = await countUnservedDomains();
+    if (finalUnserved < REFILL_TARGET) {
+      log.info(
+        `⚠ Inventory has ${finalUnserved}/${REFILL_TARGET} unserved domains. ` +
+          `Ran out of WARC segments. Try a different CC_CRAWL_ID or increase CC_SEGMENT_LIMIT.`
+      );
+    }
   }
 
   // Delete checkpoint file upon successful/normal completion
