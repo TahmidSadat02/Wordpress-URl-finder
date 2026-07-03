@@ -72,7 +72,7 @@ export default function WorkerPanel({ data }: WorkerPanelProps) {
   return (
     <section aria-label="Worker status" className="w-full">
       <h2 className="text-lg font-semibold text-foreground mb-4 flex items-center gap-2">
-        <span className="text-xl">⚙️</span> Worker
+        Worker
       </h2>
       <div className="rounded-xl border border-surface-border bg-surface/60 backdrop-blur-sm p-5">
         {/* Status badge */}

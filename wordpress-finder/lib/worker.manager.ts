@@ -56,8 +56,13 @@ class WorkerManager {
       return;
     }
 
-    const workerDir: string = path.resolve(process.cwd(), "..", "worker");
-    const entryPoint: string = path.join(workerDir, "dist", "index.js");
+    const parentDir = "..";
+    const workerFolderName = ["wor", "ker"].join("");
+    const workerDir: string = path.resolve(process.cwd(), parentDir, workerFolderName);
+    // Obscure paths to bypass Next.js / Turbopack static analyzer eager bundling of child processes
+    const distDir = ["di", "st"].join("");
+    const entryFile = ["in", "dex", "js"].join(".");
+    const entryPoint: string = path.join(workerDir, distDir, entryFile);
     const actualTarget = target ?? getRefillTarget();
 
     console.log(

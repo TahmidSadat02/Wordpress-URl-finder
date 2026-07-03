@@ -59,7 +59,7 @@ export default function LogPanel({ logs }: LogPanelProps) {
   return (
     <section aria-label="Live logs" className="w-full">
       <h2 className="text-lg font-semibold text-foreground mb-4 flex items-center gap-2">
-        <span className="text-xl">📋</span> Live Logs
+        Live Logs
         <span className="ml-auto text-xs font-normal text-muted">
           {logs.length} entries
         </span>

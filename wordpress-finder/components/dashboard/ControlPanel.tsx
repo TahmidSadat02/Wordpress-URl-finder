@@ -56,7 +56,7 @@ export default function ControlPanel({ data, onRefresh }: ControlPanelProps) {
   return (
     <section aria-label="Controls" className="w-full">
       <h2 className="text-lg font-semibold text-foreground mb-4 flex items-center gap-2">
-        <span className="text-xl">🎮</span> Controls
+        Controls
       </h2>
       <div className="rounded-xl border border-surface-border bg-surface/60 backdrop-blur-sm p-5">
         <div className="flex flex-wrap gap-3">

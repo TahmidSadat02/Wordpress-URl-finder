@@ -47,7 +47,7 @@ export default function InventoryPanel({ data }: InventoryPanelProps) {
   return (
     <section aria-label="Inventory status" className="w-full">
       <h2 className="text-lg font-semibold text-foreground mb-4 flex items-center gap-2">
-        <span className="text-xl">📊</span> Inventory
+        Inventory
       </h2>
       <div className="rounded-xl border border-surface-border bg-surface/60 backdrop-blur-sm p-5">
         {/* Header */}
