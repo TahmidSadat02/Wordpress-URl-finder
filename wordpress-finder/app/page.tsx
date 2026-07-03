@@ -11,7 +11,7 @@
  * State is managed entirely with React hooks (useState, useCallback).
  */
 
-import { useState, useCallback } from "react";
+import { useState, useCallback, useEffect } from "react";
 
 import Header from "@/components/Header";
 import Loading from "@/components/Loading";
@@ -34,6 +34,27 @@ export default function Home() {
   const [loading, setLoading] = useState(false);
   const [loadingMore, setLoadingMore] = useState(false);
   const [error, setError] = useState<string | null>(null);
+
+  // Restore domains from sessionStorage on mount
+  useEffect(() => {
+    const saved = sessionStorage.getItem("wp_finder_domains");
+    if (saved) {
+      try {
+        setDomains(JSON.parse(saved));
+      } catch {
+        // Safe fallback
+      }
+    }
+  }, []);
+
+  // Save domains to sessionStorage whenever they update
+  useEffect(() => {
+    if (domains.length > 0) {
+      sessionStorage.setItem("wp_finder_domains", JSON.stringify(domains));
+    } else {
+      sessionStorage.removeItem("wp_finder_domains");
+    }
+  }, [domains]);
 
   /**
    * fetchDomains — Calls GET /api/domains.
