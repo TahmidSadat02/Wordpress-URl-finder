@@ -89,15 +89,15 @@ RETURNING "domain";
 
     const domains = result.rows.map((row) => row.domain);
 
+    // Fire-and-forget: trigger a refill check without blocking the response.
+    void checkAndRefill();
+
     if (domains.length === 0) {
       return NextResponse.json(
         { error: "No domains available" },
         { status: 404 }
       );
     }
-
-    // Fire-and-forget: trigger a refill check without blocking the response.
-    void checkAndRefill();
 
     return NextResponse.json({ domains });
   } catch (err) {
