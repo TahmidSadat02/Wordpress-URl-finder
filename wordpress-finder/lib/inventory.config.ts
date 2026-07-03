@@ -31,18 +31,24 @@ function envInt(key: string, fallback: number): number {
  * When the count of unserved domains drops below this threshold the
  * API will automatically spawn the worker to refill the pool.
  */
-export const LOW_WATER_MARK: number = envInt("LOW_WATER_MARK", 100);
+export function getLowWaterMark(): number {
+  return envInt("LOW_WATER_MARK", 100);
+}
 
 /**
  * Number of verified WordPress domains the worker should collect per
  * refill cycle.  This value is forwarded to the worker process as its
  * `TARGET` environment variable.
  */
-export const REFILL_TARGET: number = envInt("REFILL_TARGET", 500);
+export function getRefillTarget(): number {
+  return envInt("REFILL_TARGET", 500);
+}
 
 /**
  * Milliseconds between periodic inventory checks.
  * Reserved for a future scheduled-polling mode; currently the check
  * is triggered reactively on each GET /api/domains request.
  */
-export const CHECK_INTERVAL: number = envInt("CHECK_INTERVAL", 60_000);
+export function getCheckInterval(): number {
+  return envInt("CHECK_INTERVAL", 60_000);
+}

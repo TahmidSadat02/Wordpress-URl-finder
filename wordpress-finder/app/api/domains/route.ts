@@ -21,6 +21,7 @@ async function checkAndRefill(): Promise<void> {
 
     const needsRefill: boolean = await shouldRefill();
     if (needsRefill) {
+      if (workerManager.isRunning()) return;
       console.log(
         "[GET /api/domains] Inventory below LOW_WATER_MARK — starting worker.",
       );

@@ -24,7 +24,7 @@
 
 import { spawn, type ChildProcess } from "child_process";
 import * as path from "path";
-import { REFILL_TARGET } from "@/lib/inventory.config";
+import { getRefillTarget } from "@/lib/inventory.config";
 import type { WorkerManagerStatus, WorkerStatusLabel } from "@/lib/inventory.types";
 
 /* ── Singleton class ───────────────────────────────────────────────── */
@@ -57,7 +57,7 @@ class WorkerManager {
 
     const workerDir: string = path.resolve(process.cwd(), "..", "worker");
     const entryPoint: string = path.join(workerDir, "dist", "index.js");
-    const actualTarget = target ?? REFILL_TARGET;
+    const actualTarget = target ?? getRefillTarget();
 
     console.log(
       `[WorkerManager] Spawning worker: node ${entryPoint} (TARGET=${actualTarget})`,

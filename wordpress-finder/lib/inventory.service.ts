@@ -14,7 +14,7 @@
 import * as fs from "fs";
 import * as path from "path";
 import pool from "@/lib/db";
-import { LOW_WATER_MARK, REFILL_TARGET } from "@/lib/inventory.config";
+import { getLowWaterMark, getRefillTarget } from "@/lib/inventory.config";
 import { workerManager } from "@/lib/worker.manager";
 import type {
   CheckpointData,
@@ -70,7 +70,9 @@ export async function getServedDomains(): Promise<number> {
  */
 export async function shouldRefill(): Promise<boolean> {
   const remaining = await getRemainingDomains();
-  return remaining < LOW_WATER_MARK;
+  const lowWaterMark = getLowWaterMark();
+  console.log(`[shouldRefill] remaining=${remaining}, LOW_WATER_MARK=${lowWaterMark}, needsRefill=${remaining < lowWaterMark}`);
+  return remaining < lowWaterMark;
 }
 
 /* ── Worker status ─────────────────────────────────────────────────── */
@@ -139,7 +141,7 @@ export async function getFullStatus(): Promise<StatusResponse> {
     served,
     refilling: workerStatus.isRunning,
     workerStatus: workerStatus.status,
-    verifiedTarget: REFILL_TARGET,
+    verifiedTarget: getRefillTarget(),
     lastCheckpoint: checkpoint,
     verificationRate: Math.round(verificationRate * 10_000) / 10_000,
   };
