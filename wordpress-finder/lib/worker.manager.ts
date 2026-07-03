@@ -69,7 +69,7 @@ class WorkerManager {
       `[WorkerManager] Spawning worker: node ${entryPoint} (TARGET=${actualTarget})`,
     );
 
-    const child: ChildProcess = spawn("node", [entryPoint], {
+    const child: ChildProcess = spawn(process.execPath, [entryPoint], {
       cwd: workerDir,
       env: {
         ...process.env,
