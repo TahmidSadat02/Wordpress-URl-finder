@@ -1723,3 +1723,301 @@ Node.js v23.11.0
 [2026-07-03T21:26:41.126Z] [INFO]   [CHECKPOINT] Saved final checkpoint on SIGTERM
 [2026-07-03T21:26:41.126Z] [INFO]   
 SIGTERM received — initiating graceful shutdown…
+[STDOUT] [2026-07-03T21:30:31.405Z] [2026-07-03T21:30:31.403Z] [INFO]   Starting verified-domain collector
+[STDOUT] [2026-07-03T21:30:31.406Z] [2026-07-03T21:30:31.405Z] [INFO]   Refill target: 500 unserved domains
+[2026-07-03T21:30:31.405Z] [INFO]   Concurrency: 20 workers
+[2026-07-03T21:30:31.405Z] [INFO]   Queue capacity: 100
+[STDOUT] [2026-07-03T21:30:32.706Z] [2026-07-03T21:30:32.706Z] [INFO]   Database: 1261 total domains, 328 unserved
+[STDOUT] [2026-07-03T21:30:32.706Z] [2026-07-03T21:30:32.706Z] [INFO]   Need to refill: 328 unserved → target 500
+[2026-07-03T21:30:32.706Z] [INFO]   Checkpoint detected: resuming from WARC CC-MAIN-20260508074046-20260508104046-00000.warc.gz at record offset 2853 (already verified: 334)
+[STDOUT] [2026-07-03T21:30:32.707Z] [2026-07-03T21:30:32.706Z] [INFO]   Fetching WARC index: https://data.commoncrawl.org/crawl-data/CC-MAIN-2026-21/warc.paths.gz
+[STDOUT] [2026-07-03T21:30:33.341Z] [2026-07-03T21:30:33.341Z] [INFO]   Found checkpoint WARC segment #1. Resuming…
+[STDOUT] [2026-07-03T21:30:33.342Z] [2026-07-03T21:30:33.341Z] [WARC]   Starting segment #1: CC-MAIN-20260508074046-20260508104046-00000.warc.gz
+[STDOUT] [2026-07-03T21:31:32.709Z] [2026-07-03T21:31:32.707Z] [INFO]   [CHECKPOINT] State persisted. Segment: CC-MAIN-20260508074046-20260508104046-00000.warc.gz offset: 2853 verified: 334
+[STDOUT] [2026-07-03T21:32:11.847Z] [2026-07-03T21:32:11.845Z] [CAND]   (1) best-birthday.ru
+[STDOUT] [2026-07-03T21:32:11.849Z] [2026-07-03T21:32:11.849Z] [CAND]   (2) best-page.cz
+[STDOUT] [2026-07-03T21:32:11.851Z] [2026-07-03T21:32:11.851Z] [CAND]   (3) bestcareclinicistanbul.com
+[STDOUT] [2026-07-03T21:32:11.852Z] [2026-07-03T21:32:11.852Z] [CAND]   (4) bestclassicbands.com
+[STDOUT] [2026-07-03T21:32:11.853Z] [2026-07-03T21:32:11.853Z] [CAND]   (5) bestencbdpbars.netlify.app
+[STDOUT] [2026-07-03T21:32:11.854Z] [2026-07-03T21:32:11.854Z] [CAND]   (6) bestgiftideas.co.uk
+[STDOUT] [2026-07-03T21:32:11.854Z] [2026-07-03T21:32:11.854Z] [CAND]   (7) bestgradetuition.co.uk
+[STDOUT] [2026-07-03T21:32:11.857Z] [2026-07-03T21:32:11.857Z] [CAND]   (8) bestmattressinfo.com
+[STDOUT] [2026-07-03T21:32:11.859Z] [2026-07-03T21:32:11.859Z] [CAND]   (9) bestofhighend.com
+[STDOUT] [2026-07-03T21:32:11.859Z] [2026-07-03T21:32:11.859Z] [CAND]   (10) bestphotoeditors.org
+[STDOUT] [2026-07-03T21:32:11.860Z] [2026-07-03T21:32:11.860Z] [CAND]   (11) bestsellingcarsblog.com
+[STDOUT] [2026-07-03T21:32:11.861Z] [2026-07-03T21:32:11.861Z] [CAND]   (12) bestvrporn.net
+[STDOUT] [2026-07-03T21:32:11.997Z] [2026-07-03T21:32:11.997Z] [CAND]   (13) beta.qualispace.com
+[STDOUT] [2026-07-03T21:32:11.997Z] [2026-07-03T21:32:11.997Z] [CAND]   (14) betacular.in
+[STDOUT] [2026-07-03T21:32:12.093Z] [2026-07-03T21:32:12.093Z] [CAND]   (15) betsk3.com
+[STDOUT] [2026-07-03T21:32:12.094Z] [2026-07-03T21:32:12.093Z] [CAND]   (16) betterhealthbowen.com.au
+[STDOUT] [2026-07-03T21:32:12.094Z] [2026-07-03T21:32:12.094Z] [CAND]   (17) betticasino-uk.top
+[STDOUT] [2026-07-03T21:32:12.095Z] [2026-07-03T21:32:12.095Z] [CAND]   (18) betvargirisi.com
+[STDOUT] [2026-07-03T21:32:12.109Z] [2026-07-03T21:32:12.108Z] [CAND]   (19) beyondactiv.com
+[STDOUT] [2026-07-03T21:32:12.369Z] [2026-07-03T21:32:12.368Z] [CAND]   (20) beyondbeauty.cl
+[STDOUT] [2026-07-03T21:32:12.383Z] [2026-07-03T21:32:12.382Z] [CAND]   (21) bezirksschuetzen-elbe-weser.de
+[STDOUT] [2026-07-03T21:32:12.421Z] [2026-07-03T21:32:12.421Z] [CAND]   (22) bezprzeplacania.pl
+[STDOUT] [2026-07-03T21:32:12.499Z] [2026-07-03T21:32:12.498Z] [REJECT] ✗ bestphotoeditors.org (HTTP_FAIL:HTTP_502)
+[STDOUT] [2026-07-03T21:32:12.643Z] [2026-07-03T21:32:12.643Z] [VERIFY] ✓ bestencbdpbars.netlify.app (meta-generator)
+[STDOUT] [2026-07-03T21:32:12.660Z] [2026-07-03T21:32:12.660Z] [CAND]   (23) bftvietnam.com
+[STDOUT] [2026-07-03T21:32:12.732Z] [2026-07-03T21:32:12.731Z] [INFO]   [Worker 5] Inserted #1: bestencbdpbars.netlify.app
+[STDOUT] [2026-07-03T21:32:12.855Z] [2026-07-03T21:32:12.855Z] [VERIFY] ✓ bestcareclinicistanbul.com (meta-generator)
+[STDOUT] [2026-07-03T21:32:12.857Z] [2026-07-03T21:32:12.857Z] [INFO]   [Worker 3] Inserted #2: bestcareclinicistanbul.com
+[STDOUT] [2026-07-03T21:32:13.293Z] [2026-07-03T21:32:13.293Z] [CAND]   (24) bharatlyrics.com
+[STDOUT] [2026-07-03T21:32:13.295Z] [2026-07-03T21:32:13.295Z] [CAND]   (25) bharattimes24.com
+[STDOUT] [2026-07-03T21:32:13.301Z] [2026-07-03T21:32:13.300Z] [CAND]   (26) bhattimarketing.com
+[STDOUT] [2026-07-03T21:32:13.301Z] [2026-07-03T21:32:13.301Z] [CAND]   (27) bhavanicorporation.in
+[STDOUT] [2026-07-03T21:32:13.302Z] [2026-07-03T21:32:13.302Z] [CAND]   (28) bia.kg
+[STDOUT] [2026-07-03T21:32:13.303Z] [2026-07-03T21:32:13.303Z] [CAND]   (29) biadoxidpharma.com
+[STDOUT] [2026-07-03T21:32:13.305Z] [2026-07-03T21:32:13.305Z] [CAND]   (30) bibitikanmurah.com
+[STDOUT] [2026-07-03T21:32:13.311Z] [2026-07-03T21:32:13.310Z] [CAND]   (31) bibleandprayers.com
+[STDOUT] [2026-07-03T21:32:13.311Z] [2026-07-03T21:32:13.311Z] [CAND]   (32) biblestudiesforlife.lifeway.com
+[STDOUT] [2026-07-03T21:32:13.796Z] [2026-07-03T21:32:13.795Z] [CAND]   (33) biel.es
+[STDOUT] [2026-07-03T21:32:13.796Z] [2026-07-03T21:32:13.796Z] [CAND]   (34) bielastopakremnica.sk
+[STDOUT] [2026-07-03T21:32:13.797Z] [2026-07-03T21:32:13.796Z] [CAND]   (35) biesczadblues.pl
+[STDOUT] [2026-07-03T21:32:13.806Z] [2026-07-03T21:32:13.806Z] [CAND]   (36) bigbouncersinflatables.com
+[STDOUT] [2026-07-03T21:32:14.016Z] [2026-07-03T21:32:14.016Z] [CAND]   (37) bigportal.ba
+[STDOUT] [2026-07-03T21:32:14.018Z] [2026-07-03T21:32:14.017Z] [CAND]   (38) bigtex.com
+[STDOUT] [2026-07-03T21:32:14.018Z] [2026-07-03T21:32:14.018Z] [CAND]   (39) bijoutalent.com
+[STDOUT] [2026-07-03T21:32:14.148Z] [2026-07-03T21:32:14.148Z] [CAND]   (40) bikeexplore.com
+[STDOUT] [2026-07-03T21:32:14.148Z] [2026-07-03T21:32:14.148Z] [CAND]   (41) bikes.fan
+[STDOUT] [2026-07-03T21:32:14.149Z] [2026-07-03T21:32:14.149Z] [CAND]   (42) bikinixuatkhau.com
+[STDOUT] [2026-07-03T21:32:14.333Z] [2026-07-03T21:32:14.332Z] [VERIFY] ✓ bestvrporn.net (meta-generator)
+[STDOUT] [2026-07-03T21:32:14.338Z] [2026-07-03T21:32:14.337Z] [INFO]   [Worker 12] Inserted #3: bestvrporn.net
+[STDOUT] [2026-07-03T21:32:14.345Z] [2026-07-03T21:32:14.345Z] [CAND]   (43) billboard.mikkaintermedia.co.id
+[STDOUT] [2026-07-03T21:32:14.348Z] [2026-07-03T21:32:14.347Z] [CAND]   (44) billiasbreslauwriters.com
+[STDOUT] [2026-07-03T21:32:14.348Z] [2026-07-03T21:32:14.348Z] [CAND]   (45) billieparkernoticias.com
+[STDOUT] [2026-07-03T21:32:14.349Z] [2026-07-03T21:32:14.349Z] [CAND]   (46) billige-blaekpatroner.dk
+[STDOUT] [2026-07-03T21:32:14.458Z] [2026-07-03T21:32:14.458Z] [VERIFY] ✓ betsk3.com (meta-generator)
+[STDOUT] [2026-07-03T21:32:14.466Z] [2026-07-03T21:32:14.465Z] [INFO]   [Worker 15] Inserted #4: betsk3.com
+[STDOUT] [2026-07-03T21:32:14.525Z] [2026-07-03T21:32:14.523Z] [CAND]   (47) billmuehlenberg.com
+[STDOUT] [2026-07-03T21:32:14.528Z] [2026-07-03T21:32:14.528Z] [CAND]   (48) billyoh.com
+[STDOUT] [2026-07-03T21:32:14.626Z] [2026-07-03T21:32:14.626Z] [CAND]   (49) bimbo-cosmetique.com
+[STDOUT] [2026-07-03T21:32:14.690Z] [2026-07-03T21:32:14.689Z] [CAND]   (50) binder-flugmotorenbau.de
+[STDOUT] [2026-07-03T21:32:14.724Z] [2026-07-03T21:32:14.723Z] [CAND]   (51) binhxitson.com
+[STDOUT] [2026-07-03T21:32:14.725Z] [2026-07-03T21:32:14.725Z] [CAND]   (52) binshekhan.com
+[STDOUT] [2026-07-03T21:32:14.725Z] [2026-07-03T21:32:14.725Z] [CAND]   (53) bio-cavagnou.info
+[STDOUT] [2026-07-03T21:32:14.848Z] [2026-07-03T21:32:14.848Z] [CAND]   (54) biolongevity-lab.com
+[STDOUT] [2026-07-03T21:32:14.999Z] [2026-07-03T21:32:14.999Z] [CAND]   (55) biopharma.news
+[STDOUT] [2026-07-03T21:32:15.001Z] [2026-07-03T21:32:15.001Z] [CAND]   (56) biotope-aquarium.info
+[STDOUT] [2026-07-03T21:32:15.100Z] [2026-07-03T21:32:15.100Z] [CAND]   (57) biovoicenews.com
+[STDOUT] [2026-07-03T21:32:15.144Z] [2026-07-03T21:32:15.144Z] [VERIFY] ✓ betvargirisi.com (meta-generator)
+[STDOUT] [2026-07-03T21:32:15.146Z] [2026-07-03T21:32:15.146Z] [INFO]   [Worker 18] Inserted #5: betvargirisi.com
+[STDOUT] [2026-07-03T21:32:15.319Z] [2026-07-03T21:32:15.319Z] [VERIFY] ✓ betticasino-uk.top (wp-content)
+[STDOUT] [2026-07-03T21:32:15.322Z] [2026-07-03T21:32:15.322Z] [INFO]   [Worker 17] Inserted #6: betticasino-uk.top
+[STDOUT] [2026-07-03T21:32:15.678Z] [2026-07-03T21:32:15.678Z] [VERIFY] ✓ bestgradetuition.co.uk (meta-generator)
+[STDOUT] [2026-07-03T21:32:15.682Z] [2026-07-03T21:32:15.681Z] [INFO]   [Worker 7] Inserted #7: bestgradetuition.co.uk
+[STDOUT] [2026-07-03T21:32:16.492Z] [2026-07-03T21:32:16.490Z] [VERIFY] ✓ bestclassicbands.com (wp-json)
+[STDOUT] [2026-07-03T21:32:16.494Z] [2026-07-03T21:32:16.494Z] [INFO]   [Worker 4] Inserted #8: bestclassicbands.com
+[STDOUT] [2026-07-03T21:32:16.544Z] [2026-07-03T21:32:16.544Z] [REJECT] ✗ bharattimes24.com (HTTP_FAIL:fetch failed)
+[STDOUT] [2026-07-03T21:32:17.432Z] [2026-07-03T21:32:17.431Z] [VERIFY] ✓ best-page.cz (meta-generator)
+[STDOUT] [2026-07-03T21:32:17.435Z] [2026-07-03T21:32:17.435Z] [INFO]   [Worker 2] Inserted #9: best-page.cz
+[STDOUT] [2026-07-03T21:32:17.631Z] [2026-07-03T21:32:17.631Z] [VERIFY] ✓ bezprzeplacania.pl (meta-generator)
+[STDOUT] [2026-07-03T21:32:17.659Z] [2026-07-03T21:32:17.659Z] [VERIFY] ✓ bestgiftideas.co.uk (wp-json)
+[STDOUT] [2026-07-03T21:32:17.669Z] [2026-07-03T21:32:17.669Z] [INFO]   [Worker 5] Recycled #10: bezprzeplacania.pl
+[STDOUT] [2026-07-03T21:32:17.697Z] [2026-07-03T21:32:17.697Z] [INFO]   [Worker 6] Inserted #11: bestgiftideas.co.uk
+[STDOUT] [2026-07-03T21:32:18.410Z] [2026-07-03T21:32:18.409Z] [VERIFY] ✓ bhattimarketing.com (meta-generator)
+[STDOUT] [2026-07-03T21:32:18.415Z] [2026-07-03T21:32:18.415Z] [INFO]   [Worker 18] Recycled #12: bhattimarketing.com
+[STDOUT] [2026-07-03T21:32:18.821Z] [2026-07-03T21:32:18.820Z] [VERIFY] ✓ bhavanicorporation.in (wp-login)
+[STDOUT] [2026-07-03T21:32:18.824Z] [2026-07-03T21:32:18.823Z] [INFO]   [Worker 17] Recycled #13: bhavanicorporation.in
+[STDOUT] [2026-07-03T21:32:19.746Z] [2026-07-03T21:32:19.745Z] [VERIFY] ✓ bharatlyrics.com (wp-json)
+[STDOUT] [2026-07-03T21:32:19.753Z] [2026-07-03T21:32:19.753Z] [INFO]   [Worker 12] Recycled #14: bharatlyrics.com
+[STDOUT] [2026-07-03T21:32:19.832Z] [2026-07-03T21:32:19.829Z] [VERIFY] ✓ bestmattressinfo.com (wp-json)
+[STDOUT] [2026-07-03T21:32:19.850Z] [2026-07-03T21:32:19.832Z] [INFO]   [Worker 8] Inserted #15: bestmattressinfo.com
+[2026-07-03T21:32:19.835Z] [CAND]   (58) birgits-homemade.de
+[2026-07-03T21:32:19.835Z] [CAND]   (59) bisnisinstan.com
+[2026-07-03T21:32:19.844Z] [CAND]   (60) bitnewsbot.com
+[STDOUT] [2026-07-03T21:32:19.996Z] [2026-07-03T21:32:19.995Z] [VERIFY] ✓ betacular.in (meta-generator)
+[STDOUT] [2026-07-03T21:32:19.996Z] [2026-07-03T21:32:19.996Z] [INFO]   [Worker 14] Inserted #16: betacular.in
+[STDOUT] [2026-07-03T21:32:20.263Z] [2026-07-03T21:32:20.263Z] [CAND]   (61) bittechnologies.co
+[STDOUT] [2026-07-03T21:32:20.276Z] [2026-07-03T21:32:20.275Z] [CAND]   (62) bitulab.com
+[STDOUT] [2026-07-03T21:32:20.507Z] [2026-07-03T21:32:20.506Z] [VERIFY] ✓ bielastopakremnica.sk (meta-generator)
+[STDOUT] [2026-07-03T21:32:20.513Z] [2026-07-03T21:32:20.512Z] [INFO]   [Worker 18] Recycled #17: bielastopakremnica.sk
+[STDOUT] [2026-07-03T21:32:20.582Z] [2026-07-03T21:32:20.582Z] [VERIFY] ✓ bia.kg (wp-json)
+[STDOUT] [2026-07-03T21:32:20.586Z] [2026-07-03T21:32:20.586Z] [INFO]   [Worker 7] Recycled #18: bia.kg
+[STDOUT] [2026-07-03T21:32:20.760Z] [2026-07-03T21:32:20.759Z] [CAND]   (63) biz-events.ru
+[STDOUT] [2026-07-03T21:32:21.062Z] [2026-07-03T21:32:21.062Z] [VERIFY] ✓ biesczadblues.pl (meta-generator)
+[STDOUT] [2026-07-03T21:32:21.066Z] [2026-07-03T21:32:21.066Z] [INFO]   [Worker 17] Recycled #19: biesczadblues.pl
+[STDOUT] [2026-07-03T21:32:21.160Z] [2026-07-03T21:32:21.160Z] [CAND]   (64) bizlife.rs
+[STDOUT] [2026-07-03T21:32:21.162Z] [2026-07-03T21:32:21.162Z] [CAND]   (65) bkinfo.in
+[STDOUT] [2026-07-03T21:32:21.167Z] [2026-07-03T21:32:21.166Z] [CAND]   (66) bkkamulets.com
+[STDOUT] [2026-07-03T21:32:21.249Z] [2026-07-03T21:32:21.248Z] [VERIFY] ✓ biadoxidpharma.com (wp-json)
+[STDOUT] [2026-07-03T21:32:21.252Z] [2026-07-03T21:32:21.252Z] [INFO]   [Worker 4] Recycled #20: biadoxidpharma.com
+[STDOUT] [2026-07-03T21:32:21.265Z] [2026-07-03T21:32:21.264Z] [CAND]   (67) blackjack.co.jp
+[STDOUT] [2026-07-03T21:32:21.273Z] [2026-07-03T21:32:21.273Z] [CAND]   (68) blacknewsamerica.com
+[STDOUT] [2026-07-03T21:32:21.295Z] [2026-07-03T21:32:21.295Z] [CAND]   (69) bladionline.com
+[STDOUT] [2026-07-03T21:32:21.321Z] [2026-07-03T21:32:21.321Z] [CAND]   (70) blandinfoundation.org
+[STDOUT] [2026-07-03T21:32:21.324Z] [2026-07-03T21:32:21.324Z] [CAND]   (71) blb-architectes.fr
+[STDOUT] [2026-07-03T21:32:21.331Z] [2026-07-03T21:32:21.330Z] [CAND]   (72) blind-slats.com
+[STDOUT] [2026-07-03T21:32:21.531Z] [2026-07-03T21:32:21.530Z] [CAND]   (73) blktown.com
+[STDOUT] [2026-07-03T21:32:21.532Z] [2026-07-03T21:32:21.532Z] [CAND]   (74) blockbuster01.com
+[STDOUT] [2026-07-03T21:32:21.533Z] [2026-07-03T21:32:21.533Z] [CAND]   (75) blockchain-group.ifi.uzh.ch
+[STDOUT] [2026-07-03T21:32:21.615Z] [2026-07-03T21:32:21.615Z] [CAND]   (76) blog-admin-wp.avada.io
+[STDOUT] [2026-07-03T21:32:21.655Z] [2026-07-03T21:32:21.655Z] [CAND]   (77) blog.aekana.com
+[STDOUT] [2026-07-03T21:32:21.656Z] [2026-07-03T21:32:21.656Z] [CAND]   (78) blog.amandamurphydesign.com
+[STDOUT] [2026-07-03T21:32:21.656Z] [2026-07-03T21:32:21.656Z] [CAND]   (79) blog.aryagurukul.in
+[STDOUT] [2026-07-03T21:32:21.748Z] [2026-07-03T21:32:21.747Z] [CAND]   (80) blog.bookpirates.jp
+[STDOUT] [2026-07-03T21:32:21.760Z] [2026-07-03T21:32:21.760Z] [CAND]   (81) blog.carnavalproducciones.cl
+[STDOUT] [2026-07-03T21:32:21.796Z] [2026-07-03T21:32:21.796Z] [CAND]   (82) blog.clinicsoftware.com
+[STDOUT] [2026-07-03T21:32:21.797Z] [2026-07-03T21:32:21.797Z] [CAND]   (83) blog.clscontinental.com.br
+[STDOUT] [2026-07-03T21:32:21.858Z] [2026-07-03T21:32:21.857Z] [CAND]   (84) blog.erbecedario.it
+[STDOUT] [2026-07-03T21:32:21.873Z] [2026-07-03T21:32:21.872Z] [CAND]   (85) blog.escdotdot.com
+[STDOUT] [2026-07-03T21:32:21.873Z] [2026-07-03T21:32:21.873Z] [CAND]   (86) blog.esri.es
+[STDOUT] [2026-07-03T21:32:21.912Z] [2026-07-03T21:32:21.912Z] [CAND]   (87) blog.exumapp.com
+[STDOUT] [2026-07-03T21:32:21.923Z] [2026-07-03T21:32:21.923Z] [CAND]   (88) blog.federaldefendersny.org
+[STDOUT] [2026-07-03T21:32:21.947Z] [2026-07-03T21:32:21.947Z] [CAND]   (89) blog.footpatrol.com
+[STDOUT] [2026-07-03T21:32:22.005Z] [2026-07-03T21:32:22.005Z] [CAND]   (90) blog.freelance-jp.org
+[STDOUT] [2026-07-03T21:32:22.037Z] [2026-07-03T21:32:22.037Z] [CAND]   (91) blog.fussilat.com
+[STDOUT] [2026-07-03T21:32:22.038Z] [2026-07-03T21:32:22.038Z] [CAND]   (92) blog.grafikogflet.dk
+[STDOUT] [2026-07-03T21:32:22.040Z] [2026-07-03T21:32:22.040Z] [CAND]   (93) blog.headway-advisory.com
+[STDOUT] [2026-07-03T21:32:22.041Z] [2026-07-03T21:32:22.040Z] [CAND]   (94) blog.hiliq.net
+[STDOUT] [2026-07-03T21:32:22.044Z] [2026-07-03T21:32:22.044Z] [VERIFY] ✓ biblestudiesforlife.lifeway.com (wp-json)
+[STDOUT] [2026-07-03T21:32:22.048Z] [2026-07-03T21:32:22.048Z] [CAND]   (95) blog.libertin-goormand.net
+[STDOUT] [2026-07-03T21:32:22.049Z] [2026-07-03T21:32:22.048Z] [INFO]   [Worker 5] Recycled #21: biblestudiesforlife.lifeway.com
+[STDOUT] [2026-07-03T21:32:22.059Z] [2026-07-03T21:32:22.059Z] [VERIFY] ✓ bftvietnam.com (wp-login)
+[STDOUT] [2026-07-03T21:32:22.061Z] [2026-07-03T21:32:22.061Z] [INFO]   [Worker 3] Recycled #22: bftvietnam.com
+[STDOUT] [2026-07-03T21:32:22.134Z] [2026-07-03T21:32:22.134Z] [VERIFY] ✓ bezirksschuetzen-elbe-weser.de (meta-generator)
+[STDOUT] [2026-07-03T21:32:22.136Z] [2026-07-03T21:32:22.135Z] [INFO]   [Worker 10] Inserted #23: bezirksschuetzen-elbe-weser.de
+[STDOUT] [2026-07-03T21:32:22.242Z] [2026-07-03T21:32:22.242Z] [CAND]   (96) blog.masterofproject.com
+[STDOUT] [2026-07-03T21:32:22.290Z] [2026-07-03T21:32:22.289Z] [CAND]   (97) blog.modusign.co.kr
+[STDOUT] [2026-07-03T21:32:22.320Z] [2026-07-03T21:32:22.319Z] [CAND]   (98) blog.myfitness.in
+[STDOUT] [2026-07-03T21:32:22.378Z] [2026-07-03T21:32:22.377Z] [CAND]   (99) blog.orixcom.com
+[STDOUT] [2026-07-03T21:32:22.378Z] [2026-07-03T21:32:22.378Z] [CAND]   (100) blog.parknews.biz
+[STDOUT] [2026-07-03T21:32:22.378Z] [2026-07-03T21:32:22.378Z] [CAND]   (101) blog.pintreel.com
+[STDOUT] [2026-07-03T21:32:22.399Z] [2026-07-03T21:32:22.399Z] [CAND]   (102) blog.piscessportfishing.com
+[STDOUT] [2026-07-03T21:32:22.419Z] [2026-07-03T21:32:22.419Z] [CAND]   (103) blog.posadi.si
+[STDOUT] [2026-07-03T21:32:22.426Z] [2026-07-03T21:32:22.426Z] [CAND]   (104) blog.pregos.info
+[STDOUT] [2026-07-03T21:32:22.427Z] [2026-07-03T21:32:22.427Z] [CAND]   (105) blog.rigato.net
+[STDOUT] [2026-07-03T21:32:22.444Z] [2026-07-03T21:32:22.444Z] [RETRY]  beta.qualispace.com attempt 1/3: HTTP: fetch failed
+[STDOUT] [2026-07-03T21:32:22.445Z] [2026-07-03T21:32:22.444Z] [RETRY]  beyondactiv.com attempt 1/3: HTTP: fetch failed
+[STDOUT] [2026-07-03T21:32:22.446Z] [2026-07-03T21:32:22.446Z] [RETRY]  billboard.mikkaintermedia.co.id attempt 1/3: HTTP: fetch failed
+[STDOUT] [2026-07-03T21:32:22.500Z] [2026-07-03T21:32:22.500Z] [CAND]   (106) blog.schermionline.it
+[STDOUT] [2026-07-03T21:32:22.502Z] [2026-07-03T21:32:22.501Z] [CAND]   (107) blog.seriusbisnis.com
+[STDOUT] [2026-07-03T21:32:22.503Z] [2026-07-03T21:32:22.502Z] [CAND]   (108) blog.sorint.com
+[STDOUT] [2026-07-03T21:32:22.504Z] [2026-07-03T21:32:22.504Z] [CAND]   (109) blog.starcrestfoundation.com
+[STDOUT] [2026-07-03T21:32:22.505Z] [2026-07-03T21:32:22.505Z] [CAND]   (110) blog.stefano-picco.de
+[STDOUT] [2026-07-03T21:32:22.669Z] [2026-07-03T21:32:22.669Z] [CAND]   (111) blog.ted.com
+[STDOUT] [2026-07-03T21:32:22.670Z] [2026-07-03T21:32:22.669Z] [CAND]   (112) blog.telcell.am
+[STDOUT] [2026-07-03T21:32:22.745Z] [2026-07-03T21:32:22.745Z] [CAND]   (113) blog.uclm.es
+[STDOUT] [2026-07-03T21:32:23.141Z] [2026-07-03T21:32:23.141Z] [CAND]   (114) blog.zuremod.com
+[STDOUT] [2026-07-03T21:32:23.146Z] [2026-07-03T21:32:23.145Z] [CAND]   (115) blogdoberimbau.com
+[STDOUT] [2026-07-03T21:32:23.146Z] [2026-07-03T21:32:23.146Z] [CAND]   (116) blogdoredacao.com.br
+[STDOUT] [2026-07-03T21:32:23.147Z] [2026-07-03T21:32:23.147Z] [CAND]   (117) blogg.ngn.nu
+[STDOUT] [2026-07-03T21:32:23.148Z] [2026-07-03T21:32:23.148Z] [CAND]   (118) blogs.bmj.com
+[STDOUT] [2026-07-03T21:32:23.150Z] [2026-07-03T21:32:23.149Z] [CAND]   (119) blogs.diariovasco.com
+[STDOUT] [2026-07-03T21:32:23.152Z] [2026-07-03T21:32:23.152Z] [CAND]   (120) blogs.sw.siemens.com
+[STDOUT] [2026-07-03T21:32:23.153Z] [2026-07-03T21:32:23.153Z] [CAND]   (121) blogs.youknowwho.in
+[STDOUT] [2026-07-03T21:32:23.153Z] [2026-07-03T21:32:23.153Z] [CAND]   (122) blogsaverroes.juntadeandalucia.es
+[STDOUT] [2026-07-03T21:32:23.156Z] [2026-07-03T21:32:23.155Z] [CAND]   (123) blogzina.com
+[STDOUT] [2026-07-03T21:32:23.160Z] [2026-07-03T21:32:23.159Z] [CAND]   (124) bloknot-novorossiysk.ru
+[STDOUT] [2026-07-03T21:32:23.162Z] [2026-07-03T21:32:23.162Z] [CAND]   (125) bloomingtonsymphony.org
+[STDOUT] [2026-07-03T21:32:23.163Z] [2026-07-03T21:32:23.163Z] [CAND]   (126) bloustein.rutgers.edu
+[STDOUT] [2026-07-03T21:32:23.164Z] [2026-07-03T21:32:23.164Z] [CAND]   (127) blueadriatic.se
+[STDOUT] [2026-07-03T21:32:23.168Z] [2026-07-03T21:32:23.167Z] [CAND]   (128) bluegrassbit.com
+[STDOUT] [2026-07-03T21:32:23.168Z] [2026-07-03T21:32:23.168Z] [CAND]   (129) blueraytrading.com
+[STDOUT] [2026-07-03T21:32:23.174Z] [2026-07-03T21:32:23.174Z] [RETRY]  billboard.mikkaintermedia.co.id attempt 2/3: HTTP: fetch failed
+[STDOUT] [2026-07-03T21:32:23.327Z] [2026-07-03T21:32:23.326Z] [CAND]   (130) bluetoothkuulokkeet.fi
+[STDOUT] [2026-07-03T21:32:23.370Z] [2026-07-03T21:32:23.370Z] [CAND]   (131) bmad.com.au
+[STDOUT] [2026-07-03T21:32:23.443Z] [2026-07-03T21:32:23.442Z] [RETRY]  betterhealthbowen.com.au attempt 1/3: HTTP: fetch failed
+[STDOUT] [2026-07-03T21:32:23.455Z] [2026-07-03T21:32:23.455Z] [CAND]   (132) bmum.es
+[STDOUT] [2026-07-03T21:32:23.463Z] [2026-07-03T21:32:23.463Z] [CAND]   (133) bmw-fan.eu
+[STDOUT] [2026-07-03T21:32:23.694Z] [2026-07-03T21:32:23.693Z] [CAND]   (134) bmw-felix.de
+[STDOUT] [2026-07-03T21:32:23.700Z] [2026-07-03T21:32:23.700Z] [CAND]   (135) bncacademy.in
+[STDOUT] [2026-07-03T21:32:23.701Z] [2026-07-03T21:32:23.701Z] [CAND]   (136) boards.rossmanngroup.com
+[STDOUT] [2026-07-03T21:32:23.702Z] [2026-07-03T21:32:23.702Z] [CAND]   (137) bobayder.org.tr
+[STDOUT] [2026-07-03T21:32:23.799Z] [2026-07-03T21:32:23.797Z] [CAND]   (138) bochnianin.pl
+[STDOUT] [2026-07-03T21:32:23.800Z] [2026-07-03T21:32:23.800Z] [CAND]   (139) bodegasderioja.com
+[STDOUT] [2026-07-03T21:32:23.802Z] [2026-07-03T21:32:23.801Z] [CAND]   (140) bodendenkmalpfleger.de
+[STDOUT] [2026-07-03T21:32:24.008Z] [2026-07-03T21:32:24.008Z] [VERIFY] ✓ bestofhighend.com (meta-generator)
+[STDOUT] [2026-07-03T21:32:24.011Z] [2026-07-03T21:32:24.011Z] [INFO]   [Worker 9] Inserted #24: bestofhighend.com
+[STDOUT] [2026-07-03T21:32:24.071Z] [2026-07-03T21:32:24.071Z] [VERIFY] ✓ bikes.fan (meta-generator)
+[STDOUT] [2026-07-03T21:32:24.074Z] [2026-07-03T21:32:24.074Z] [INFO]   [Worker 17] Recycled #25: bikes.fan
+[STDOUT] [2026-07-03T21:32:24.179Z] [2026-07-03T21:32:24.178Z] [CAND]   (141) boersenwolf.blogspot.com
+[STDOUT] [2026-07-03T21:32:24.212Z] [2026-07-03T21:32:24.212Z] [CAND]   (142) bogoriagrodzisk.pl
+[STDOUT] [2026-07-03T21:32:24.213Z] [2026-07-03T21:32:24.212Z] [CAND]   (143) bogotailustrada.com
+[STDOUT] [2026-07-03T21:32:24.240Z] [2026-07-03T21:32:24.240Z] [CAND]   (144) bokofoods.com
+[STDOUT] [2026-07-03T21:32:24.240Z] [2026-07-03T21:32:24.240Z] [CAND]   (145) boldcopyagency.com
+[STDOUT] [2026-07-03T21:32:24.242Z] [2026-07-03T21:32:24.242Z] [CAND]   (146) boletimjuridico.ufms.br
+[STDOUT] [2026-07-03T21:32:24.243Z] [2026-07-03T21:32:24.243Z] [CAND]   (147) boligoghaveinspiration.dk
+[STDOUT] [2026-07-03T21:32:24.331Z] [2026-07-03T21:32:24.330Z] [REJECT] ✗ billboard.mikkaintermedia.co.id (HTTP_FAIL:fetch failed)
+[STDOUT] [2026-07-03T21:32:24.397Z] [2026-07-03T21:32:24.396Z] [CAND]   (148) bolisitalia.com
+[STDOUT] [2026-07-03T21:32:24.409Z] [2026-07-03T21:32:24.408Z] [VERIFY] ✓ bijoutalent.com (meta-generator)
+[STDOUT] [2026-07-03T21:32:24.412Z] [2026-07-03T21:32:24.411Z] [INFO]   [Worker 18] Recycled #26: bijoutalent.com
+[STDOUT] [2026-07-03T21:32:24.425Z] [2026-07-03T21:32:24.424Z] [CAND]   (149) bolon.theandrewsgroup.com.au
+[STDOUT] [2026-07-03T21:32:24.493Z] [2026-07-03T21:32:24.493Z] [CAND]   (150) bonbonice.dk
+[STDOUT] [2026-07-03T21:32:24.587Z] [2026-07-03T21:32:24.587Z] [VERIFY] ✓ best-birthday.ru (wp-content)
+[STDOUT] [2026-07-03T21:32:24.591Z] [2026-07-03T21:32:24.590Z] [INFO]   [Worker 1] Inserted #27: best-birthday.ru
+[STDOUT] [2026-07-03T21:32:24.593Z] [2026-07-03T21:32:24.593Z] [CAND]   (151) bonchefalimentacion.es
+[STDOUT] [2026-07-03T21:32:25.004Z] [2026-07-03T21:32:25.004Z] [VERIFY] ✓ bigtex.com (wp-json)
+[STDOUT] [2026-07-03T21:32:25.026Z] [2026-07-03T21:32:25.026Z] [INFO]   [Worker 14] Recycled #28: bigtex.com
+[STDOUT] [2026-07-03T21:32:25.030Z] [2026-07-03T21:32:25.029Z] [CAND]   (152) bonchevip.com
+[STDOUT] [2026-07-03T21:32:25.738Z] [2026-07-03T21:32:25.738Z] [VERIFY] ✓ billiasbreslauwriters.com (meta-generator)
+[STDOUT] [2026-07-03T21:32:25.742Z] [2026-07-03T21:32:25.740Z] [INFO]   [Worker 3] Inserted #29: billiasbreslauwriters.com
+[STDOUT] [2026-07-03T21:32:25.748Z] [2026-07-03T21:32:25.747Z] [CAND]   (153) bonham.ie
+[STDOUT] [2026-07-03T21:32:26.996Z] [2026-07-03T21:32:26.995Z] [RETRY]  bibitikanmurah.com attempt 1/3: HTTP: fetch failed
+[STDOUT] [2026-07-03T21:32:27.036Z] [2026-07-03T21:32:27.036Z] [VERIFY] ✓ billige-blaekpatroner.dk (wp-json)
+[STDOUT] [2026-07-03T21:32:27.064Z] [2026-07-03T21:32:27.063Z] [INFO]   [Worker 9] Recycled #30: billige-blaekpatroner.dk
+[STDOUT] [2026-07-03T21:32:27.070Z] [2026-07-03T21:32:27.070Z] [CAND]   (154) bonne-assurance.com
+[STDOUT] [2026-07-03T21:32:27.198Z] [2026-07-03T21:32:27.198Z] [VERIFY] ✓ billieparkernoticias.com (wp-json)
+[STDOUT] [2026-07-03T21:32:27.201Z] [2026-07-03T21:32:27.201Z] [INFO]   [Worker 10] Recycled #31: billieparkernoticias.com
+[STDOUT] [2026-07-03T21:32:27.208Z] [2026-07-03T21:32:27.206Z] [CAND]   (155) bonnotsmillmo.com
+[STDOUT] [2026-07-03T21:32:27.243Z] [2026-07-03T21:32:27.242Z] [VERIFY] ✓ bigbouncersinflatables.com (wp-json)
+[STDOUT] [2026-07-03T21:32:27.252Z] [2026-07-03T21:32:27.251Z] [INFO]   [Worker 12] Recycled #32: bigbouncersinflatables.com
+[STDOUT] [2026-07-03T21:32:27.254Z] [2026-07-03T21:32:27.254Z] [CAND]   (156) bookcafe-sappho.com
+[STDOUT] [2026-07-03T21:32:27.324Z] [2026-07-03T21:32:27.323Z] [VERIFY] ✓ bikinixuatkhau.com (meta-generator)
+[STDOUT] [2026-07-03T21:32:27.325Z] [2026-07-03T21:32:27.325Z] [INFO]   [Worker 4] Inserted #33: bikinixuatkhau.com
+[STDOUT] [2026-07-03T21:32:27.328Z] [2026-07-03T21:32:27.328Z] [CAND]   (157) bookfever.com
+[STDOUT] [2026-07-03T21:32:27.582Z] [2026-07-03T21:32:27.581Z] [VERIFY] ✓ binhxitson.com (meta-generator)
+[STDOUT] [2026-07-03T21:32:27.584Z] [2026-07-03T21:32:27.583Z] [INFO]   [Worker 14] Inserted #34: binhxitson.com
+[STDOUT] [2026-07-03T21:32:27.594Z] [2026-07-03T21:32:27.593Z] [CAND]   (158) bookishinomaki.com
+[STDOUT] [2026-07-03T21:32:28.037Z] [2026-07-03T21:32:28.037Z] [REJECT] ✗ biopharma.news (HTTP_FAIL:HTTP_503)
+[STDOUT] [2026-07-03T21:32:28.051Z] [2026-07-03T21:32:28.050Z] [CAND]   (159) bookit.travel
+[STDOUT] [2026-07-03T21:32:28.281Z] [2026-07-03T21:32:28.280Z] [VERIFY] ✓ bibleandprayers.com (meta-generator)
+[STDOUT] [2026-07-03T21:32:28.286Z] [2026-07-03T21:32:28.286Z] [INFO]   [Worker 2] Recycled #35: bibleandprayers.com
+[STDOUT] [2026-07-03T21:32:28.298Z] [2026-07-03T21:32:28.298Z] [CAND]   (160) books.disney.com
+[STDOUT] [2026-07-03T21:32:28.320Z] [2026-07-03T21:32:28.320Z] [REJECT] ✗ biotope-aquarium.info (HTTP_FAIL:fetch failed)
+[STDOUT] [2026-07-03T21:32:28.327Z] [2026-07-03T21:32:28.326Z] [CAND]   (161) booksmedicos.org
+[STDOUT] [2026-07-03T21:32:28.858Z] [2026-07-03T21:32:28.857Z] [VERIFY] ✓ billyoh.com (wp-login)
+[STDOUT] [2026-07-03T21:32:28.863Z] [2026-07-03T21:32:28.863Z] [INFO]   [Worker 5] Recycled #36: billyoh.com
+[STDOUT] [2026-07-03T21:32:28.883Z] [2026-07-03T21:32:28.883Z] [CAND]   (162) boomsport.it
+[STDOUT] [2026-07-03T21:32:28.994Z] [2026-07-03T21:32:28.993Z] [VERIFY] ✓ biolongevity-lab.com (meta-generator)
+[STDOUT] [2026-07-03T21:32:28.999Z] [2026-07-03T21:32:28.998Z] [INFO]   [Worker 10] Recycled #37: biolongevity-lab.com
+[STDOUT] [2026-07-03T21:32:29.005Z] [2026-07-03T21:32:29.005Z] [CAND]   (163) booster-breakerz.fr
+[STDOUT] [2026-07-03T21:32:29.712Z] [2026-07-03T21:32:29.711Z] [VERIFY] ✓ bisnisinstan.com (meta-generator)
+[STDOUT] [2026-07-03T21:32:29.715Z] [2026-07-03T21:32:29.715Z] [INFO]   [Worker 2] Recycled #38: bisnisinstan.com
+[STDOUT] [2026-07-03T21:32:29.724Z] [2026-07-03T21:32:29.724Z] [CAND]   (164) borderlessgroup.ca
+[STDOUT] [2026-07-03T21:32:30.639Z] [2026-07-03T21:32:30.638Z] [VERIFY] ✓ birgits-homemade.de (meta-generator)
+[STDOUT] [2026-07-03T21:32:30.646Z] [2026-07-03T21:32:30.646Z] [INFO]   [Worker 12] Recycled #39: birgits-homemade.de
+[STDOUT] [2026-07-03T21:32:30.650Z] [2026-07-03T21:32:30.650Z] [CAND]   (165) borgessorato.com.br
+[STDOUT] [2026-07-03T21:32:31.843Z] [2026-07-03T21:32:31.842Z] [INFO]   [CHECKPOINT] Saved final checkpoint on SIGTERM
+[2026-07-03T21:32:31.842Z] [INFO]   
+SIGTERM received — initiating graceful shutdown…
+[STDOUT] [2026-07-03T21:32:31.874Z] ───────────────────────────────────────────────────────
+[STDOUT] [2026-07-03T21:32:31.874Z] Runtime
+───────────────────────────────────────────────────────
+Duration:            120.4s
+Candidates:          165
+Verified:            373
+Rejected:            5
+Inserted:            39
+Duplicates:          0
+Verification Rate:   226.1%
+Peak Queue:          101
+Peak RSS:            225.3 MB
+Average Verify:      6209.6 ms
+───────────────────────────────────────────────────────
+[STDOUT] [2026-07-03T21:32:31.876Z] ───────────────────────────────────────────────────────
+[STDOUT] [2026-07-03T21:32:31.877Z] Runtime
+───────────────────────────────────────────────────────
+Duration:            120.5s
+Candidates:          165
+Verified:            373
+Rejected:            5
+Inserted:            39
+Duplicates:          0
+Verification Rate:   226.1%
+Peak Queue:          101
+Peak RSS:            225.3 MB
+Average Verify:      6209.6 ms
+───────────────────────────────────────────────────────
+[STDOUT] [2026-07-03T21:32:31.877Z] [2026-07-03T21:32:31.877Z] [INFO]   Checkpoint file deleted successfully.
+[STDOUT] [2026-07-03T21:32:31.888Z] [2026-07-03T21:32:31.888Z] [INFO]   Shutdown complete.
